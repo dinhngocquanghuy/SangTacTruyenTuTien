@@ -1,9 +1,9 @@
 # CONTEXT CHUYỂN SESSION — DỰ ÁN KÊNH YOUTUBE AUDIO TRUYỆN TU TIÊN NGUYÊN TÁC
 
-**Phiên bản:** 2.0 (cập nhật từ v1.0 ngày 22/11/2026)  
-**Ngày cập nhật:** 23/11/2026  
-**Trạng thái hiện tại:** Đã khởi tạo và push Git repo `SangTacTruyenTuTien` qua **bước 7**; đã chọn **hướng truyện để phát triển** là *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* (CHƯA FINAL); đã thử một **đoạn mở đầu văn xuôi** được người dùng đánh giá "ổn" (không phải chương 1 chính thức); **chưa chốt tên truyện, hệ thống tu luyện, tuyến nhân vật, chưa viết chương truyện FINAL, chưa làm audio/video hay đăng YouTube**.  
-**Mục đích file:** Có thể gửi nguyên file này vào một session ChatGPT bất kỳ để tiếp tục dự án mà không phải giải thích lại bối cảnh. **Đọc mục 12–17 (cập nhật mới nhất) trước khi hành động; các nội dung lịch sử trong mục 1–11 được giữ lại để tham khảo và phải nhường ưu tiên cho quyết định mới hơn.**
+**Phiên bản:** 3.0 (kế thừa v2.0 ngày 23/11/2026 và v1.0 ngày 22/11/2026)  
+**Ngày cập nhật:** 25/11/2026  
+**Trạng thái hiện tại:** Đã khởi tạo repo Git `SangTacTruyenTuTien`, chủ dự án xác nhận commit/push các bước 1–7 **và file context cập nhật trước đó**; đã chọn *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* làm hướng phát triển (CHƯA FINAL). Đã lựa chọn các hướng thiết kế nam chính qua **bước 8.14**, bao gồm **Đao Thể Song Tu**, thể chất nguyên tác có tên làm việc **Vạn Chiến Tàng Phong Thể**, cơ chế **Chiến Thế – Tàng Phong – Ngưng Phong** (tất cả vẫn DRAFT/CHƯA FINAL). **Chưa chốt tên truyện, tên nhân vật, tên tông môn, hệ thống cảnh giới; chưa viết chương chính thức; chưa sản xuất audio/video hoặc đăng YouTube.**  
+**Mục đích file:** Bàn giao đầy đủ bối cảnh để session mới tiếp tục mà không làm lại hoặc tự chốt. **ƯU TIÊN ĐỌC MỤC 18–25 (cập nhật 25/11/2026), sau đó mục 12–17 để xem nguồn gốc, đặc biệt nguyên văn cảnh thử ở mục 15. Mục 1–17 là lịch sử và có thể chứa trạng thái cũ; mọi xung đột phải ưu tiên lựa chọn mới hơn trong mục 18–25.**
 
 ---
 
@@ -473,7 +473,7 @@ Trợ lý viết lại **một cảnh thử văn phong** (văn xuôi tiểu thuy
 >
 > "Bây giờ rút lại lời xin nhập môn, có còn kịp không?"
 
-## 16. NEXT SESSION — TIẾP TỤC ĐÚNG VIỆC, TỪNG BƯỚC MỘT
+## 16. NEXT SESSION — HƯỚNG DẪN LỊCH SỬ 23/11 (THAM KHẢO; XEM MỤC 24 CHO BƯỚC HIỆN TẠI)
 
 **Ngay khi mở session mới:** Người dùng sẽ cung cấp file context này. Trợ lý đọc trước, **xác nhận nắm được tiến độ** và chờ yêu cầu tiếp theo, không tự viết tiếp đoạn truyện.
 
@@ -488,6 +488,214 @@ Trợ lý viết lại **một cảnh thử văn phong** (văn xuôi tiểu thuy
 
 **Tuyệt đối không tự suy diễn** rằng người dùng đã xác nhận bí mật tông môn thuộc A, B hoặc C, hoặc đã chọn phối hợp B+C; người dùng chỉ phản hồi **"đoạn mẫu ... ổn"** về chất lượng văn phong minh họa.
 
-## 17. MẪU LỜI NHẮN MỞ SESSION TIẾP THEO
+## 17. MẪU LỜI NHẮN LỊCH SỬ CHO SESSION TIẾP THEO (V2.0, ĐÃ ĐƯỢC THAY BẰNG MỤC 25)
 
 > Tôi gửi file `CONTEXT_KENH_AUDIO_TRUYEN_TU_TIEN(2).md` bản cập nhật v2.0 ngày 23/11/2026. Hãy đọc toàn bộ, đặc biệt mục 12–17. Repo `SangTacTruyenTuTien` đã được tôi commit/push đến bước 7. Tôi đã chọn hướng *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* để phát triển, **chưa chốt FINAL**. Nam chính cần hài hước, nhân hậu, sắc bén nhưng giấu dưới vẻ cà lơ phất phơ; truyện có tu luyện, chiến đấu, kỳ ngộ, phiêu lưu, nhiều mỹ nữ và đạo lữ. Tôi đã nói đoạn thử văn xuôi trong mục 15 là "ổn", nhưng đó chưa phải chương 1. Hãy làm việc **từng bước một**, quản lý bằng chứng Git trung thực, và **không tự bắt đầu viết tiếp hay tự chốt gì** nếu tôi chưa yêu cầu.
+
+
+---
+
+# CẬP NHẬT V3.0 — TIẾN ĐỘ SAU BƯỚC 8.14, NGÀY 25/11/2026
+
+> **Đọc mục 18–25 trước tiên khi chuyển session.** Các câu như "chưa quyết định cách tu luyện", "bước tiếp theo là bước 8" trong phần cũ phản ánh thời điểm 23/11, không phải tiến độ mới nhất. Đặc biệt, **đã lựa chọn hướng thiết kế** KHÁC với việc **chốt FINAL**: tất cả hệ thống nhân vật, thể chất, kỹ năng, cốt truyện cụ thể vẫn DRAFT cho đến khi người dùng phê duyệt bản tổng hợp.
+
+## 18. TÓM TẮT TRẠNG THÁI MỚI NHẤT — ĐỌC TRONG 1 PHÚT
+
+- **Dự án:** Sáng tác truyện tu tiên nguyên tác tiếng Việt, review/chốt từng bản rồi mới chuyển thành audiobook AI 1–3 giờ/video cho YouTube; giữ bằng chứng sáng tạo và sản xuất cho mục tiêu YPP (không bảo đảm phê duyệt).
+- **Git:** Repo `SangTacTruyenTuTien`; chủ dự án đã xác nhận commit/push bước 1–7 và đã commit/push **một file context mới** sau đó. Không có quyền truy cập trực tiếp repo trong session này, vì vậy không suy diễn chính xác tên/path file context đã lưu trong repo, không tuyên bố đã push tài liệu phát triển bước 8.
+- **Hướng truyện đang theo:** *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* — tên làm việc, chưa phải tên chính thức. Một tán tu trẻ có vẻ ham chơi, lười phiền phức vô tình gia nhập tông môn sắp tan rã; các thành viên mang quá khứ bị truy sát. Chất truyện: hài, tu luyện, chiến đấu, kỳ ngộ, phiêu lưu, tình nghĩa, nhiều mỹ nữ và nhiều đạo lữ có quá trình xây dựng tình cảm.
+- **Nam chính:** Tán tu lang bạt, đã tu luyện nhưng ở cấp thấp; thông minh, sắc bén nhưng bên ngoài cà lơ phất phơ, hài hước; nhân hậu, trọng tình nghĩa; thích tiêu dao nhưng muốn đủ mạnh để bảo vệ người quan trọng. **Đao Tu + Thể Tu**.
+- **Thể chất:** Chọn hướng nguyên tác mới; thiết kế hiện mang tên *Vạn Chiến Tàng Phong Thể* (tên DRAFT), càng chiến đấu/vận đao có chất lượng càng mạnh, vừa tăng chiến lực ngay trong trận vừa trưởng thành lâu dài. Có cơ chế dự thảo *Chiến Thế – Tàng Phong – Ngưng Phong*. Cái giá chủ yếu là **tiêu hao khí huyết lớn**, không chọn Đao Ngân tích tụ gây phản phệ.
+- **Điều khiển/thức tỉnh:** Thức tỉnh dần do luyện đao và thực chiến; Chiến Thế ban đầu tự động, về sau nam chính **tự nghiên cứu** để điều khiển, không có cao nhân trực tiếp giải thích cơ chế; không cố giấu biểu hiện càng đánh càng mạnh nhưng giữ kín điều kiện, nhược điểm và giới hạn.
+- **Bước 8.14 vừa chọn:** **C — Ban đầu Đao Tu và Thể Tu song hành độc lập, sau đó cộng hưởng và từng bước Đao Thể Hợp Nhất**. Đao Thể Hợp Nhất là con đường vận dụng sức mạnh, không tự động thành cảnh giới vô địch.
+- **Văn phong:** Người dùng không thích kiểu synopsis tóm tắt như giới thiệu bìa sách; đã nhận xét đoạn thử **văn xuôi có cảnh, hành động, đối thoại và hài tình huống** ở mục 15 là "ổn". Đoạn thử **không phải chương 1 FINAL** và "Thanh Vân Tông" là tên minh họa, chưa chốt.
+- **Việc tiếp theo hợp lý:** **Bước 8.15: tổng hợp toàn bộ hồ sơ nam chính + Vạn Chiến Tàng Phong Thể V1 DRAFT** để người dùng review, kiểm tra logic/cân bằng, rồi **hướng dẫn Git từng thao tác một**. Không tự bắt đầu viết chương 1, không chốt FINAL.
+
+## 19. LỊCH SỬ LỰA CHỌN CHI TIẾT CỦA NGƯỜI DÙNG (BƯỚC 8 → 8.14)
+
+**Quy tắc diễn giải:** Trong bảng, "ĐÃ CHỌN" chỉ có nghĩa người dùng đã quyết định **hướng thiết kế để tiếp tục phát triển**. Không tương đương một văn bản hoàn chỉnh đã được duyệt FINAL. Phần nào chỉ do trợ lý đề xuất phải ghi DRAFT, không gán nhầm cho người dùng.
+
+| Mốc | Lựa chọn/định hướng người dùng thực sự đưa ra | Tình trạng |
+|---|---|---|
+| Bước 7 | Chọn để phát triển tiền đề **Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát**, không chọn 3 phương án kết hợp cũ; muốn tu luyện, chiến đấu, kỳ ngộ, cường giả, phiêu lưu, mỹ nữ, tình cảm và nhiều đạo lữ | Chọn hướng; chưa FINAL |
+| Bước 8 | **B:** Nam chính đã là tu sĩ cấp thấp, có kinh nghiệm nhưng không phải cao thủ giấu tu vi | Đã chọn hướng |
+| 8.1 | **A:** Xuất thân tán tu lang bạt, không có gia tộc/tông môn chống lưng; **chi tiết mồ côi chưa được chốt** | Đã chọn hướng |
+| 8.2 | **A kết hợp B:** Tu tiên để tiêu dao tự do **và** đủ sức bảo vệ những người yêu thương | Đã chọn hướng |
+| 8.3 | Không chọn kiếm tu/toàn năng/thể pháp; **người dùng tự nêu "Tôi muốn nhân vật là đao tu đi song song với thể tu"** | Đã chọn hướng |
+| 8.4 | **B:** Nam chính có **thể chất đặc biệt chưa thức tỉnh**, ban đầu không biết bản chất | Đã chọn hướng |
+| 8.5 | **D:** Không dùng sẵn Hoang Cổ Chiến Thể/Hỗn Nguyên Đạo Thể/Bất Diệt Bá Thể; **sáng tạo một thể chất nguyên tác mới** | Đã chọn hướng |
+| 8.6 | Người dùng nêu yêu cầu: **"có thể sáng tạo ra thể chất chiến đấu càng nhiều, chém càng nhiều đao thể chất càng khủng bố không"**. Trợ lý đề xuất tên **Vạn Chiến Tàng Phong Thể**, hai trục chiến đấu/vận đao và ba cơ chế dưới đây | Hướng do người dùng đưa ra; tên và tên cơ chế DRAFT |
+| 8.7 | **C:** Vừa mạnh lên ngay trong trận, vừa giữ lại một phần tiến bộ vĩnh viễn sau trận | Đã chọn hướng |
+| 8.8 | Trợ lý khai triển ba cơ chế **Chiến Thế – Tàng Phong – Ngưng Phong**, các giới hạn và ví dụ; người dùng tiếp tục phát triển dựa trên đó nhưng chưa duyệt từng chi tiết là FINAL | Đề xuất DRAFT |
+| 8.9 | **B:** Thức tỉnh **dần qua nhiều lần vung đao, luyện tập, giao chiến và tích lũy**, không phải nhờ một lần sinh tử ngẫu nhiên hoặc nhặt bảo vật mở khóa tức thì | Đã chọn hướng |
+| 8.10 | **A:** Cái giá chính là **tiêu hao khí huyết cực lớn** khi dùng Chiến Thế; **không chọn** phản phệ vì Đao Ngân quá tải, cũng không chọn ghép A+B | Đã chọn hướng |
+| 8.11 | **C:** Ban đầu Chiến Thế **tự kích hoạt**, về sau học cách điều khiển, điều tiết và thu hồi | Đã chọn hướng |
+| 8.12 | **A:** Nam chính **tự nghiên cứu/lĩnh ngộ** phương pháp kiểm soát Chiến Thế; **không chọn** trưởng lão trực tiếp chỉ điểm bí mật thể chất, cũng không chọn kết hợp | Đã chọn hướng |
+| 8.13 | **C:** **Không cố giấu dấu hiệu năng lực** càng đánh càng mạnh, chỉ che giấu cơ chế, cách vận hành, cái giá và ngưỡng giới hạn; không chọn giấu kín tuyệt đối hoặc chọn người để kể hết bí mật | Đã chọn hướng |
+| 8.14 | **C:** Đao Tu và Thể Tu **ban đầu độc lập, sau này cộng hưởng, cuối cùng có khả năng Đao Thể Hợp Nhất** | Đã chọn hướng, vừa hoàn tất |
+| 8.15 | Trợ lý **đề xuất** tạm ngừng mở rộng năng lực, tổng hợp hồ sơ thiết kế V1, review rồi mới lập file Git | Chưa triển khai, chưa được người dùng xác nhận FINAL |
+
+### 19.1. Tính cách/động cơ cần giữ
+
+- Ban đầu **tu sĩ thấp cấp** nhưng sắc bén, thực chiến/quan sát tốt, không phải lão quái vật hoặc cường giả vô địch giả dạng; tránh "thông minh" chỉ có trong lời giới thiệu.
+- **Xuất thân tán tu**, từng mưu sinh/lăn lộn; tuổi, họ tên, gia cảnh cụ thể, quá khứ đau thương, nghề đã làm, mức tu vi chính xác **chưa chốt**.
+- **Bề ngoài:** phóng khoáng, hài hước, đôi lúc thích rượu/ăn ngon/ngắm mỹ nhân, muốn tránh chuyện phiền phức, ngôn ngữ tự nhiên.
+- **Bản chất:** nhân hậu, trọng tình nghĩa, nhìn thấu việc người khác bỏ sót, dùng trí khôn chuẩn bị trước; khi người quan trọng bị hại sẽ quyết đoán.
+- **Động cơ kép A+B:** muốn sống tiêu dao theo ý mình **và** trở thành cường giả để bảo vệ bằng hữu, người thân, đạo lữ. **Chưa chốt** bất kỳ biến cố nào kiểu không cứu được người thân trong quá khứ; đó mới là gợi ý của trợ lý.
+- **Không quên romance:** Nhiều mỹ nữ/đạo lữ là mong muốn thực của người dùng, phải được phát triển qua tương tác, cảm xúc và các arc, không chỉ dùng như trang trí. Số lượng, danh tính, mối quan hệ với đại/nhị sư tỷ vẫn CHƯA CHỐT.
+
+## 20. HỒ SƠ CƠ CHẾ DỰ THẢO: VẠN CHIẾN TÀNG PHONG THỂ
+
+**Tình trạng toàn bộ mục 20: DRAFT — CHƯA FINAL.** Tên *Vạn Chiến Tàng Phong Thể* do trợ lý đề xuất, được sử dụng liên tục trong câu lựa chọn của người dùng nhưng **chưa có lời xác nhận chốt tên chính thức**. Có thể đổi tên sau. Nguồn của năng lực, ai khác từng có thể chất này, nguyên lý chính xác và các chỉ số định lượng chưa quyết định.
+
+### 20.1. Trục sức mạnh đã chọn
+
+- **Chiến đấu càng nhiều → chiến lực trong trận có thể tăng:** đòi hỏi vận đao/giao chiến thực chất, sự thích nghi và tiến bộ, không phải chỉ bị đánh là mạnh hơn.
+- **Chém đao càng nhiều, có chất lượng → thể chất và đao thuật tiến bộ:** các nhát chém tập luyện có ích, nhưng một động tác máy móc lặp mãi không tạo tăng trưởng vô hạn; áp lực chiến đấu, cách phát lực, lĩnh ngộ và đối thủ mới cũng có giá trị.
+- **Sau trận → một phần thành quả trở thành sức mạnh lâu dài**, thông qua hồi phục, tu luyện và điều kiện thể phách/cảnh giới. Chiến lực tạm thời không được giữ nguyên 100%.
+- **Đao là binh khí/chủ công**, **thể là nền tảng** cung cấp khí huyết, sức bền, lực bộc phát và khả năng chịu đựng; nam chính không phải tu sĩ toàn năng biết mọi pháp thuật.
+
+### 20.2. Ba năng lực do trợ lý đề xuất và được sử dụng làm khung thảo luận
+
+**Chiến Thế — tăng trưởng trong trận:**
+- Khi nam chính thực sự vận đao/giao chiến, trạng thái chiến đấu đặc biệt dần hình thành: cải thiện lực bộc phát, phản ứng, vận đao, phối hợp thân thể và đao pháp. Sau một số hiệp, hắn có thể mạnh hơn lúc mới vào trận.
+- **Không đảm bảo thắng:** đối thủ quá mạnh có thể kết liễu sớm; đối thủ thông minh biết tách giao chiến, kéo giãn khoảng cách, áp chế/khống chế hoặc dụ hắn tiêu hao khí huyết.
+- Mức tăng có thể giảm khi thử thách/động tác đã quá quen; không nhảy vọt vô hạn hay tự phá cảnh giới linh lực giữa trận.
+
+**Tàng Phong — lưu dấu trải nghiệm vận đao:**
+- Các lần vận đao, luyện tập, thích nghi và lĩnh ngộ để lại dấu tích kinh nghiệm và khả năng phát triển (trong thảo luận gọi **Đao Ngân**, chỉ là thuật ngữ DRAFT).
+- Khả năng tích lũy khác nhau tùy chất lượng nhát đao/thử thách. Không tự cấp cho hắn một bộ công pháp, tri thức hoặc kỹ thuật chưa học.
+- **Không** có cơ chế mặc định Đao Ngân quá tải gây phản phệ — người dùng đã loại phương án ấy ở 8.10.
+
+**Ngưng Phong — chuyển hóa sau trận:**
+- Sau khi hồi phục, củng cố và tiếp tục tu luyện, một phần thành quả Chiến Thế/Tàng Phong thành tiến bộ vĩnh viễn: thể phách, hiệu quả vận đao, thích nghi/khả năng dùng đao.
+- Chuyển hóa **phụ thuộc nền tảng và tài nguyên**, không tự tăng tất cả cảnh giới tu luyện. Nếu đang thương nặng, có thể bị trì hoãn; không tạo thêm hình phạt "phản phệ Đao Ngân".
+
+**Chu trình DRAFT:** Luyện đao + thực chiến → Chiến Thế tăng chiến lực tạm thời, Tàng Phong ghi nhận thành quả → nghỉ ngơi/tu luyện → Ngưng Phong củng cố tiến bộ dài hạn → tiếp tục gặp thử thách mới.
+
+### 20.3. Cái giá duy nhất được chọn là khí huyết (8.10 A)
+
+- Khi **Chiến Thế càng mạnh/duy trì càng lâu**, khí huyết càng hao tổn. Giới hạn hiện tại tùy thể phách và mức tu luyện.
+- Nếu cố duy trì đến cạn khí huyết: suy kiệt, đau đớn, có thể tổn thương thể phách/căn cơ hoặc nguy hiểm tính mạng. Đây là hậu quả của suy kiệt, **không phải** hình phạt bí ẩn do Đao Ngân tích tụ.
+- Trợ lý từng đề xuất 3 mức vận dụng: **Chiến Huyết Khởi Động → Chiến Thế Sôi Trào → Cực Hạn Chiến Thế**. Những tên mức độ này chỉ là DRAFT và **không phải ba cảnh giới chính thức**.
+- Khí huyết mạnh dần theo thể tu, cho phép thời gian/mức duy trì Chiến Thế tăng nhưng không loại bỏ nhu cầu nghỉ ngơi và tiếp tế tài nguyên.
+
+### 20.4. Thức tỉnh dần (8.9 B)
+
+Không có kiểu "sắp thua nên bật năng lực mới đánh thắng ngay". Thể chất biểu hiện bằng các dấu hiệu nhỏ, xuất hiện có phục bút từ nhiều chương: phối hợp lực tốt hơn, cơ thể có đôi lúc vận đao thuận tay hơn, sức tăng khác thường sau giao chiến nhưng mệt bất thường.
+
+Ba **giai đoạn thức tỉnh DRAFT** trợ lý đã đề xuất:
+1. **Tàng Phong Vô Thức:** thể chất ngủ say, dấu hiệu nhỏ, nam chính chỉ nghĩ bản thân hơi có ngộ tính về đao.
+2. **Chiến Huyết Sơ Động:** khí huyết biến đổi khi luyện đao/giao chiến; chi phí/hiệu quả bất thường, chưa ổn định.
+3. **Sơ Khai Tàng Phong:** sau tích lũy và biến cố phù hợp, thể chất thức tỉnh một phần; bắt đầu cảm nhận và vận dụng Chiến Thế/Ngưng Phong ở mức sơ khai, vẫn rất hạn chế.
+
+**Chưa chốt:** số chương/mốc thời gian thức tỉnh, sự kiện cụ thể, ai chứng kiến, tỉ lệ tăng và tên giai đoạn.
+
+### 20.5. Tự học điều khiển, từ tự động đến chủ động (8.11 C + 8.12 A)
+
+Ba **giai đoạn điều khiển DRAFT**, khác với các giai đoạn thức tỉnh:
+1. **Bản Năng Chiến Khởi:** Chiến Thế tự phát trong giao chiến đủ áp lực, khó chủ động bật/tắt, có thể hao khí huyết ngoài dự kiến.
+2. **Tri Chiến Ngự Huyết:** nam chính tự quan sát nhịp thở, khí huyết và động tác; biết dự đoán, điều tiết một phần, nhưng chưa hoàn toàn làm chủ.
+3. **Tùy Tâm Ngự Chiến:** dần chủ động kích hoạt khi giao chiến, tăng/giảm cường độ và thu hồi; **chủ động bật không đồng nghĩa ngay lập tức có tối đa chiến lực**, vẫn cần giao phong để tích lũy.
+
+**Phương pháp đã được người dùng chọn:** tự tìm hiểu qua ghi nhận, tự so sánh thử nghiệm, những lần sai/thất bại và chiến đấu thật. **Không** được viết tình tiết trưởng lão hoặc tông chủ lập tức nhận ra tên thể chất rồi truyền dạy cách điều khiển Chiến Thế. Đồng môn/trưởng lão có thể tạo cơ hội học kỹ thuật thông thường, giao đấu, chữa thương hoặc khiến nam chính có thêm dữ liệu, nhưng **khám phá/quyết định cách điều khiển cơ chế là của chính nam chính**.
+
+Trợ lý từng minh họa cảnh nam chính luyện hơn ba trăm nhát đao ban đêm, ghi chép trong sổ rồi tự phát hiện "biến đổi lực nhất thời" khác với "đao thức thuận tay hơn hôm qua". **Đây là cảnh thử DRAFT, không phải chi tiết chính thức**. Tên/việc hắn thực sự dùng sổ tay còn chưa chốt.
+
+### 20.6. Công khai biểu hiện, giữ kín bản chất (8.13 C)
+
+- Người ngoài được quyền thấy hắn càng vung đao/giao chiến càng khó đối phó. **Không bắt buộc giấu mọi dấu hiệu**, không phải cả thiên hạ đều mù quáng.
+- Hắn không tự tiết lộ điều kiện kích hoạt, khả năng chuyển hóa thành tiến bộ vĩnh viễn, cơ chế tiêu hao khí huyết và **ngưỡng suy kiệt cụ thể**; danh xưng/cội nguồn thể chất cũng chưa chắc ai biết.
+- Kẻ địch giỏi có thể suy luận và tìm cách khắc chế; không nên viết mọi đối thủ đều lao vào đấu sức bất chấp hiểu biết. Chiến thuật của nam chính có thể gồm **Dưỡng Chiến** (tạo giao phong hợp lý), **Ẩn Phong** (giấu mức tăng thật), **Bạo Phong** (bộc phát đao thức ở thời cơ thích hợp) — các tên này đều mới là đề xuất DRAFT.
+- Mức độ người thân/đạo lữ biết bí mật đến đâu vẫn có thể phát triển theo tình tiết, **nhưng lựa chọn của người dùng KHÔNG PHẢI "bật mí cho người tin tưởng" như phương án B**.
+
+### 20.7. Đao Tu và Thể Tu: độc lập → cộng hưởng → hợp nhất (8.14 C)
+
+- **Giai đoạn đầu:** nam chính phải tự luyện **đao pháp/đao ý** và **gân cốt/khí huyết/thể phách** như hai con đường độc lập. Giỏi đao chưa chắc thể mạnh tương ứng; thể mạnh chưa chắc kỹ xảo đao đủ tốt.
+- **Giai đoạn giữa:** Vạn Chiến Tàng Phong Thể giúp hai con đường **cộng hưởng**. Lĩnh ngộ cách phát lực mới có thể khiến thể phách dần thích nghi, thể phách tiến bộ lại cho phép thi triển đao thức khó hơn; **không tự động nâng cảnh giới đao đạo hoặc thể đạo chỉ nhờ bên kia tăng**.
+- **Giai đoạn cao:** **Đao Thể Hợp Nhất** — toàn thân, khí huyết, chuyển động, đao ý và kỹ thuật xuất đao phối hợp rất sâu; đây là thành tựu vận dụng sức mạnh và đỉnh cao của con đường riêng, **không phải bảo đảm vô địch**.
+- **Chưa chốt:** cảnh giới/số lần đột phá cụ thể, khi nào cộng hưởng, tên kỹ năng, đao pháp, loại đao, công pháp thể tu, hệ thống tài nguyên, cách tương tác với hệ thống tu vi chính.
+
+### 20.8. Giới hạn cân bằng cần ưu tiên khi review
+
+- Cường giả chênh lệch xa có thể đánh bại nam chính trước khi Chiến Thế tích đủ.
+- Không nâng cấp mọi năng lực chỉ bằng chém không khí, không thắng tất cả vì kéo dài trận.
+- Chiến Thế tăng **năng lực giao chiến**, không tự động đột phá tu vi chính; luyện thể cần tài nguyên, thời gian, hồi phục.
+- Thương tích và hao khí huyết phải có hậu quả đáng tin; không tạo thêm giá phản phệ Đao Ngân đã bị bác bỏ.
+- Nam chính vẫn có đời sống tông môn, bằng hữu, những đạo lữ và cuộc phiêu lưu, không biến thành cỗ máy chỉ thích đánh nhau.
+- Những cảnh đánh nhau nên thể hiện đòn thế, nhịp, toan tính và lỗ hổng thực tế; không lặp mô típ "đánh lâu là thắng" ở mọi trận.
+
+## 21. MỐI LIÊN HỆ VỚI TÔNG MÔN VÀ PHONG CÁCH KỂ — ĐỀ XUẤT CHƯA CHỐT
+
+### 21.1. Vai trò tông môn — không được mâu thuẫn với lựa chọn 8.12 A
+
+Khung đã lựa chọn để phát triển: một tông môn sắp giải tán, đại sư tỷ bị chính đạo truy sát, nhị sư tỷ từng là thiên tài luyện đan bị vu oan, trưởng lão mất tu vi, tông chủ che giấu một bí mật lớn; nhưng thân thế/tên riêng/diễn biến cụ thể CHƯA FINAL.
+
+Các mối liên hệ **do trợ lý đề xuất, chưa phê duyệt**:
+- **Đại sư tỷ:** giao đấu/đụng độ với nam chính, bộc lộ điểm yếu kỹ thuật và tạo áp lực khiến hắn học hỏi. Nàng không bắt buộc là đạo lữ.
+- **Nhị sư tỷ:** kiến thức luyện đan có thể hỗ trợ hồi phục khí huyết. Không được mặc định thuốc giúp hắn không phải trả giá chiến đấu; nàng không bắt buộc là đạo lữ.
+- **Trưởng lão mất tu vi:** có thể nói chuyện đời, kinh nghiệm chiến đấu phổ thông, làm bạn rượu hoặc dạy kỹ thuật cơ bản, **nhưng không chỉ điểm cách điều khiển bí mật Chiến Thế** vì người dùng đã chọn A.
+- **Tông chủ:** cung cấp bối cảnh/nhiệm vụ/hỗ trợ; mục đích thu nhận các nhân vật bị truy sát vẫn chưa quyết định.
+- **Các đồng môn:** là nguồn tình nghĩa, tương tác hài hước, sự kiện sinh tử để nam chính tự trưởng thành.
+
+**Bí mật tông môn:** trước đây trợ lý đề xuất A (người oan khuất), B (thành viên thật sự nguy hiểm), C (tông chủ có kế hoạch lớn), rồi nghiêng B+C, **nhưng người dùng CHƯA CHỌN bất kỳ phương án nào**. Không tự chốt B+C.
+
+### 21.2. Văn phong khi sáng tác thật
+
+- **Mẫu được nhận xét "ổn"**: nguyên văn ở **mục 15**; nhân vật lên núi thấy bảng tuyển đệ tử bao ăn bao ở, tông môn rách nát, đối đáp với lão trưởng lão và bị đòi gạo. Chỉ tham chiếu **văn phong** chứ không mặc định đây là mở đầu cốt truyện chính thức.
+- Không viết như lời giới thiệu phim/synopsis bìa sách. Viết cảnh cụ thể: ai ở đâu, đang làm gì, cảm giác/đối thoại/hành động và hậu quả; hé bí mật theo diễn biến, không "thuyết minh" trước.
+- Nam chính hài hước tự nhiên, không biến mọi người thành ngốc; thông minh qua quyết định và hành động; các trận đấu có chiêu thức/chiến thuật và hậu quả. Tránh kể lướt những cảnh quan trọng bằng một đoạn tóm tắt.
+- Những đoạn thử khác đã có trong chat (cảnh luyện đao ban đêm, cảnh đối thủ nghi ngờ càng đánh càng mạnh, cảnh gần cạn khí huyết) chỉ có giá trị minh họa. Không đưa thẳng vào bản thảo chính thức hoặc coi tên/tình tiết/nhát đao đếm được là canon.
+- Mỗi chương về sau cần dễ nghe bằng TTS, lời thoại phân biệt rõ, không dồn dập thuật ngữ hoặc cảnh giới mới; giữ nhịp chương và phục bút để theo dõi lâu dài.
+
+## 22. DANH SÁCH CHƯA CHỐT — TUYỆT ĐỐI KHÔNG TỰ BỔ SUNG THÀNH FINAL
+
+- **Bản hồ sơ nhân vật/thể chất:** tất cả còn DRAFT. Chưa có bản hợp nhất được user review và duyệt FINAL.
+- **Tên gọi:** tên truyện, tên kênh, nam chính, tông môn, các trưởng lão, sư tỷ, đạo lữ, phản diện; "Thanh Vân Tông" ở đoạn mẫu chỉ minh họa; "Vạn Chiến Tàng Phong Thể", "Đao Ngân", tên cấp Chiến Thế và giai đoạn thức tỉnh/điều khiển chỉ là đề xuất.
+- **Nhân thân:** tuổi, diện mạo, gia đình, tán tu bắt đầu ở cảnh giới nào, các nghề tán tu, lý do gia nhập tông môn, có hay không biến cố bi thương, nguồn gốc thể chất.
+- **Hệ thống sức mạnh chung:** hệ thống cảnh giới tu vi, đao đạo, thể đạo, trình độ vượt cấp, công pháp/đao/bảo vật, tài nguyên và nhịp đột phá; thời điểm thức tỉnh/cộng hưởng/hợp nhất.
+- **Tông môn và thế giới:** bí mật tông chủ, lý do các nhân vật bị truy sát, phe chính/tà, địa lý, các arc, phản diện, đường dây bí mật dài hạn.
+- **Tuyến tình cảm:** ai là đạo lữ, số lượng, quá trình phát triển, giới hạn quan hệ; không mặc nhiên mọi sư tỷ đều yêu nam chính.
+- **Nội dung phát hành:** chưa có **chương 1 chính thức**, chương FINAL, audio, video, kênh hoàn thiện hoặc YPP được duyệt. Quy mô 2.000 chương chỉ là tham khảo.
+- **Bằng chứng:** chưa có xác nhận đã xuất toàn bộ nguyên văn chat/prompt/review cho các bước 8.x vào `04-CREATIVE-EVIDENCE`. Không nhận vơ Git history hay file evidence chưa được chủ dự án xác nhận.
+
+## 23. GIT, CHỨNG CỨ SÁNG TẠO VÀ TRẠNG THÁI FILE THỰC TẾ
+
+### 23.1. Những gì được người dùng xác nhận đã commit/push
+
+- `README.md`
+- `DECISIONS.md`
+- `EVIDENCE-LOG.md`
+- `04-CREATIVE-EVIDENCE/README.md`
+- `01-STORY-BIBLE/CREATIVE-BRIEF.md`
+- `01-STORY-BIBLE/PREMISE-CANDIDATES-v1.md`
+- `01-STORY-BIBLE/CHARACTER-DIRECTION-v1.md`
+- **Một bản context cập nhật trước đó**, người dùng xác nhận đã commit/push vào Git, nhưng **chưa xác minh đường dẫn/tên chính xác** trong remote.
+
+**Không có căn cứ** rằng file `01-STORY-BIBLE/PROTAGONIST-v1.md` hay `01-STORY-BIBLE/VAN-CHIEN-TANG-PHONG-THE-v1.md` đã tồn tại hoặc đã push. Cả hai từng được trợ lý đề xuất cho tương lai, không được coi là file thực tế.
+
+### 23.2. Chuẩn lưu evidence cần duy trì
+
+- Giữ bản gốc/hội thoại đầy đủ, không chỉ tóm tắt. Ghi cả **ý tưởng cũ bị người dùng chê "chán"**, nhận xét về văn phong synopsis, phản hồi "đoạn mẫu ... ổn", và những lựa chọn A/B/C/D theo ngày thực tế; không sửa lại lịch sử.
+- Quy trình từng bản: yêu cầu của người dùng → đề xuất AI → nhận xét/chỉnh sửa → phiên bản mới → người dùng xác nhận FINAL (nếu có) → file TTS → QA audio/video → xuất bản. Có thể ghi tham chiếu commit, nhưng không tự điền hash commit/bằng chứng giả.
+- Chỉ thêm mã `DEC-XXXX` hoặc `EV-XXXX` sau khi kiểm tra mã trước đã dùng để tránh trùng; đừng tự ghi "đã FINAL" nếu user chỉ chọn hướng DRAFT.
+- Repo nên private; Git + nhật ký là tư liệu giải trình quá trình, không chứng minh pháp lý tuyệt đối hoặc tự bảo đảm YPP.
+- Hướng dẫn Git **mỗi lần một bước**: đưa đúng file/path cần tạo/sửa, nội dung/nguồn DRAFT, rồi lệnh git add/commit/push cho đúng thay đổi; chờ người dùng báo hoàn tất mới bước tiếp theo. Không giao cùng lúc nhiều tài liệu phải thao tác.
+
+## 24. ĐIỂM DỪNG & CÔNG VIỆC TIẾP THEO CHO SESSION MỚI
+
+**Điểm dừng đúng:** Người dùng vừa chọn **C ở bước 8.14**: ban đầu Đao/Thể độc lập, về sau cộng hưởng, hướng tới Đao Thể Hợp Nhất. Trợ lý đề xuất bước **8.15 tổng hợp/review thiết kế Vạn Chiến Tàng Phong Thể V1**, chưa viết bản hoàn chỉnh hay lưu file Story Bible tương ứng. Sau đó người dùng yêu cầu **cập nhật file context đang đính kèm và hướng dẫn Git từng bước**.
+
+**Việc thực hiện ngay trong session hiện tại:** Cập nhật context này thành v3.0, trả file cho người dùng; **chỉ hướng dẫn 1 thao tác Git đầu tiên: cập nhật file context trong repo và push**. Chưa làm hồ sơ phụ cùng lượt khi user chưa báo đã xong.
+
+**Sau khi người dùng báo đã push context v3.0:**
+1. Tiếp tục đúng **bước 8.15 — lập bản hồ sơ DRAFT V1** cho Vạn Chiến Tàng Phong Thể và con đường Đao Thể Song Tu, từ những lựa chọn đã ghi ở mục 19–20. Cần giữ rõ cái nào user chọn, cái nào assistant đề xuất. Đề xuất 1 file trong `01-STORY-BIBLE/` để user review, chưa tự FINAL.
+2. Review tính hợp lý, cân bằng, chi tiết còn mở; không thêm năng lực/huyết mạch kỳ lạ vô cớ. Sau review mới xem xét file Git kế tiếp và cập nhật nhật ký quyết định/evidence theo từng bước.
+3. Sau khi nền tảng thể chất đủ ổn, quay lại hoàn thiện hồ sơ **nam chính**, hệ thống cảnh giới, bối cảnh tông môn, nhân vật, bí mật xung đột chính, tuyến đạo lữ, các đại arc. Chỉ bắt đầu chương 1 khi chủ dự án giao rõ; chỉ audio từ bản FINAL.
+4. **Không tự viết tiếp cảnh thử** ở mục 15 hoặc chương 1; không tự đổi hướng truyện hay tự kết luận đã FINAL.
+
+## 25. PROMPT MỞ SESSION MỚI (BẢN MỚI NHẤT V3.0)
+
+> Tôi gửi file context **v3.0 cập nhật 25/11/2026** cho dự án `SangTacTruyenTuTien`. Hãy đọc **toàn bộ**, nhưng ưu tiên **mục 18–25** (mới nhất), sau đó mục 12–17 (lịch sử và nguyên văn cảnh mẫu). Tôi đã tạo repo và commit/push bước 1–7, đồng thời lưu bản context trước đó. Hướng truyện *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* đã được chọn để phát triển nhưng **chưa FINAL**. Nam chính là tán tu cấp thấp, hài hước, nhân hậu, sắc bén dưới vẻ cà lơ phất phơ, muốn tiêu dao và bảo vệ người quan trọng; theo **Đao Thể Song Tu**. Chúng tôi đã chọn hướng thể chất nguyên tác *Vạn Chiến Tàng Phong Thể* với **Chiến Thế – Tàng Phong – Ngưng Phong** (tên và chi tiết đều DRAFT), càng đánh/càng chém có chất lượng càng mạnh trong trận và tiến bộ vĩnh viễn sau trận; thức tỉnh dần; **cái giá khí huyết lớn** (không dùng phản phệ Đao Ngân); ban đầu tự động rồi **tự nghiên cứu** để điều khiển; không cố giấu biểu hiện nhưng giấu cơ chế và giới hạn; **bước 8.14 đã chọn C: Đao và Thể độc lập → cộng hưởng → hợp nhất**. Tôi đã thích đoạn thử văn xuôi mục 15, nhưng chưa phải chương 1. **Đừng tự chốt FINAL; đừng viết chương chính thức, tạo audio/ảnh/video; hãy tiếp tục từ bước 8.15 (hồ sơ V1 DRAFT để review) và hướng dẫn các thay đổi Git từng bước một, đợi tôi xác nhận đã push rồi mới đến bước tiếp.**
+
+**Nguyên tắc cập nhật tiếp theo:** Mỗi khi có lựa chọn mới ở session khác, giữ nguyên lịch sử, bổ sung ngày/phiên bản, ghi rõ mức độ DRAFT/FINAL và đường dẫn file Git mà người dùng thực sự đã push. Không diễn giải lại các đề xuất cũ thành quyết định chính thức.
