@@ -1,13 +1,14 @@
 # CONTEXT CHUYỂN SESSION — DỰ ÁN KÊNH YOUTUBE AUDIO TRUYỆN TU TIÊN NGUYÊN TÁC
 
-**Phiên bản:** 6.0 (kế thừa đầy đủ v5.0 và lịch sử v1.0–v4.0)  
-**Ngày cập nhật:** 26/11/2026 — sau khi hoàn thành 100% video và master audio FINAL Tập 1, chốt tiêu chuẩn voice đọc cho kênh  
-**TRẠNG THÁI MỚI NHẤT:** 
-- **Tập 1 FINAL ĐÃ HOÀN THÀNH 100% VÀ NGHIỆM THU ĐẦY ĐỦ:** Toàn bộ thành phẩm Tập 1 lưu trữ tại `SangTacTruyenTuTien/BUILD FINAL CLIP/OUTPUT/`, gồm: file video MP4 1080p ảnh tĩnh (`TONG-MON-BI-TRUY-SAT-TAP-01-FINAL.mp4`, 728.54 MB, thời lượng 01:38:39), file master audio WAV 48kHz stereo (`TAP-01-VOICE-FULL.wav`, 1.08 GB, thời lượng 01:38:47), file phụ đề YouTube SRT & VTT (`TONG-MON-BI-TRUY-SAT-TAP-01-FINAL.srt/vtt`, 1,737 phân đoạn câu), timeline đồng bộ CSV (`TAP-01-TIMELINE.csv`, 217 scenes), kịch bản đọc TXT (`TAP-01-TTS-SCRIPT.txt`, 19,790 từ) và báo cáo QA (`TAP-01-QA-REPORT.md`).
-- **TIÊU CHUẨN VOICE KÊNH ĐÃ ĐƯỢC CHỐT CHÍNH THỨC:** Giọng nữ đọc tiếng Việt chuẩn Google TTS (`gTTS`, `lang='vi'`, `tld='com'`), áp dụng bộ lọc tăng tốc độ **1.25x bằng FFmpeg `atempo=1.25` giữ nguyên cao độ (pitch-preserved)**, âm thanh chuẩn 48,000 Hz, 2 kênh Stereo. Đây là chuẩn bắt buộc cho Tập 2 và toàn bộ các tập tiếp theo của kênh.
-**ĐỌC TRƯỚC KHI LÀM BẤT KỲ ĐIỀU GÌ:** **MỤC 43–46 (CẬP NHẬT V6.0)** là quy chuẩn kỹ thuật sản xuất voice và video bắt buộc; kế đến mục 36–42 (quy tắc continuity, GitHub và sáng tác từ Chương 8); rồi mới tham khảo lịch sử phía trước.
+**Phiên bản:** 7.0 (kế thừa toàn bộ v6.0 và lịch sử v1–v5)  
+**Ngày cập nhật:** 26/11/2026, 20:05 giờ Việt Nam.  
+**Tên kênh:** Tiên Vực Ký. **Truyện:** Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát.
 
-**TỰ ĐỘNG HANDOFF CHO SESSION MỚI — KHÔNG CẦN NGƯỜI DÙNG DÁN THÊM PROMPT:** Khi nhận file context này, hãy (1) đọc ngay mục 43–46, mục 36–42 và 26–35; (2) dùng GitHub connector kiểm tra quyền truy cập **chỉ** `dinhngocquanghuy/SangTacTruyenTuTien`; (3) đọc những tài liệu quyết định/cốt truyện và **cả 7 chương FINAL từ GitHub**, không chỉ dựa vào tóm tắt; (4) xác định CANON/DRAFT/MYSTERY/PLANNED và điểm nối Chương 7 → 8; (5) nắm chắc quy chuẩn voice 1.25x chuẩn gTTS để sản xuất các tập tiếp theo; (6) báo cáo ngắn gọn những gì đã xác minh, những gì chưa xác minh và đề xuất **đúng một bước tiếp theo**; (7) chờ yêu cầu của người dùng, **không tự viết Chương 8, không tự commit**. Nếu connector không sẵn có trong session mới, phải nói thật và hướng dẫn khôi phục kết nối, không tưởng tượng là đã đọc GitHub.
+**TRẠNG THÁI MỚI NHẤT:** Chương 1–14 đã được tác giả chốt FINAL; Tập 1 hoàn thành theo báo cáo lưu tại mục 43–46; Tập 2 đã bàn giao 7 bản thảo FINAL, thumbnail sửa đúng tên, storyboard 80 ảnh, tài liệu agent và SEO. Chưa xác nhận MP4/WAV/80 ảnh thực tế, upload YouTube hoặc push Chương 8–14. **Tập 3 dự kiến Chương 15–21, chưa viết.**
+
+**ĐỌC TRƯỚC:** Mục 47–56 (v7.0) là trạng thái hiện tại và quy chuẩn mới nhất; tiếp theo mục 43–46 (voice), mục 36–42 (continuity), mục 26–35 (lịch sử Tập 1). Các mục cũ có thể chứa trạng thái lịch sử đã hết hiệu lực, đặc biệt 217/300 ảnh và điểm nối Chương 7 → 8.
+
+**HANDOFF TỰ ĐỘNG:** Khi nhận file, kiểm tra connector GitHub đúng repo `dinhngocquanghuy/SangTacTruyenTuTien`, branch `main`, đọc nguyên văn Chương 14 FINAL và Chương 8–13 liên quan (ưu tiên đọc đủ 14 chương khi khả thi, tra các chương 1–7 theo phục bút). Kiểm tra tài liệu continuity thực tế và trạng thái push, không giả định. Báo ngắn kết quả, không bắt người dùng nhắc lại quy chuẩn. Nếu user yêu cầu viết Tập 3, viết liền mạch Chương 15–21 DRAFT để duyệt; chỉ khi user chốt mới xuất FINAL, cập nhật continuity và hướng dẫn một commit cho cả lô. Nếu chỉ yêu cầu đọc context, không tự viết. Không tự commit/push/upload. Nếu GitHub thiếu bản FINAL 8–14, dùng ZIP đã duyệt nếu có, không dùng tóm tắt làm bản thảo thay thế.
 
 ---
 
@@ -1100,3 +1101,170 @@ Dùng các thông số sau để kiểm tra chéo (sanity check) khi sản xuấ
 - **Quy chuẩn video:** 100% ảnh tĩnh đứng yên tuyệt đối (`tune: stillimage`), phong cách tiên hiệp thanh lệ, không dùng hiệu ứng lia/rung lắc.
 
 
+
+---
+
+# CẬP NHẬT V7.0 — CHỐT CHƯƠNG 8–14, QUY TRÌNH 80 ẢNH TĨNH, HANDOFF TẬP 3 (26/11/2026)
+
+## 47. TRẠNG THÁI THỰC TẾ VÀ QUYẾT ĐỊNH MỚI
+
+- Người dùng yêu cầu viết liền mạch Chương 8–14 để duyệt Tập 2. Assistant đã viết đủ bảy chương dạng văn xuôi tiểu thuyết trong chat; người dùng nói nguyên văn **“ok chốt chương 8-14, cho tôi file để commit push lên git”**. Đây là phê duyệt FINAL ngày 26/11/2026, không còn DRAFT.
+- Đã bàn giao ZIP `TAP-02-CHUONG-08-14-FINAL.zip`, chứa đúng 7 file dưới `03-MANUSCRIPTS/approved/`. Không tự viết lại văn bản đã duyệt. Bản ZIP được kiểm tra lại khi cập nhật context này. Tổng số từ từng được báo 17.037 (đếm khoảng trắng phần truyện, không phải số từ ngôn ngữ học); thời lượng TTS Tập 2 chưa đo, không ép 2 giờ.
+- Trong session này GitHub connector `get_repo` đã trả kết quả truy cập đúng repo `dinhngocquanghuy/SangTacTruyenTuTien`, default branch `main`, visibility **public tại thời điểm kiểm tra**, không phải private như đề xuất lịch sử. Đã fetch bảy file FINAL 1–7; Chương 7 đọc đầy đủ, kết quả các chương khác có phần bị giới hạn hiển thị nên không khẳng định audit đủ toàn văn. Các chương 8–14 được bàn giao để user tự commit/push; chưa có xác nhận user đã push thành công, chưa kiểm tra remote có 8–14 hay chưa. Không tự đổi visibility.
+- Đã tạo thumbnail Tập 2 đúng tiêu đề rút gọn “TÔNG MÔN BỊ TRUY SÁT”, nhãn “TẬP 2”. Bản đầu ghi “Từ Phàm Tu Tiên” là SAI tên và bị user bác bỏ. Chỉ dùng bản sửa `tông_môn_bị_truy_sát_tập_2.png`. Tên đầy đủ của truyện vẫn là **Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát**, kênh **Tiên Vực Ký**.
+- Tập 2: đã bàn giao tài liệu sản xuất và SEO, **không có chứng cứ nghiệm thu video/audio, 80 ảnh, URL upload, hoặc kết quả YouTube**. Yêu cầu title/mô tả/tag không tự động chứng minh đã đăng.
+- Tập 3: user chỉ định **Chương 15–21** là phạm vi tiếp theo. Chưa sáng tác/chưa FINAL/chưa có storyboard/voice/video/thumbnail Tập 3. Khi được giao viết, triển khai đủ bảy chương liên tục, không chỉ outline hoặc synopsis, không dừng sau một chương.
+
+## 48. DANH MỤC NGUỒN FINAL TẬP 2
+
+| Chương | Tiêu đề | Nguồn chuẩn |
+|---|---|---|
+| 8 | Món nợ của đệ tử mới | `03-MANUSCRIPTS/approved/CHUONG-0008-FINAL.md` |
+| 9 | Dược phô dưới trấn | `03-MANUSCRIPTS/approved/CHUONG-0009-FINAL.md` |
+| 10 | Người hái thuốc không trở về | `03-MANUSCRIPTS/approved/CHUONG-0010-FINAL.md` |
+| 11 | Thanh đao đầu tiên | `03-MANUSCRIPTS/approved/CHUONG-0011-FINAL.md` |
+| 12 | Đao chưa đủ nhanh | `03-MANUSCRIPTS/approved/CHUONG-0012-FINAL.md` |
+| 13 | Một đao đổi đường sống | `03-MANUSCRIPTS/approved/CHUONG-0013-FINAL.md` |
+| 14 | Vị khách trước sơn môn | `03-MANUSCRIPTS/approved/CHUONG-0014-FINAL.md` |
+
+SHA-256 của các file trong ZIP tại lúc cập nhật (để đối chiếu bản chuẩn, không phải Git commit hash):
+
+- `03-MANUSCRIPTS/approved/CHUONG-0008-FINAL.md`: `965a51b7a575097afd59b638a96125ac7f53a1119b9a762cf98491bdc9360e21`
+- `03-MANUSCRIPTS/approved/CHUONG-0009-FINAL.md`: `841f115e33a00211f122c071e323dfd6f424aebe44f1ac155b30ede769881665`
+- `03-MANUSCRIPTS/approved/CHUONG-0010-FINAL.md`: `bdcc168fe47bdcf26ca2c2dd0774682ca41c8c856295fa47db4396f7588d142b`
+- `03-MANUSCRIPTS/approved/CHUONG-0011-FINAL.md`: `ab7bd91a85aa92a628a007ec37578344f586730d3869f058c0796dcb610fcfa2`
+- `03-MANUSCRIPTS/approved/CHUONG-0012-FINAL.md`: `0632ed9ba7c6d31a48dd7769e22fb9a70e49f1779b58336435ec506492fd1936`
+- `03-MANUSCRIPTS/approved/CHUONG-0013-FINAL.md`: `517db2a011d85214862657a382364582d026c432407db6137e376fcee0ea3a04`
+- `03-MANUSCRIPTS/approved/CHUONG-0014-FINAL.md`: `a148ae8dd164533658a4fa41f84deb37a1999ba12fed0c8d4747ec1793b1bd92`
+
+
+## 49. CONTINUITY TẬP 2 — CHỈ MỤC TRA NGUYÊN VĂN
+
+| Chương | Diễn biến đã duyệt | Trạng thái/điểm nối |
+|---|---|---|
+| 8 | A Thạch đánh thức Hành Chu; Vãn Ninh thay băng, dặn không giao đấu/vận khí huyết mạnh 3 ngày; khí huyết ổn định hơn dự kiến. Kỷ Thanh La cần thuốc dẫn, cho Hành Chu xem dấu đóng chìm trên giấy dầu vì chàng mới đến, chưa nói với Tam trưởng lão và Vãn Ninh. Chu Tứ nhắc quán Hồi Phong, cảnh báo nơi treo đèn hình chim và việc theo dõi người mua thuốc. | Hành Chu và Vãn Ninh xuống núi; đao cũ gãy, vỏ rỗng. |
+| 9 | Bách Thảo Đường, Lưu chưởng quầy: Hàn Lộ Tử bị mua sạch 3 ngày trước; hai dược phô khác tương tự; thuốc bị chặn có chủ ý là suy luận của nhân vật. Kẻ áo nâu vá đen theo dõi; hai người đổi đường, mua nón. Hành Chu bán hai đoạn đao gãy để bù tiền mua đao thép thô bản dày hơi ngắn, nặng, vỏ gỗ cũ; giữ dây gai chuôi cũ. Lão Đỗ chỉ Hắc Tùng Cốc có Hàn Lộ Tử, nhưng có người chiếm khe đá. | Có đường lấy thuốc ngoài dược phô nhưng bị canh. |
+| 10 | Lão Đỗ vẽ đường vòng, nhờ tìm cháu Đỗ Bình 16 tuổi, áo vá hình lá. Hai người phát hiện trại canh giam người, tìm thuốc trước. Hầu hết Hàn Lộ Tử bị hái/nhổ; tìm được 5 quả xanh trắng nguyên vẹn trong khe hẹp. Hành Chu nhặt thẻ sắt rỉ có rãnh giữa, vết xước, gần hình khắc ba nét móc vào nhau trên đá; không cảm nhận linh lực. Đao mới để ngoài khe bị hai kẻ canh phát hiện. | Bị chặn lối ra. |
+| 11 | Hành Chu giả vờ yếu, gọi Vãn Ninh là muội muội để qua mặt; nàng hất bột thuốc, chàng giành lại đao, chế trụ hai kẻ canh. Vết thương sườn rỉ máu, thay băng; đối phương có thẻ gỗ ký hiệu đường thẳng cắt vòng tròn, không phải cánh chim. Chúng nhận tiền làm việc, thân phận/chủ thuê chưa rõ. Trói lại, để bánh, không giết. Vãn Ninh vòng sau lều; Hành Chu đánh lạc hướng lính canh. | Tiếng động từ lều khiến kế hoạch lộ. |
+| 12 | Vãn Ninh cắt vải lều, giải thoát bốn người: ba người hái thuốc và nam trung niên; Đỗ Bình sốt, chân bị thương, miếng vá hình lá. Hành Chu chặn côn/kiếm, dần thích nghi đao nặng nhưng hao khí huyết; bị thương cánh tay, vai. Thủ lĩnh áo đen dùng trường kiếm mạnh hơn rõ rệt. Hành Chu không cố kích sức mạnh chưa hiểu; Vãn Ninh hỗ trợ bột thuốc, cả nhóm chạy qua suối, tới cầu gỗ mục. | Hành Chu giữ đầu cầu để người khác qua. |
+| 13 | Hành Chu không đánh thắng thủ lĩnh; tìm cơ hội thoát, chém đoạn gỗ nứt, cầu sập, Vãn Ninh kéo chàng lên và giữ đao. Thủ lĩnh sống, đe dọa tìm lại. Đỗ Bình được đưa về với gia gia. Hà Thuận, người vận chuyển dược liệu được cứu, kể thấy thùng gỗ niêm phong, hình như có hình chim (chưa chắc); giấy thông hành ghi “Thanh Giản Trạm”, chưa khẳng định đồng nhất Trạm Thanh Giản. Hành Chu từ chối tiền dành chữa thương của cháu, nhận lương khô/dược liệu lão Đỗ tặng; không tiết lộ tên tông môn. Vãn Ninh hứa một quả trứng. | Về trấn lúc tối, chuẩn bị trở lại núi. |
+| 14 | Trở về núi trong đêm, Vãn Ninh phối thuốc, Kỷ Thanh La uống và ho máu sẫm; độc tính bắt đầu giảm, chưa giải hết, cấm vận linh lực. Bữa cháo có trứng, Hành Chu chia A Thạch và Vãn Ninh. Quấn dây gai cũ lên đao mới, ghi chép dấu hiệu khí huyết/thích nghi đao, tránh thử khi bị thương; thẻ sắt vẫn vô phản ứng. Sáng sau kể manh mối cho Kỷ Thanh La, hai người hỏi Tam trưởng lão về dấu chìm. Lão nói rất giống con dấu tông môn từng dùng, không biết hiện ở đâu, một số đồ thất lạc nhiều năm trước; dặn chờ tông chủ. Ba ngày sau Hành Chu tập nhẹ dưới gốc cây phía tây. Khách áo xám tóc điểm bạc, gậy trúc/tay nải lớn mang thư tới, là người Tam trưởng lão nhận ra và bất ngờ còn sống. | Khách kể ba tháng trước có kẻ mang con dấu cũ, tự xưng đệ tử Thanh Vân Tông, để lại thẻ gỗ cháy một góc. Tam trưởng lão nhìn hàng chữ sau thẻ, run tay; thân phận người mang thẻ và nội dung thư chưa công bố. |
+
+### 49.1. Điểm kết Chương 14 — trích nguyên văn để nối Chương 15
+
+> Cuối cùng, lão nhân ngẩng đầu.
+>
+> “Người mang tấm thẻ này… thật sự còn sống?”
+>
+> Người đàn ông áo xám đáp:
+>
+> “Đó chính là điều ta muốn biết.”
+
+Chương 15 phải tiếp nối diễn biến mới tại sơn môn/mái hiên, hoặc chuyển cảnh có lý do rõ; **không đọc lại nguyên văn cliffhanger trên**. Hành Chu nghe được lời khách nói vì đứng dưới mái hiên sau khi cho A Thạch vào bếp; không tự khẳng định chàng đọc được hàng chữ trên mặt sau thẻ hoặc thư. Tam trưởng lão và khách đang nói riêng; A Thạch không còn đứng cạnh họ. Tông chủ vẫn chưa xuất hiện trong 14 chương. Không suy đoán thân phận khách là tông chủ hoặc người mang thẻ là người đã chết thực sự.
+
+## 50. CHARACTER STATE, VẬT PHẨM VÀ PHỤC BÚT CẦN GIỮ
+
+- **Tạ Hành Chu:** đệ tử mới, tu sĩ thấp cấp, đao/thể song tu; chưa công bố cảnh giới cụ thể/đột phá mới. Thương sườn và tay từ Tập 1, bị thương thêm cánh tay trái, vai, mu bàn tay trong Tập 2; cuối Ch14 đã dưỡng thương ba ngày, được luyện nhẹ, chưa hồi phục hoàn toàn. Càng giao chiến càng thích nghi động tác; luồng nóng trong ngực/cánh tay, khí huyết hao mạnh; tự nhận biết giới hạn và chủ động dừng. Ch14 đã ghi chép trên mảnh giấy cũ, không phải sách công pháp. Chưa biết tên Vạn Chiến Tàng Phong Thể và cơ chế đầy đủ. Không để cao nhân giải thích hộ năng lực. Không tự nhảy cảnh giới.
+- **Vãn Ninh:** người am hiểu thuốc, nhị sư tỷ; vệt đỏ cổ tay còn đau/nóng khi nấu thuốc, chưa giải thích. Cùng Hành Chu vượt hiểm, lo lắng, tức giận vì chàng liều mạng, có sự quan tâm tăng dần. Chưa xác lập đạo lữ hay tình yêu công khai. Đã giúp giữ đao và kéo Hành Chu lên bờ. Không có kiếm/pháp thuật mới được xác lập.
+- **Kỷ Thanh La:** đại sư tỷ, vai bị độc thương, Hàn Lộ Tử giúp phối thuốc làm độc giảm, không hồi phục tức thì; còn giữ giấy dầu với bản sao ký hiệu cánh chim ở mặt sau (Ch6). Biết dấu chìm, biết lời Hà Thuận qua Hành Chu, đã cùng hỏi Tam trưởng lão. Chưa biết sự thật về thủ phạm.
+- **Tam trưởng lão:** nhận ra dấu giống con dấu cũ của tông môn, nói không biết nơi hiện tại và chưa biết việc vận chuyển người; có quá khứ chưa kể. Nhận ra khách áo xám, bất ngờ ông còn sống, nhận thư và thẻ cháy, run tay khi đọc hàng chữ. Lời nói nhân vật không đồng nghĩa sự thật khách quan; chưa đủ chứng cứ kết luận ông phản bội/giấu tội.
+- **A Thạch:** trẻ nhỏ, gọi Hành Chu tiểu sư huynh, còn chăm chim sẻ; không biến thành người trưởng thành/chiến binh. Được đưa vào bếp khi khách nói chuyện riêng.
+- **Chu Tứ:** người nuôi Dẫn Hương Trùng của Thạch Ưng Hội, được giữ trong kho, đã được cho ăn, cung cấp manh mối Hồi Phong/đèn chim/thuốc. Chưa có tình tiết thả hoặc giết sau Ch8; không tự khẳng định đã rời tông.
+- **Trác Cửu:** rời núi cuối Ch7 với mảnh đồng thật hình cánh chim; không xuất hiện trực tiếp trong Tập 2. Không nhầm với thủ lĩnh áo đen ở Hắc Tùng Cốc.
+- **Lưu chưởng quầy:** dược thương Bách Thảo Đường, quen Vãn Ninh. **Lão Đỗ/Đỗ Bình:** ông cháu hái thuốc, đã đoàn tụ; Đỗ Bình cần dưỡng thương. **Hà Thuận:** vận chuyển dược liệu, nhân chứng được cứu, có thể tìm ở trấn, không biết trong thùng có gì. Hai người hái thuốc còn lại không có tên chốt.
+- **Thủ lĩnh áo đen:** dùng trường kiếm, mạnh hơn Hành Chu, sống sót ở bờ bên kia khi cầu gãy, hứa truy tìm. Hai kẻ canh khe bị trói còn sống; không xác lập kết cục các thuộc hạ. Ký hiệu đường thẳng cắt vòng tròn của thẻ gỗ là manh mối chưa giải.
+- **Khách áo xám:** nam tóc điểm bạc, áo vải xám, gậy trúc, tay nải lớn, từng đến Thanh Vân Tông nhiều năm trước; chưa tên, chưa thân phận. Mang thư của người quen cũ, nói tận mắt thấy một việc, chưa rõ nội dung. Không tự đặt tên vào CANON trước khi chương mới được duyệt.
+
+### Sổ vật phẩm và mystery (mã gợi ý để cập nhật continuity, chưa phải ID có sẵn trong repo)
+
+| Mã | Vật phẩm / bí ẩn | Tình trạng |
+|---|---|---|
+| P01 | Giấy dầu Trạm Thanh Giản, ký hiệu cánh chim thêm nét chéo và dấu chìm Thanh Vân Tông | Kỷ Thanh La giữ; danh sách nhòe; chưa giải quyết. |
+| P02 | Mảnh đồng hình cánh chim | Trác Cửu đã lấy cuối Ch7; bản sao hình trên giấy dầu còn. |
+| P03 | Con dấu cũ | Tam trưởng lão nhận ra dấu giống đồ tông môn từng dùng; khách nói có người mang tới 3 tháng trước; chưa biết ai giữ hiện tại. |
+| P04 | Thẻ gỗ đệ tử Hành Chu | Được trao Ch7; vẫn treo bên hông cuối Ch14. |
+| P05 | Thẻ gỗ cháy một góc | Khách áo xám giao Tam trưởng lão cuối Ch14; mặt sau có hàng chữ chưa tiết lộ; không đồng nhất với thẻ sắt. |
+| P06 | Thẻ sắt rỉ / hình khắc ba nét móc | Hành Chu nhặt Ch10, giữ trong tay nải, xem Ch14 không phản ứng; chưa rõ công dụng/chủ sở hữu. Không tự biến thành pháp bảo phát sáng. |
+| P07 | Ký hiệu thẳng cắt vòng tròn | Trên thẻ gỗ của kẻ canh khe; Hành Chu/Vãn Ninh đã nhìn thấy; chủ thuê chưa rõ. Không khẳng định thẻ được giữ sau trận nếu chưa đối chiếu nguyên văn. |
+| P08 | Hàn Lộ Tử và vụ mua sạch thuốc | 5 quả hái được; dùng phối thuốc Ch14, lượng còn lại chưa xác nhận chính xác sau toàn bộ liệu trình; động cơ và người thu mua chưa xác định. |
+| P09 | Đao cũ / đao mới | Đao cũ bán thép Ch9; giữ dây gai, quấn lên đao mới Ch14. Đao mới bản dày hơi ngắn, nặng, thô, vỏ gỗ cũ; không có tên riêng/cấp bậc pháp khí. |
+| P10 | Thùng gỗ niêm phong / Thanh Giản Trạm | Hà Thuận chỉ nhìn thoáng ký hiệu chim, không biết hàng; tên nơi trên giấy thông hành có thể cùng Trạm Thanh Giản nhưng chưa xác minh. |
+| P11 | Vệt đỏ cổ tay Vãn Ninh | Còn đau nóng, chưa lý giải. |
+| P12 | Khí huyết Hành Chu | Dấu hiệu đang tự nghiên cứu, chưa thức tỉnh hoàn toàn, không lộ tên thể chất. |
+| P13 | Tông chủ và quá khứ tông môn | Vẫn vắng mặt; lý do đồ vật thất lạc, người mang thẻ cháy, khách và thư đều chưa giải. |
+
+Các bản ghi trên là chỉ mục từ nội dung đã duyệt, **không phải sự xác nhận hệ thống continuity đã được tạo/commit**. Kiểm tra nguyên văn nếu cần câu thoại, số lượng, thứ tự hoặc chi tiết cụ thể. Không giải hết các mystery trong một arc; kế hoạch Ch15–21 chưa được user duyệt tình tiết.
+
+## 51. QUY CHUẨN MỚI VỀ SỐ ẢNH VÀ STORYBOARD — GHI ĐÈ 300 ẢNH
+
+User phản hồi: “tôi chỉ cần khi 2 nhân vật đang nói chuyện với nhau thì để ảnh đúng 2 nhân vật đó nói chuyện với nhau suốt hội thoại, khi 2 nhân vật đánh nhau thì làm tượng trưng tầm 2 - 3 hình hoặc nếu đánh lâu thì tầm 5 hình được rồi, không cần mô tả quá chi tiết chỉ cần ảnh mô tả đúng với câu là được”. Đã chọn kế hoạch 80 ảnh cho Tập 2; **không cố định 80 là luật bất biến cho mọi tập**, nhưng mặc định khoảng 75–85 theo mạch, không quay về 217/300 nếu không có yêu cầu. Một ảnh có thể giữ cả hội thoại dài vài phút. Một nhóm nhân vật/địa điểm ổn định = một ảnh; thay bối cảnh, thành phần, hành động quan trọng mới đổi. Giao đấu ngắn 2–3, dài tối đa khoảng 5, không minh họa mỗi nhát đao. Cảnh bí mật 1–2. Không chia đều thời gian.
+
+Bộ thực tế Tập 2: Ch8 9 ảnh (001–009), Ch9 10 (010–019), Ch10 10 (020–029), Ch11 10 (030–039), Ch12 12 (040–051), Ch13 12 (052–063), Ch14 17 (064–080). Đây là phân bổ **chính thức thay kế hoạch 9/10/10/12/14/13/12** và thay kế hoạch 300 ảnh. `C08-I001.png` đến `C14-I080.png`, global order liên tục; không lấy danh sách thử 10 ảnh đầu cũ thay CSV.
+
+CSV có 18 cột: `scene_id,chapter,global_order,image_file,anchor_text,occurrence,description,status,character_refs,character_design,location_id,environment_design,weapon_continuity,image_prompt,negative_prompt,source_file,source_paragraph_index,transition_rule`. Mỗi anchor là câu/đoạn bắt đầu thật trong FINAL; occurrence/paragraph index dùng để phân biệt câu lặp; kiểm tra coverage, thứ tự, tên file và đúng nguồn. Status lúc bàn giao `PENDING_GENERATION`, không đồng nghĩa ảnh đã sinh. Tập 3 tạo CSV mới từ Ch15–21 FINAL, không dùng anchor Tập 2, dùng mã C15-I001… theo số lượng thực tế. Prompt tự đủ chi tiết để agent tạo từng ảnh không cần tự bịa, gồm nhóm nhân vật, vị trí, tư thế, cảm xúc, thương thế, binh khí, khung cảnh, ánh sáng, bố cục, negative prompt.
+
+## 52. QUY CHUẨN MỸ THUẬT VÀ CÁC LỖI PHẢI TRÁNH
+
+- User muốn ảnh **huyền huyễn/tiên hiệp điện ảnh đẹp, ngầu, nam tuấn tú, nữ xinh đẹp thanh lệ**; phong cách bán hiện thực/realistic 3D concept art, chi tiết tóc/vải, ánh sáng có chiều sâu, nhân vật rõ trên màn hình điện thoại. 16:9, ưu tiên 1920×1080 hoặc cao hơn, không méo hình, không logo/text/mã ảnh/watermark. Mỗi file là một ảnh độc lập, không collage/comic panels/cắt ảnh ghép; tên file trên đĩa, không in lên hình. Không dùng thumbnail trong timeline.
+- Trước khi tạo ảnh, lập character bible, reference sheet riêng (không tính vào 80 ảnh); nếu engine hỗ trợ dùng cùng reference/model/seed/style, nếu không thì dùng mô tả cố định và kiểm tra từng ảnh. Không gửi toàn bộ CSV vào một prompt sinh ảnh. Tạo từng dòng độc lập, kiểm tra rồi lưu đúng mã, sai thì tạo lại đúng dòng, không báo hoàn thành nếu sai. Chỉ đưa agent tạo ảnh khi có công cụ tạo ảnh thật.
+- Tạ Hành Chu: thiết kế hình 20–25 tuổi, Đông Á tuấn tú, mặt góc cạnh, tóc đen dài buộc cao dây vải, thân hình săn chắc, áo xanh xám/lam trầm giản dị, đai nâu/giày đen, băng trắng ngà theo thương thế; không giáp quý/vương miện/sẹo mặt vĩnh viễn. Đao tu không phải kiếm tu. Vãn Ninh: nữ trưởng thành 20–25 (ước lệ hình), mặt trái xoan, tóc đen búi nửa đầu trâm gỗ, áo xanh ngọc nhạt kín đáo, đai xanh sẫm, giỏ trúc khi cần; vệt cổ tay chỉ khi phù hợp. Kỷ Thanh La: nữ trưởng thành 22–27 (ước lệ hình), sắc sảo, tóc đen, hắc y đen than viền xám, băng vai, sắc mặt nhợt khi dưỡng thương. A Thạch: bé trai nhỏ gầy, khoảng 8–10 (ước lệ hình), mắt to, tóc búi nhỏ rối, áo nâu đất rộng, quần xám. Tam trưởng lão: khoảng 65–75 (ước lệ hình), tóc bạc rối/râu ngắn, đạo bào xám cũ, hồ lô rượu nâu. Tuổi/màu sắc/thẩm mỹ chỉ là thiết kế hình, không tự nâng thành CANON nếu truyện chưa xác nhận.
+- Thanh Vân Tông phải nghèo, cổng gỗ hỏng, mái điện thủng, tường đổ, sân cũ; không cung điện nguy nga, ngai vàng, đội đệ tử đông. Phòng phía tây nhỏ, giường tre/bàn gỗ/cửa sổ không khít; bếp mộc; kho cũ. Hắc Tùng Cốc rừng thông rậm, khe đá ẩm lạnh, suối nhỏ, cầu gỗ mục; Hàn Lộ Tử quả nhỏ xanh trắng không phát sáng. Thẻ đệ tử bằng gỗ, thẻ sắt rỉ không phát sáng. Không vẽ tông chủ khi chưa xuất hiện, không tự thêm yêu thú/hiệu ứng linh lực/đao quang quá mức. Duy trì tiến trình vũ khí, thương tích và vật phẩm đúng từng chương.
+- **Các lần thử trực tiếp tạo 10 ảnh đầu đã thất bại nhiều lượt:** tool sinh tông môn nguy nga, tông chủ/ngai vàng, đệ tử lạ, ngọc bội, đao nguyên vẹn khi đã gãy, hào quang, A Thạch thành người lớn, Kỷ Thanh La sai giới tính; cuối cùng sinh bảng 10 ô có chữ mã. User rất không hài lòng, nói “tạo fail hoài”, yêu cầu **chuyển sang agent tự tạo theo CSV thật chi tiết**. Không tái sử dụng các ảnh lỗi, không tính vào 80 ảnh, không tiếp tục tự sinh ảnh hàng loạt nếu user chưa giao lại. Hai ảnh thử thay băng trước đó cũng không được xác nhận là tài sản chính thức. Mục tiêu là agent nhận hướng dẫn độc lập từng cảnh, không cần user sửa prompt từng lần.
+
+## 53. CRITICAL — VOICE, HARD CUT, QA VIDEO (QUY CHUẨN BẮT BUỘC CHO TẬP 3+)
+
+### Nguồn voice và pipeline
+- Repo local `SangTacTruyenTuTien/03-MANUSCRIPTS/approved/`, branch `main` GitHub `https://github.com/dinhngocquanghuy/SangTacTruyenTuTien`. Khi giao agent Tập 3, **liệt kê chính xác 7 file CHUONG-0015-FINAL.md … CHUONG-0021-FINAL.md**, chỉ khi chúng tồn tại/đã duyệt. Không giả định đường dẫn tuyệt đối Windows (agent tự tìm trong Downloads/Youtube 2 nếu cần). Nếu thiếu local, kiểm tra remote; thiếu cả hai thì báo lỗi không tự viết thay.
+- Chỉ đọc tiêu đề chương đúng một lần + nguyên văn nội dung truyện. Loại metadata, Markdown, dấu phân cách, dòng hết chương kỹ thuật, ghi chú review; không dùng DRAFT, không đọc lại Ch1–14, không chèn CTA/intro/outro/recap. CSV/anchor_text chỉ để đồng bộ, tuyệt đối không đọc prompt/description/anchor thành lời bổ sung.
+- Xuất `TAP-03-TTS-SCRIPT.txt` (đối chiếu đủ chữ, thứ tự, không lặp/thiếu). Google gTTS `lang="vi", tld="com"`, giọng nữ Việt như Tập 1; FFmpeg `atempo=1.25` giữ pitch, PCM s16le 48000 Hz stereo, nghỉ 2.0 giây giữa chương. Không đổi engine/giọng/tốc độ, không thay sample rate để tăng tốc. Cache theo nội dung/cấu hình, retry có giới hạn khi lỗi mạng, tiếp tục đoạn thiếu, nghe kiểm tra phát âm tên riêng. gTTS là chuẩn thực hành của kênh, không đảm bảo dịch vụ luôn hoạt động/âm sắc không đổi; nếu lỗi không tự chuyển engine.
+- Tách lời kể theo câu/đoạn nhỏ để tạo audio và đo bằng ffprobe hoặc số mẫu PCM. Ghép đúng thứ tự, giữ nguyên câu, chỉ thêm im lặng giữa chương. Ghi mốc start/end thực tế sau atempo; dùng forced alignment hoặc đối chiếu đoạn chứa anchor, không ước lượng toàn tập bằng số từ. Có thể tạo voice trước khi ảnh xong; không render FINAL nếu thiếu ảnh. Xuất SRT/VTT UTF-8 riêng, 2–5 giây/cue tham khảo, tối đa 2 dòng, kiểm tra thời gian thực; không burn-in. Nếu dùng tỷ lệ từ trong đoạn để ước lượng cue, cần kiểm tra và chỉnh, không coi là timestamp chính xác tuyệt đối.
+- Tổng thời lượng video theo master voice thực tế, không kéo dài/thu ngắn để đủ 2 giờ. Không tự thêm nhạc nền, hiệu ứng âm thanh, intro/outro, quảng cáo hay chữ trên ảnh.
+
+### Mệnh lệnh nguyên tắc của user: ẢNH TĨNH TUYỆT ĐỐI
+
+User nói agent hay làm ảnh rung lắc/giật giật, nhìn rất khó chịu; yêu cầu **cấm tuyệt đối**, kể cả chuyển động nhỏ. Đây là CRITICAL mức ưu tiên cao nhất, không được tự sáng tạo để “sinh động hơn”. Mỗi ảnh đứng yên như mở PNG trên màn hình, từ frame đầu đến cuối. Cấm camera shake, jitter, zoom in/out, Ken Burns, pan/tilt, parallax/2.5D, xoay/nghiêng/trượt, nhấp nháy/thay đổi sáng, biến dạng, AI image-to-video (tóc/áo/mắt/mây/sương), mọi keyframe/hiệu ứng mặc định làm chuyển động. Chỉ resize/padding cố định, không zoompan hoặc biểu thức thay đổi theo thời gian. FFmpeg có thể `-loop 1`, `-tune stillimage`, 30fps; lặp frame tĩnh để đủ thời lượng là được, không lặp/tua clip chuyển động.
+
+**Chỉ HARD CUT:** chuyển trực tiếp ảnh A → B đúng mốc anchor trong voice, không fade/crossfade/dissolve, không black frame, không slide/zoom/shake transition. Voice liên tục qua chuyển cảnh; trong 2 giây nghỉ giữa chương vẫn giữ ảnh trước tới lúc chương mới bắt đầu. Không chia đều thời lượng ảnh. Hội thoại giữ một ảnh xuyên suốt; tránh spoil bằng ảnh trước khi lời kể đến. Làm timeline gồm ID, đường dẫn ảnh, anchor, start/end, duration, mốc chương; kiểm tra không gap/overlap, tổng khớp WAV (làm tròn frame có kiểm soát, không cộng dồn lệch).
+
+### QA và định dạng
+- Render test ít nhất 3 ảnh trước khi render cả tập. So sánh frame đầu/giữa/cuối mỗi cảnh, vị trí/tỷ lệ/độ sáng/nội dung phải giống nhau trừ sai số nén nhỏ; dùng so sánh pixel/SSIM hoặc kiểm tra frame difference, xem trực tiếp các ranh giới. Nếu phát hiện rung/giật/chuyển động, sửa và render lại. Không báo FINAL nếu còn lỗi. Kiểm tra đủ file PNG độc lập, đúng tên, đúng thứ tự, không tái sử dụng ảnh lỗi, không black frame, voice không mất/lặp, codec phát được.
+- MP4 1920×1080, 16:9, 30fps, H.264, yuv420p tương thích, `tune stillimage`, AAC 192 kbps 48kHz stereo. Xuất WAV master, TXT voice, CSV timeline, SRT/VTT, QA report và MP4 thực tế. Tập 3 có thể dùng `BUILD FINAL CLIP/TAP-03/WORK` và `OUTPUT` riêng để không ghi đè Tập 1–2 (đường dẫn đề xuất, chưa tồn tại). Tên đề xuất `TONG-MON-BI-TRUY-SAT-TAP-03-FINAL.mp4`, `TAP-03-VOICE-FULL.wav`, `TAP-03-TTS-SCRIPT.txt`, `TAP-03-TIMELINE.csv`, `TAP-03-QA-REPORT.md`, phụ đề cùng tên video. Không tự commit/push/upload.
+
+## 54. DANH SÁCH TÀI LIỆU ĐÃ BÀN GIAO TẬP 2
+
+| File | Chức năng / trạng thái |
+|---|---|
+| `TAP-02-CHUONG-08-14-FINAL.zip` | 7 chương FINAL, giải nén vào root repo |
+| `HUONG-DAN-AGENT-TAP-02.zip` | Bộ hướng dẫn ban đầu gồm PROMPT-GIAO-AGENT.md, HUONG-DAN-KY-THUAT.md, README.md, STORYBOARD-SCHEMA.csv; **còn kế hoạch 300 ảnh, đã bị thay thế phần số ảnh** |
+| `BO-STORYBOARD-80-ANH-TAP-02.zip` | Bộ chính thức 80 ảnh, gồm hai file dưới |
+| `STORYBOARD-SCHEMA-TAP-02-80-ANH.csv` | 80 cảnh thực tế, prompt/anchor/continuity, không phải file schema mẫu |
+| `HUONG-DAN-TAO-80-ANH-TAP-02.md` | Character bible 17 nhóm, địa điểm, binh khí, negative prompt, workflow |
+| `tông_môn_bị_truy_sát_tập_2.png` | Thumbnail sửa đúng tên, không dùng làm ảnh trong video |
+
+**Prompt agent mới nhất** nằm trong chat: writing block 78342 (bản sửa cuối, 7 mục, CRITICAL ảnh tĩnh/HARD CUT/QA), sau đó block 83921 bổ sung **mục 0 nguồn kịch bản**. Hai block phải được kết hợp, không chỉ gửi block 78342 thiếu đường dẫn. Chưa có xác nhận đã ghi phiên bản hợp nhất vào file .md cũ; vì vậy hướng dẫn mục 53 của context này ghi đè mọi quy định mâu thuẫn. Tập 3 nên tạo một prompt tổng hoàn chỉnh ngay từ đầu, ghi cụ thể 7 file FINAL, CSV mới, character bible, voice và QA; không bắt user ghép nhiều prompt thủ công.
+
+## 55. SEO TẬP 2 ĐÃ SOẠN VÀ QUY TẮC GIT/EVIDENCE
+
+Title đề xuất chính (chưa xác nhận user đã chọn/đăng): `Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát | Tập 2: Bí Mật Thanh Vân Tông | Audio Tu Tiên`. Hai lựa chọn khác: `Tông Môn Bị Thiên Hạ Truy Sát – Tập 2 | Một Đao Đổi Đường Sống | Audio Truyện Tu Tiên`; `Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát | Tập 2: Kẻ Đáng Lẽ Đã Chết` (title thứ ba chỉ là hook SEO, không phải CANON rằng người mang thẻ đã chết). Mô tả đã soạn trong block 68245: mở bằng tông môn nghèo, đao gãy, hai sư tỷ; hành trình tìm thuốc Hắc Tùng Cốc, đao mới, khách bí ẩn; liệt kê tên Ch8–14, thông tin truyện nguyên sáng, kênh Tiên Vực Ký, AI hỗ trợ voice/ảnh, CTA và hashtag. Tag block 68246 gồm tên truyện, tông môn bị truy sát, Tiên Vực Ký, Tạ Hành Chu, Thanh Vân Tông, audio truyện tu tiên/tiên hiệp/huyền huyễn, đao thể song tu, vạn chiến tàng phong thể, truyện nguyên sáng. Tập 3 tạo mới 3 title/mô tả/tag theo nội dung FINAL, không spoil quá mức, kiểm tra giới hạn YouTube khi cần, không copy nội dung Tập 2 thay tên tập.
+
+- User ưu tiên lưu text nguyên tác và lịch sử Git làm bằng chứng sáng tác; voice/MP4 có thể tái tạo từ bản thảo còn lưu. Không coi WAV/MP4 là bắt buộc phải push lên Git; lưu local nếu cần QA. Việc có text Git không đảm bảo YouTube chấp nhận YPP; giữ lịch sử sáng tác, quyết định, quyền tài nguyên trung thực.
+- Lệnh đã bàn giao cho Ch8–14 (chạy Git Bash tại root repo):
+
+```bash
+git add 03-MANUSCRIPTS/approved/CHUONG-000[89]-FINAL.md 03-MANUSCRIPTS/approved/CHUONG-001[0-4]-FINAL.md
+git status
+git commit -m "Approve chapters 8-14 FINAL for audiobook episode 2"
+git push origin main
+```
+
+- Chưa xác nhận lệnh đã chạy. Với Ch15–21 chỉ sau khi user chốt FINAL mới gom một commit cho cả lô + continuity/evidence nếu được yêu cầu. Không spam commit mỗi DRAFT, không tự sửa FINAL, không giả tạo timestamp/hash hoặc ghi nhận QA chưa làm. File context v7.0 này chưa push lên GitHub.
+
+## 56. HANDOFF THỰC HÀNH — TẬP 3 CHƯƠNG 15–21
+
+1. Đọc mục 47–56 trước; dùng connector đúng repo, kiểm tra bản thảo 8–14 trên remote; nếu chưa có, dùng ZIP được duyệt (hoặc yêu cầu đúng nguồn thiếu), không viết dựa vào tóm tắt thay cho nguyên văn. Đọc ít nhất toàn Ch14, các chương 8–13 và phục bút Ch1–7 có liên quan. Kiểm tra continuity file có thực tế hay không, không tạo/commit tự động.
+2. Khi user yêu cầu viết Tập 3: viết **đầy đủ bảy chương 15–21 DRAFT**, liền mạch một arc, phát triển bí ẩn khách áo xám/thẻ cháy/dấu cũ có kiểm soát. Chưa có outline chính thức; những quyết định mới phải xây dựng qua hành động và chờ user duyệt. Duy trì hài hước, tình nghĩa, tiến bộ tu luyện đao/thể, nguy hiểm có hậu quả, kỳ ngộ và tuyến tình cảm có chiều sâu. Không lặp thoại/mô típ cứu người ở Hắc Tùng Cốc chỉ để kéo dài. Giữ tên Tạ Hành Chu/Hành Chu, hạn chế “hắn”, không dùng “người tán tu” làm đại từ. Không ép dung lượng bằng câu lặp; tham chiếu Tập 1 19.790 từ và Tập 2 khoảng 17.037, mục tiêu nghe khoảng 1–3 giờ theo TTS thực tế.
+3. Sau review, chỉ khi user nói chốt thì xuất 7 file Markdown `CHUONG-0015-FINAL.md`…`CHUONG-0021-FINAL.md` trong ZIP đúng cấu trúc approved; giữ nguyên văn, metadata ngày chốt, kiểm tra ranh giới, cập nhật continuity/evidence, hướng dẫn một commit. Nếu phát hiện lỗi trong FINAL cũ, báo với nguyên văn chứng cứ, không sửa hồi tố.
+4. Khi user yêu cầu production: tạo thumbnail TẬP 3 đúng tên truyện, phong cách nhất quán. Lập storyboard khoảng 80 ảnh tùy mạch thực tế, prompt chi tiết từng dòng theo mục 51–52; agent tự tạo theo CSV (không tự tạo trực tiếp hàng loạt sau lịch sử fail). Giao prompt tổng theo mục 53, 7 đường dẫn FINAL chính xác, voice trước/timestamp thật/ảnh tĩnh tuyệt đối/hard cut/QA. Chỉ xác nhận sản phẩm khi có bằng chứng thực tế.
+5. Khi user yêu cầu SEO: 3 title, mô tả copy-post, tag giới hạn phù hợp, đúng Ch15–21, tên truyện/kênh; không bịa thời lượng/URL/trạng thái đăng.
+
+**Câu mở session mới không cần dài:** “Đọc context này, tiếp tục Tập 3 từ Chương 15 đến 21.” Assistant phải hiểu đã chốt Ch1–14, không viết lại Tập 2, không hỏi lại voice/ảnh tĩnh/quy chuẩn mỹ thuật, và phân biệt nhiệm vụ đọc context với yêu cầu sáng tác cụ thể. Nếu user chỉ muốn nắm context, báo xác minh và chờ giao việc. Nếu yêu cầu viết, làm ngay bản thảo dựa trên nguồn thực tế. Không hứa làm nền hoặc bảo user chờ kết quả tương lai.

@@ -1,0 +1,81 @@
+﻿global_order,scene_id,chapter,image_file,anchor_text,start_sample,end_sample,start_sec,end_sec,duration_sec,start_frame,end_frame,num_frames,alignment_method,qa_status
+1,C08-I001,8,C08-I001.png,"Trời còn chưa sáng, Tạ Hành Chu đã bị một vật nặng đè lên ngực.",0,1351334,0.000,28.153,28.153,0,845,845,scene_chunk_atempo_exact,PASS
+2,C08-I002,8,C08-I002.png,"Tạ Hành Chu chống tay ngồi dậy. Vết thương bên sườn lập tức truyền đến một trận đau nhói, khiến Hành Chu phải hít sâu mấy hơi.",1351334,4318192,28.153,89.962,61.810,845,2699,1854,scene_chunk_atempo_exact,PASS
+3,C08-I003,8,C08-I003.png,Một giọng nữ từ bên ngoài truyền vào.,4318192,13305840,89.962,277.205,187.243,2699,8316,5617,scene_chunk_atempo_exact,PASS
+4,C08-I004,8,C08-I004.png,"Chưa đầy một chén trà, đứa trẻ đã quay lại, trên tay ôm một cây chổi.",13305840,14308810,277.205,298.100,20.895,8316,8943,627,scene_chunk_atempo_exact,PASS
+5,C08-I005,8,C08-I005.png,"Trong gian phòng phía sau nhà bếp, Kỷ Thanh La vẫn chưa ngủ.",14308810,20904926,298.100,435.519,137.419,8943,13066,4123,scene_chunk_atempo_exact,PASS
+6,C08-I006,8,C08-I006.png,“Ngươi xem cái này.”,20904926,25966513,435.519,540.969,105.450,13066,16229,3163,scene_chunk_atempo_exact,PASS
+7,C08-I007,8,C08-I007.png,"Trước khi xuống núi, Tạ Hành Chu ghé qua gian kho giữ Chu Tứ.",25966513,30919256,540.969,644.151,103.182,16229,19325,3096,scene_chunk_atempo_exact,PASS
+8,C08-I008,8,C08-I008.png,"Khi hai người rời khỏi sơn môn, mặt trời vừa vượt lên khỏi những ngọn cây.",30919256,32417851,644.151,675.372,31.221,19325,20261,936,scene_chunk_atempo_exact,PASS
+9,C08-I009,8,C08-I009.png,Vãn Ninh khẽ lắc đầu.,32417851,33991329,675.372,708.153,32.781,20261,21245,984,scene_chunk_atempo_exact,PASS
+10,C09-I010,9,C09-I010.png,"Con đường xuống núi dễ đi hơn lúc lên, nhưng Tạ Hành Chu phải dừng lại nghỉ đến ba lần.",33991329,36270602,708.153,755.638,47.485,21245,22669,1424,scene_chunk_atempo_exact,PASS
+11,C09-I011,9,C09-I011.png,"Trong trấn, các sạp hàng lần lượt mở cửa. Tiếng người bán bánh, bán rau, tiếng bánh xe lăn trên đường đá hòa lẫn với mùi thức ăn nóng hổi.",36270602,38758922,755.638,807.478,51.840,22669,24224,1555,scene_chunk_atempo_exact,PASS
+12,C09-I012,9,C09-I012.png,"Dược phô Vãn Ninh muốn tới nằm ở cuối một dãy nhà gỗ, trước cửa treo tấm biển Bách Thảo Đường. Bên dưới mái hiên có mấy giỏ thuốc phơi nắng, thoang thoảng mùi thảo dược.",38758922,41498113,807.478,864.544,57.066,24224,25936,1712,scene_chunk_atempo_exact,PASS
+13,C09-I013,9,C09-I013.png,"Nàng không hỏi thêm, dẫn Hành Chu bước vào Bách Thảo Đường.",41498113,49260896,864.544,1026.269,161.725,25936,30788,4852,scene_chunk_atempo_exact,PASS
+14,C09-I014,9,C09-I014.png,Kết quả gần như giống hệt nhau.,49260896,52649815,1026.269,1096.871,70.602,30788,32906,2118,scene_chunk_atempo_exact,PASS
+15,C09-I015,9,C09-I015.png,"“Đi thôi. Trước khi tìm thuốc, còn phải giải quyết một chuyện.”",52649815,56759479,1096.871,1182.489,85.618,32906,35475,2569,scene_chunk_atempo_exact,PASS
+16,C09-I016,9,C09-I016.png,"Cho đến khi không còn nhìn thấy nam tử áo nâu, Hành Chu mới dẫn Vãn Ninh dừng trước một lò rèn nhỏ.",56759479,58973367,1182.489,1228.612,46.123,35475,36858,1383,scene_chunk_atempo_exact,PASS
+17,C09-I017,9,C09-I017.png,Ông cúi xuống lấy từ dưới bàn ra một thanh đao chưa có vỏ.,58973367,62370437,1228.612,1299.384,70.772,36858,38982,2124,scene_chunk_atempo_exact,PASS
+18,C09-I018,9,C09-I018.png,Chàng dùng ngón tay vuốt nhẹ đoạn chuôi quấn dây gai.,62370437,64533381,1299.384,1344.445,45.061,38982,40333,1351,scene_chunk_atempo_exact,PASS
+19,C09-I019,9,C09-I019.png,Hai người tìm đến khu nhà phía bắc trấn vào đầu giờ chiều.,64533381,68273478,1344.445,1422.364,77.919,40333,42671,2338,scene_chunk_atempo_exact,PASS
+20,C10-I020,10,C10-I020.png,"Tạ Hành Chu xin lão Đỗ một bát nước, sau đó kéo ghế ngồi xuống.",68273478,70944456,1422.364,1478.010,55.645,42671,44340,1669,scene_chunk_atempo_exact,PASS
+21,C10-I021,10,C10-I021.png,Tạ Hành Chu quay sang lão Đỗ.,70944456,73095592,1478.010,1522.825,44.815,44340,45685,1345,scene_chunk_atempo_exact,PASS
+22,C10-I022,10,C10-I022.png,"Khi Hành Chu hỏi về vị trí khe đá mọc Hàn Lộ Tử, lão Đỗ bỗng nhiên im lặng.",73095592,76774779,1522.825,1599.475,76.650,45685,47984,2299,scene_chunk_atempo_exact,PASS
+23,C10-I023,10,C10-I023.png,Hắc Tùng Cốc nằm giữa hai ngọn núi thấp phía bắc trấn.,76774779,80013683,1599.475,1666.952,67.477,47984,50009,2025,scene_chunk_atempo_exact,PASS
+24,C10-I024,10,C10-I024.png,"Hành Chu uống thêm một ngụm nước, chợt thấy nàng đứng yên trước một bụi cỏ thấp.",80013683,81546417,1666.952,1698.884,31.932,50009,50967,958,scene_chunk_atempo_exact,PASS
+25,C10-I025,10,C10-I025.png,Tạ Hành Chu ra hiệu cho Vãn Ninh không tiếp tục bước theo con đường nhỏ.,81546417,85803532,1698.884,1787.574,88.690,50967,53627,2660,scene_chunk_atempo_exact,PASS
+26,C10-I026,10,C10-I026.png,Khe đá nằm ở nơi hai vách núi giao nhau.,85803532,88506712,1787.574,1843.890,56.316,53627,55317,1690,scene_chunk_atempo_exact,PASS
+27,C10-I027,10,C10-I027.png,“Có thể. Nhưng khe sâu thế này…”,88506712,92790513,1843.890,1933.136,89.246,55317,57994,2677,scene_chunk_atempo_exact,PASS
+28,C10-I028,10,C10-I028.png,Nàng vừa định đứng dậy thì nghe tiếng Hành Chu khẽ gọi.,92790513,95045066,1933.136,1980.106,46.970,57994,59403,1409,scene_chunk_atempo_exact,PASS
+29,C10-I029,10,C10-I029.png,Hai người chuẩn bị rời khỏi khe đá.,95045066,96611218,1980.106,2012.734,32.628,59403,60382,979,scene_chunk_atempo_exact,PASS
+30,C11-I030,11,C11-I030.png,"Tạ Hành Chu áp sát vách đá, cố gắng nhìn qua khe hẹp.",96611218,99957650,2012.734,2082.451,69.717,60382,62474,2092,scene_chunk_atempo_exact,PASS
+31,C11-I031,11,C11-I031.png,"Tạ Hành Chu khẽ ho một tiếng, sau đó dùng giọng đầy sợ hãi đáp:",99957650,103651433,2082.451,2159.405,76.954,62474,64782,2308,scene_chunk_atempo_exact,PASS
+32,C11-I032,11,C11-I032.png,"Kẻ còn lại không kiên nhẫn nữa, tiến tới định giật chiếc giỏ từ tay Vãn Ninh.",103651433,105704990,2159.405,2202.187,42.782,64782,66066,1284,scene_chunk_atempo_exact,PASS
+33,C11-I033,11,C11-I033.png,Thanh đao rơi xuống đất.,105704990,107982425,2202.187,2249.634,47.447,66066,67489,1423,scene_chunk_atempo_exact,PASS
+34,C11-I034,11,C11-I034.png,"Chàng bước chếch sang một bên, hai tay nắm chuôi, dùng thân đao đánh mạnh vào cổ tay đối phương.",107982425,110034047,2249.634,2292.376,42.742,67489,68771,1282,scene_chunk_atempo_exact,PASS
+35,C11-I035,11,C11-I035.png,“Ngươi là người của ai?” Hành Chu hỏi.,110034047,113209052,2292.376,2358.522,66.146,68771,70756,1985,scene_chunk_atempo_exact,PASS
+36,C11-I036,11,C11-I036.png,Sắc mặt đối phương thay đổi.,113209052,118519455,2358.522,2469.155,110.633,70756,74075,3319,scene_chunk_atempo_exact,PASS
+37,C11-I037,11,C11-I037.png,"Khi trở lại chỗ căn lều, mặt trời đã bắt đầu nghiêng về phía tây.",118519455,120208948,2469.155,2504.353,35.198,74075,75131,1056,scene_chunk_atempo_exact,PASS
+38,C11-I038,11,C11-I038.png,Vãn Ninh lấy ra hai gói bột thuốc.,120208948,122640235,2504.353,2555.005,50.652,75131,76650,1519,scene_chunk_atempo_exact,PASS
+39,C11-I039,11,C11-I039.png,"Hành Chu vòng xuống con đường phía trước, cố ý giẫm gãy một cành cây.",122640235,127602283,2555.005,2658.381,103.376,76650,79751,3101,scene_chunk_atempo_exact,PASS
+40,C12-I040,12,C12-I040.png,"Phía sau căn lều, Vãn Ninh đã cắt một đường trên lớp vải thô.",127602283,129821419,2658.381,2704.613,46.232,79751,81138,1387,scene_chunk_atempo_exact,PASS
+41,C12-I041,12,C12-I041.png,"Người nọ nhìn thanh dao trong tay nàng, vội gật đầu.",129821419,131310158,2704.613,2735.628,31.015,81138,82069,931,scene_chunk_atempo_exact,PASS
+42,C12-I042,12,C12-I042.png,"Người cầm côn vừa quay đầu nhìn về phía căn lều, Tạ Hành Chu đã lao tới.",131310158,134578393,2735.628,2803.717,68.088,82069,84111,2042,scene_chunk_atempo_exact,PASS
+43,C12-I043,12,C12-I043.png,Người cầm côn cười lạnh.,134578393,137642111,2803.717,2867.544,63.827,84111,86026,1915,scene_chunk_atempo_exact,PASS
+44,C12-I044,12,C12-I044.png,"Từ trong lồng ngực, dòng khí nóng lại bắt đầu dâng lên.",137642111,141544546,2867.544,2948.845,81.301,86026,88465,2439,scene_chunk_atempo_exact,PASS
+45,C12-I045,12,C12-I045.png,Vãn Ninh đã đưa được ba người ra ngoài. Người hái thuốc đang dìu Đỗ Bình theo lối xuống suối.,141544546,142237794,2948.845,2963.287,14.443,88465,88899,434,scene_chunk_atempo_exact,PASS
+46,C12-I046,12,C12-I046.png,Một bóng người từ giữa những thân cây xuất hiện.,142237794,144195579,2963.287,3004.075,40.787,88899,90122,1223,scene_chunk_atempo_exact,PASS
+47,C12-I047,12,C12-I047.png,Tạ Hành Chu theo bản năng đưa đao lên.,144195579,147212087,3004.075,3066.918,62.844,90122,92008,1886,scene_chunk_atempo_exact,PASS
+48,C12-I048,12,C12-I048.png,Chàng nhìn thoáng qua hướng Vãn Ninh rời đi.,147212087,150599323,3066.918,3137.486,70.567,92008,94125,2117,scene_chunk_atempo_exact,PASS
+49,C12-I049,12,C12-I049.png,"Nam tử áo đen tưởng Hành Chu đã hết sức, lập tức bước lên.",150599323,152033635,3137.486,3167.367,29.881,94125,95021,896,scene_chunk_atempo_exact,PASS
+50,C12-I050,12,C12-I050.png,Sườn núi phía sau căn lều rất dốc.,152033635,154370878,3167.367,3216.060,48.693,95021,96482,1461,scene_chunk_atempo_exact,PASS
+51,C12-I051,12,C12-I051.png,Chàng nhìn quanh.,154370878,157994993,3216.060,3291.562,75.502,96482,98747,2265,scene_chunk_atempo_exact,PASS
+52,C13-I052,13,C13-I052.png,Ván gỗ dưới chân Đỗ Bình khẽ cong xuống.,157994993,159880760,3291.562,3330.849,39.287,98747,99925,1178,scene_chunk_atempo_exact,PASS
+53,C13-I053,13,C13-I053.png,Nam tử áo đen không tiếp tục phí lời.,159880760,162245827,3330.849,3380.121,49.272,99925,101404,1479,scene_chunk_atempo_exact,PASS
+54,C13-I054,13,C13-I054.png,“Đi trước!”,162245827,164421980,3380.121,3425.458,45.337,101404,102764,1360,scene_chunk_atempo_exact,PASS
+55,C13-I055,13,C13-I055.png,"Trong lồng ngực, dòng khí nóng dâng lên từng đợt.",164421980,167919771,3425.458,3498.329,72.871,102764,104950,2186,scene_chunk_atempo_exact,PASS
+56,C13-I056,13,C13-I056.png,Hành Chu không đỡ.,167919771,169541059,3498.329,3532.105,33.777,104950,105963,1013,scene_chunk_atempo_exact,PASS
+57,C13-I057,13,C13-I057.png,"Chàng quay người, đưa đao lên như muốn liều một trận cuối cùng.",169541059,171069516,3532.105,3563.948,31.843,105963,106918,955,scene_chunk_atempo_exact,PASS
+58,C13-I058,13,C13-I058.png,"Vãn Ninh lao tới, quỳ xuống nắm lấy cổ tay chàng.",171069516,172787592,3563.948,3599.742,35.793,106918,107992,1074,scene_chunk_atempo_exact,PASS
+59,C13-I059,13,C13-I059.png,Vãn Ninh kéo chàng lên khỏi mép nước.,172787592,176928481,3599.742,3686.010,86.269,107992,110580,2588,scene_chunk_atempo_exact,PASS
+60,C13-I060,13,C13-I060.png,"Mọi người men theo con đường hẹp bên vách núi, mãi đến khi nghe không còn tiếng người phía sau mới dám dừng lại.",176928481,180580910,3686.010,3762.102,76.092,110580,112863,2283,scene_chunk_atempo_exact,PASS
+61,C13-I061,13,C13-I061.png,Nam tử trung niên được cứu bước tới.,180580910,187099519,3762.102,3897.907,135.804,112863,116937,4074,scene_chunk_atempo_exact,PASS
+62,C13-I062,13,C13-I062.png,"Mãi đến khi trời bắt đầu tối, mọi người mới trở về trấn.",187099519,191330732,3897.907,3986.057,88.150,116937,119582,2645,scene_chunk_atempo_exact,PASS
+63,C13-I063,13,C13-I063.png,“Có chuyện gì?” Hành Chu hỏi.,191330732,193712300,3986.057,4035.673,49.616,119582,121070,1488,scene_chunk_atempo_exact,PASS
+64,C14-I064,14,C14-I064.png,"Khi hai người trở lại Thanh Vân Tông, trời đã tối hẳn.",193712300,196012985,4035.673,4083.604,47.931,121070,122508,1438,scene_chunk_atempo_exact,PASS
+65,C14-I065,14,C14-I065.png,Tam trưởng lão từ trong sân bước ra.,196012985,199905900,4083.604,4164.706,81.102,122508,124941,2433,scene_chunk_atempo_exact,PASS
+66,C14-I066,14,C14-I066.png,"Trong nhà bếp, Vãn Ninh thắp thêm hai ngọn đèn.",199905900,201988893,4164.706,4208.102,43.396,124941,126243,1302,scene_chunk_atempo_exact,PASS
+67,C14-I067,14,C14-I067.png,Trên trán nàng có một lớp mồ hôi mỏng.,201988893,204524450,4208.102,4260.926,52.824,126243,127828,1585,scene_chunk_atempo_exact,PASS
+68,C14-I068,14,C14-I068.png,Nàng bưng thuốc sang gian phòng bên cạnh.,204524450,206673739,4260.926,4305.703,44.777,127828,129171,1343,scene_chunk_atempo_exact,PASS
+69,C14-I069,14,C14-I069.png,"Tạ Hành Chu đứng bên cạnh, không dám làm phiền.",206673739,210293133,4305.703,4381.107,75.404,129171,131433,2262,scene_chunk_atempo_exact,PASS
+70,C14-I070,14,C14-I070.png,"Bữa tối hôm ấy, trong nồi cháo có thêm một ít dược liệu bổ dưỡng mà lão Đỗ gửi tặng.",210293133,214111438,4381.107,4460.655,79.548,131433,133820,2387,scene_chunk_atempo_exact,PASS
+71,C14-I071,14,C14-I071.png,"Đêm khuya, Tạ Hành Chu trở về phòng.",214111438,218396214,4460.655,4549.921,89.266,133820,136498,2678,scene_chunk_atempo_exact,PASS
+72,C14-I072,14,C14-I072.png,"Ngoài cửa sổ, gió thổi qua.",218396214,220442330,4549.921,4592.549,42.627,136498,137776,1278,scene_chunk_atempo_exact,PASS
+73,C14-I073,14,C14-I073.png,"Sáng hôm sau, Kỷ Thanh La đã có thể tự ngồi dậy.",220442330,226625590,4592.549,4721.366,128.818,137776,141641,3865,scene_chunk_atempo_exact,PASS
+74,C14-I074,14,C14-I074.png,Tam trưởng lão đang ngồi sửa chiếc ghế gỗ trong sân.,226625590,235236285,4721.366,4900.756,179.389,141641,147023,5382,scene_chunk_atempo_exact,PASS
+75,C14-I075,14,C14-I075.png,Ba ngày sau.,235236285,238672954,4900.756,4972.353,71.597,147023,149171,2148,scene_chunk_atempo_exact,PASS
+76,C14-I076,14,C14-I076.png,“Tiểu sư huynh!”,238672954,240051963,4972.353,5001.083,28.729,149171,150032,861,scene_chunk_atempo_exact,PASS
+77,C14-I077,14,C14-I077.png,"Trước cánh cổng hỏng có một người đàn ông mặc áo vải màu xám, tóc đã điểm bạc.",240051963,245201787,5001.083,5108.371,107.288,150032,153251,3219,scene_chunk_atempo_exact,PASS
+78,C14-I078,14,C14-I078.png,Người đàn ông áo xám đứng dậy.,245201787,247255931,5108.371,5151.165,42.795,153251,154535,1284,scene_chunk_atempo_exact,PASS
+79,C14-I079,14,C14-I079.png,"Cuối cùng, Tam trưởng lão nhận lấy phong thư.",247255931,251189509,5151.165,5233.115,81.950,154535,156993,2458,scene_chunk_atempo_exact,PASS
+80,C14-I080,14,C14-I080.png,Tam trưởng lão lạnh lùng nói:,251189509,254660530,5233.115,5305.428,72.313,156993,159163,2170,scene_chunk_atempo_exact,PASS
