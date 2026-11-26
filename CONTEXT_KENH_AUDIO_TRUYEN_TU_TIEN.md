@@ -1,9 +1,11 @@
 # CONTEXT CHUYỂN SESSION — DỰ ÁN KÊNH YOUTUBE AUDIO TRUYỆN TU TIÊN NGUYÊN TÁC
 
-**Phiên bản:** 3.0 (kế thừa v2.0 ngày 23/11/2026 và v1.0 ngày 22/11/2026)  
-**Ngày cập nhật:** 25/11/2026  
-**Trạng thái hiện tại:** Đã khởi tạo repo Git `SangTacTruyenTuTien`, chủ dự án xác nhận commit/push các bước 1–7 **và file context cập nhật trước đó**; đã chọn *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* làm hướng phát triển (CHƯA FINAL). Đã lựa chọn các hướng thiết kế nam chính qua **bước 8.14**, bao gồm **Đao Thể Song Tu**, thể chất nguyên tác có tên làm việc **Vạn Chiến Tàng Phong Thể**, cơ chế **Chiến Thế – Tàng Phong – Ngưng Phong** (tất cả vẫn DRAFT/CHƯA FINAL). **Chưa chốt tên truyện, tên nhân vật, tên tông môn, hệ thống cảnh giới; chưa viết chương chính thức; chưa sản xuất audio/video hoặc đăng YouTube.**  
-**Mục đích file:** Bàn giao đầy đủ bối cảnh để session mới tiếp tục mà không làm lại hoặc tự chốt. **ƯU TIÊN ĐỌC MỤC 18–25 (cập nhật 25/11/2026), sau đó mục 12–17 để xem nguồn gốc, đặc biệt nguyên văn cảnh thử ở mục 15. Mục 1–17 là lịch sử và có thể chứa trạng thái cũ; mọi xung đột phải ưu tiên lựa chọn mới hơn trong mục 18–25.**
+**Phiên bản:** 5.0 (kế thừa đầy đủ v4.0 và lịch sử v1.0–v3.0)  
+**Ngày cập nhật:** 25/11/2026 — sau khi kiểm tra thành công kết nối GitHub và thống nhất quy trình sáng tác nhất quán dài kỳ  
+**TRẠNG THÁI MỚI NHẤT:** 7 chương FINAL của truyện *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* đã được người dùng duyệt. **Ngày 25/11/2026, ChatGPT đã trực tiếp xác minh có thể truy cập GitHub repository `dinhngocquanghuy/SangTacTruyenTuTien` và đọc được cả 7 file FINAL tại `03-MANUSCRIPTS/approved/`.** GitHub App đang chọn quyền truy cập theo **selected repositories**, và kiểm tra danh sách installation cho thấy **chỉ repository này**. Tại lần kiểm tra gần nhất repository hiển thị **Public**; người dùng chọn để Public tạm thời do gặp vấn đề push trong SourceTree khi thử chuyển Private. **Không tự sửa repository, commit, push hoặc đổi quyền khi chưa được người dùng yêu cầu.** Đã có thumbnail Tập 1 và storyboard 217 cảnh; chưa có xác nhận WAV/MP4 đã dựng xong hoặc video đã đăng YouTube.  
+**ĐỌC TRƯỚC KHI LÀM BẤT KỲ ĐIỀU GÌ:** **MỤC 36–42 (CẬP NHẬT V5.0)** là quy trình bắt buộc cho session mới; kế đến mục 26–35 là tình trạng truyện, tài liệu sản xuất, rồi mới tham khảo lịch sử 1–25. **Các mốc “chưa có chương”, “bước 8.15”, “chưa kết nối GitHub” trong lịch sử đã lỗi thời.** File này không thay thế nguyên văn bản thảo FINAL trên GitHub.
+
+**TỰ ĐỘNG HANDOFF CHO SESSION MỚI — KHÔNG CẦN NGƯỜI DÙNG DÁN THÊM PROMPT:** Khi nhận file context này, hãy (1) đọc ngay mục 36–42 và 26–35; (2) dùng GitHub connector kiểm tra quyền truy cập **chỉ** `dinhngocquanghuy/SangTacTruyenTuTien`; (3) đọc những tài liệu quyết định/cốt truyện và **cả 7 chương FINAL từ GitHub**, không chỉ dựa vào tóm tắt; (4) xác định CANON/DRAFT/MYSTERY/PLANNED và điểm nối Chương 7 → 8; (5) báo cáo ngắn gọn những gì đã xác minh, những gì chưa xác minh và đề xuất **đúng một bước tiếp theo**; (6) chờ yêu cầu của người dùng, **không tự viết Chương 8, không tự commit**. Nếu connector không sẵn có trong session mới, phải nói thật và hướng dẫn khôi phục kết nối, không tưởng tượng là đã đọc GitHub.
 
 ---
 
@@ -699,3 +701,282 @@ Các mối liên hệ **do trợ lý đề xuất, chưa phê duyệt**:
 > Tôi gửi file context **v3.0 cập nhật 25/11/2026** cho dự án `SangTacTruyenTuTien`. Hãy đọc **toàn bộ**, nhưng ưu tiên **mục 18–25** (mới nhất), sau đó mục 12–17 (lịch sử và nguyên văn cảnh mẫu). Tôi đã tạo repo và commit/push bước 1–7, đồng thời lưu bản context trước đó. Hướng truyện *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* đã được chọn để phát triển nhưng **chưa FINAL**. Nam chính là tán tu cấp thấp, hài hước, nhân hậu, sắc bén dưới vẻ cà lơ phất phơ, muốn tiêu dao và bảo vệ người quan trọng; theo **Đao Thể Song Tu**. Chúng tôi đã chọn hướng thể chất nguyên tác *Vạn Chiến Tàng Phong Thể* với **Chiến Thế – Tàng Phong – Ngưng Phong** (tên và chi tiết đều DRAFT), càng đánh/càng chém có chất lượng càng mạnh trong trận và tiến bộ vĩnh viễn sau trận; thức tỉnh dần; **cái giá khí huyết lớn** (không dùng phản phệ Đao Ngân); ban đầu tự động rồi **tự nghiên cứu** để điều khiển; không cố giấu biểu hiện nhưng giấu cơ chế và giới hạn; **bước 8.14 đã chọn C: Đao và Thể độc lập → cộng hưởng → hợp nhất**. Tôi đã thích đoạn thử văn xuôi mục 15, nhưng chưa phải chương 1. **Đừng tự chốt FINAL; đừng viết chương chính thức, tạo audio/ảnh/video; hãy tiếp tục từ bước 8.15 (hồ sơ V1 DRAFT để review) và hướng dẫn các thay đổi Git từng bước một, đợi tôi xác nhận đã push rồi mới đến bước tiếp.**
 
 **Nguyên tắc cập nhật tiếp theo:** Mỗi khi có lựa chọn mới ở session khác, giữ nguyên lịch sử, bổ sung ngày/phiên bản, ghi rõ mức độ DRAFT/FINAL và đường dẫn file Git mà người dùng thực sự đã push. Không diễn giải lại các đề xuất cũ thành quyết định chính thức.
+
+---
+
+# CẬP NHẬT V4.0 — CHỐT 7 CHƯƠNG FINAL VÀ GIAO AGENT DỰNG AUDIO TẬP 1 (25/11/2026)
+
+> **MỤC 26–35 LÀ BẢN BÀN GIAO MỚI NHẤT.** Mọi mô tả ở mục 1–25 trái với các mục này đều là **lịch sử**, không phải trạng thái hiện hành. Không xóa phần cũ vì cần lưu quá trình sáng tạo. **Khi có sai lệch về tình tiết thực tế, mở nguyên văn 7 chương FINAL trước khi phát biểu hoặc viết tiếp.**
+
+## 26. TÓM TẮT 60 GIÂY — ĐIỂM DỪNG THỰC TẾ
+
+- **Dự án:** Truyện tu tiên nguyên tác Việt Nam, dùng AI hỗ trợ sáng tác; xuất bản audiobook dạng video lên YouTube, mục tiêu mỗi tập khoảng 1–3 giờ, tập đầu nhắm khoảng 2 giờ và có minh họa chuyển cảnh theo nội dung.
+- **Tên kênh đã được người dùng lựa chọn trong trao đổi riêng về branding:** **Tiên Vực Ký** (đã yêu cầu avatar, ảnh bìa, watermark; lưu ý cần kiểm tra file/hình thực tế nếu tiếp tục thiết kế). Không đồng nhất tên **kênh** với tên **bộ truyện**. Việc đã tạo/đặt tên kênh không đồng nghĩa đã tải video lên.
+- **Tên truyện làm việc / tiền đề:** *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát*. Trên thumbnail Tập 1 dùng cách viết ngắn nổi bật **TÔNG MÔN BỊ TRUY SÁT**. Chưa có một quyết định riêng xác nhận tên thương mại dài là tên chính thức bất biến của toàn series, nhưng các Chương 1–7 đã FINAL theo nội dung riêng.
+- **Điểm cốt lõi:** Đã sáng tác và người dùng **CHỐT FINAL TOÀN BỘ CHƯƠNG 1, 2, 3, 4, 5, 6, 7**. Đây là nội dung phải dùng nguyên văn để TTS, storyboard và mọi công việc tiếp nối. **Chương 8 chưa được giao viết/chưa có bản FINAL trong cuộc hội thoại này.**
+- **Tên nam chính đã dùng trong bản FINAL:** **Tạ Hành Chu**; tông môn trong truyện **Thanh Vân Tông**. Những chỗ ở lịch sử ghi “chưa chọn tên nam chính/Thanh Vân Tông chỉ là ví dụ” là trạng thái **trước khi viết chương**, không còn đúng đối với 7 chương đã FINAL.
+- **Chủ dự án đã góp ý và được sửa:** (1) Giới thiệu nhân vật bằng tên, ưu tiên “Tạ Hành Chu” hoặc “Hành Chu”, hạn chế đại từ “hắn”; (2) tuyệt đối không gọi nam chính là “người tán tu” như đại từ thay tên; (3) kiểm tra cuối chương trước/đầu chương sau để tránh lặp nguyên văn khi ghép giọng đọc; (4) không commit Git theo mỗi chỉnh sửa nhỏ.
+- **Tư liệu sản xuất:** Thumbnail `thumbnail-part-1.png`; storyboard/CSV đề xuất 217 ảnh, hướng dẫn tạo ảnh, prompt agent tổng chỉ huy. Người dùng chụp ảnh Windows Explorer xác nhận file trong repo.
+- **Trạng thái production thật:** **Chưa được xác nhận** giọng nữ đã tạo, số lượng ảnh/clip đã hoàn thành, thời lượng WAV, MP4 FINAL, upload YouTube hoặc YPP. **Prompt đã được cung cấp không có nghĩa agent đã chạy.**
+- **Việc tiếp theo:** Có thể tiếp tục **theo dõi/QA agent đang dựng Tập 1**, yêu cầu kiểm tra file FINAL nếu người dùng cung cấp; hoặc **viết Chương 8** khi người dùng giao (phải đọc Chương 7 FINAL). Không tự bắt đầu hoạt động khác khi chỉ nhận context.
+
+## 27. CÁC CHƯƠNG TRUYỆN ĐÃ CHỐT — NGUỒN CHUẨN
+
+Đúng đường dẫn theo repo `SangTacTruyenTuTien` (đã thấy file trong ảnh chụp thư mục `03-MANUSCRIPTS/approved`):
+
+| Chương | Tựa đề | File nguồn CHÍNH THỨC | Trạng thái |
+|---|---|---|---|
+| 1 | **Bao Ăn, Bao Ở** | `03-MANUSCRIPTS/approved/CHUONG-0001-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+| 2 | **Người Trong Phong Thư** | `03-MANUSCRIPTS/approved/CHUONG-0002-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+| 3 | **Người Trở Về Trong Sương** | `03-MANUSCRIPTS/approved/CHUONG-0003-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+| 4 | **Ba Lối Xuống Núi** | `03-MANUSCRIPTS/approved/CHUONG-0004-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+| 5 | **Bụi Tro Trên Phong Thư** | `03-MANUSCRIPTS/approved/CHUONG-0005-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+| 6 | **Một Bữa Cơm Trước Trận** | `03-MANUSCRIPTS/approved/CHUONG-0006-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+| 7 | **Thanh Vân Không Bán Người** | `03-MANUSCRIPTS/approved/CHUONG-0007-FINAL.md` | User chốt FINAL từ DRAFT V2 |
+
+- **Chương 1:** Viết ban đầu theo phong cách văn xuôi có cảnh/hội thoại. Phản hồi user: không nên dùng “hắn” dày đặc; sửa DRAFT V2 để giới thiệu **Tạ Hành Chu** ngay đầu và dùng tên nhân vật phù hợp; user nói **“ok chốt chương 1”**.
+- **Chương 2:** DRAFT V1 bị lỗi **lặp nguyên văn câu đe dọa “Trước khi trời sáng, giao người ra. Nếu không, cả núi cùng chôn.”** ở cuối Chương 1 và đầu Chương 2, gây lặp voice. Sửa cả câu lặp và câu nhắc lại không cần thiết trong DRAFT V2, **không sửa Chương 1 FINAL**; user nói **“chốt chương 2”**. Tình tiết chương: phong thư/độc châm, mối đe dọa đối với Thanh Vân Tông, cuộc đối đầu ban đêm, Kỷ Thanh La trở về bị thương.
+- **Chương 3–7:** Sáng tác một đợt 5 chương DRAFT V1 để review. User góp ý bỏ “người tán tu” như đại từ chỉ Tạ Hành Chu; trợ lý báo đã sửa **25 vị trí** ở bản DRAFT V2. User nói **“chốt chương 3-7”**; 5 bản FINAL được xuất dựa trên V2. Không tự thay đổi lời văn đã duyệt.
+- **Thống kê cũ:** Assistant từng ước lượng 7 chương ~19.800 “từ/tiếng” tính theo khoảng trắng, có thể gần 2 tiếng với TTS vừa phải. **Chỉ là ước tính chưa kiểm chứng bằng WAV cuối cùng**; không ép thời lượng thành 120:00 bằng cách kéo giọng đọc hay lặp cảnh.
+- **Tôn trọng CANON:** Những chi tiết cụ thể như ai nói câu nào, thời điểm xuất hiện bí mật, thương tích, địa hình, thứ tự giao đấu, cliffhanger cuối Chương 7 phải **đọc nguyên bản Markdown**. Các phần mô tả tóm tắt trong context/storyboard chỉ dùng để tìm đường, không được thay thế nguồn truyện.
+
+### 27.1. Quy ước khi viết tiếp Chương 8 trở đi
+
+1. Mở **ít nhất toàn bộ Chương 7 FINAL**, và đọc thêm các chương trước khi cần kiểm tra sự kiện, đặc biệt các manh mối kéo dài từ Chương 1–6; không viết từ tóm tắt mơ hồ.
+2. **Tạ Hành Chu** là tên gọi chính; **Hành Chu** dùng để tránh lặp tên liên tục; đôi lúc có thể lược chủ ngữ khi rõ người thực hiện. **Không dùng “người tán tu” hoặc “hắn” lặp dày làm đại từ thay nam chính**. “Tán tu” chỉ dùng khi mô tả thân phận thật.
+3. Văn phong là **tiểu thuyết đang diễn ra**, không phải synopsis, giới thiệu bìa sách, voice thuyết minh trước nội dung. Hài hước qua tương tác, trận chiến có chiến thuật, thương tích và giới hạn tu vi hợp lý.
+4. **Kiểm tra câu/đoạn cuối chương trước với câu/đoạn đầu chương sau** trước khi đưa TTS. Không lặp cliffhanger nguyên văn. Nếu lặp ý cần thiết, diễn đạt diễn tiến tiếp theo từ hành động và cảm giác mới, tránh “nhắc lại” như phim truyền hình.
+5. Không tự thêm chi tiết trở thành CANON về cảnh giới, Vạn Chiến Tàng Phong Thể, nguồn gốc môn phái, đạo lữ nếu không được xây dựng trong cốt truyện và user duyệt. Giữ cơ chế Chiến Thế/Tàng Phong/Ngưng Phong là **thiết kế DRAFT** trừ phần đã thể hiện rõ bằng văn bản FINAL.
+6. Viết **DRAFT → user review → chỉnh sửa → user chốt FINAL**. Chỉ khi FINAL mới đưa vào kho bản chuẩn và commit.
+
+## 28. LIÊN TỤC CỐT TRUYỆN TẬP 1 — CÁC MỐC ĐÃ ĐƯỢC DÙNG ĐỂ LẬP STORYBOARD
+
+> Phần này là **lược đồ định hướng từ nội dung các phiên trước**, không phải thay thế 7 file FINAL. Khi cần biết ai/chuyện gì/chi tiết nào xảy ra chính xác, mở bản thảo gốc. Không suy diễn các mốc thành lời thoại nguyên văn.
+
+| Chương | Trục hình ảnh/sự kiện đã dùng cho storyboard |
+|---|---|
+| 1 | Tạ Hành Chu đến tông môn núi đổ nát vì bảng tuyển đệ tử **“không thu phí, bao ăn, bao ở”**; gặp Tam trưởng lão, người ở tông môn và A Thạch; xuất hiện mối đe dọa phong thư |
+| 2 | Mũi kim độc và phong thư; cảnh phòng bị/giao đấu ban đêm; đại sư tỷ trở về bị thương |
+| 3 | **Kỷ Thanh La** trở về, vết thương và dấu vết truy sát; **Dẫn Hương Trùng**; chuẩn bị đối phó |
+| 4 | **Ba lối xuống núi**, bố trí đối phó kẻ đột nhập; chiến đấu, nhân vật **Chu Tứ** |
+| 5 | Khai thác dấu vết/đối chất, thuốc và bí mật liên quan **Trạm Thanh Giản**; **mảnh đồng hình cánh chim** |
+| 6 | Bữa cơm và tình nghĩa trước trận, chuẩn bị kế hoạch; **Trác Cửu** xuất hiện |
+| 7 | Cao trào giao chiến với kẻ truy sát, bảo vệ đồng môn; bước ngoặt gia nhập tông môn, **dấu đóng chìm** và manh mối dẫn sang tập tiếp theo |
+
+**Các nhân vật/tên cần giữ nhất quán trong giọng đọc và hình:** Tạ Hành Chu, Kỷ Thanh La, Vãn Ninh, A Thạch, Tam trưởng lão, Trác Cửu; có các tên riêng khác trong bản thảo và storyboard. Chỉ khẳng định quan hệ, lai lịch, tuổi và tướng mạo theo **nguyên văn FINAL**, không suy luận chỉ vì tên/giới tính/giai đoạn của câu chuyện. **Thể chất đặc biệt chưa được đánh thức hoàn toàn trong Tập 1** theo hướng xây dựng đã duyệt.
+
+## 29. THUMBNAIL TẬP 1 VÀ ĐỊNH HƯỚNG HÌNH ẢNH
+
+- Người dùng yêu cầu một thumbnail YouTube bắt mắt cho audio Tập 1, **bắt buộc có số 1** để phân biệt tập.
+- Đã tạo hình 16:9 theo phong cách tiên hiệp điện ảnh, nhân vật nam Tạ Hành Chu mặc áo cổ phong xanh xám cầm **đao**, khí chất phóng khoáng, một nữ tu sĩ khí chất bí ẩn, sơn môn đổ nát và bầu trời đêm; trên ảnh có chữ lớn **“TÔNG MÔN BỊ TRUY SÁT”** và **“TẬP 1”**, kèm chữ nhỏ **“AUDIO TRUYỆN TU TIÊN”**.
+- Trong ảnh chụp của người dùng, tài liệu thumbnail đang nằm tại **`BUILD FINAL CLIP/thumbnail-part-1.png`**. Đây là tài nguyên đầu vào đã được người dùng sắp vào thư mục dựng. **Không tự tạo lại thumbnail** nếu không có yêu cầu sửa.
+- Khi cần thiết kế nhân vật nhất quán cho loạt clip, thumbnail chỉ là **tham chiếu mỹ thuật**, phải đối chiếu mô tả nhân vật và sự kiện trong FINAL. Không tự suy diễn rằng mọi hiệu ứng tím/giáp đẹp/kiếm trên ảnh là kỹ năng đã xuất hiện trong truyện.
+
+## 30. STORYBOARD 217 ẢNH MINH HỌA — TƯ LIỆU ĐÃ BÀN GIAO
+
+- Người dùng yêu cầu “list các ảnh để agent làm clip chuyển cảnh giữa các ảnh này liên tục khi phát audio nhằm mô tả cho cốt truyện”.
+- Trợ lý đã tạo storyboard **217 cảnh/ảnh dự kiến** dựa trên 7 chương FINAL và tài liệu cho agent tạo ảnh, chuyển động, đồng bộ với lời đọc. **217 là số mục storyboard, KHÔNG PHẢI số ảnh/clip thực sự đã được render.**
+- Phân bổ: **Chương 1: 37, Chương 2: 32, Chương 3: 23, Chương 4: 30, Chương 5: 27, Chương 6: 30, Chương 7: 38 = 217**.
+- Các file trong `BUILD FINAL CLIP` **đã hiện trong ảnh chụp Windows Explorer**, gồm:
+  - `STORYBOARD-ANH-TAP-01.md` — danh sách cảnh theo thứ tự; lời kể neo cảnh, miêu tả hình và gợi ý chuyển động.
+  - `DANH-SACH-ANH-TAP-01-AGENT.csv` — bảng cho agent xử lý có cấu trúc.
+  - `PROMPT-DUNG-CHUNG-CHO-AGENT.md` — quy tắc chung tạo ảnh/clip.
+  - `README.md` — hướng dẫn dùng bộ dữ liệu.
+  - `thumbnail-part-1.png` — thumbnail Tập 1.
+- Bộ ZIP từng bàn giao trong chat: `STORYBOARD-ANH-AUDIO-TAP-01-CHO-AGENT.zip`; nhưng trong ảnh user đã **giải nén ra các file trên**. Khi session mới, ưu tiên file thực tế người dùng đang có thay vì đòi file ZIP cũ.
+- **Không có timestamp chính xác trước khi làm audio.** Agent phải lấy text neo cảnh → đối chiếu với voice thực tế, không chia đều 217 ảnh theo thời gian và không tạo hình làm lộ cao trào trước lúc người kể tới.
+- Để clip nhìn như phim minh họa thay vì slideshow, có thể tạo các chuyển động/hình cận cảnh/phân góc bổ sung; **không được kéo một đoạn video ngắn bằng lặp/đảo ngược hoặc chỉ zoom ảnh liên tục**.
+
+## 31. VỊ TRÍ THƯ MỤC MÁY NGƯỜI DÙNG — ĐÃ THỂ HIỆN TRONG ẢNH CHỤP
+
+Đường dẫn breadcrumb của Windows Explorer:
+
+```text
+Downloads > Youtube 2 > SangTacTruyenTuTien > BUILD FINAL CLIP
+Downloads > Youtube 2 > SangTacTruyenTuTien > 03-MANUSCRIPTS > approved
+```
+
+Cấu trúc cần dựa vào khi hướng dẫn agent:
+
+```text
+SangTacTruyenTuTien/
+├── 03-MANUSCRIPTS/
+│   └── approved/
+│       ├── CHUONG-0001-FINAL.md
+│       ├── CHUONG-0002-FINAL.md
+│       ├── CHUONG-0003-FINAL.md
+│       ├── CHUONG-0004-FINAL.md
+│       ├── CHUONG-0005-FINAL.md
+│       ├── CHUONG-0006-FINAL.md
+│       └── CHUONG-0007-FINAL.md
+└── BUILD FINAL CLIP/
+    ├── thumbnail-part-1.png
+    ├── DANH-SACH-ANH-TAP-01-AGENT.csv
+    ├── PROMPT-DUNG-CHUNG-CHO-AGENT.md
+    ├── README.md
+    └── STORYBOARD-ANH-TAP-01.md
+```
+
+**Không biết ký tự ổ đĩa/đường dẫn tuyệt đối từ ảnh chụp**, vì chỉ hiển thị từ thư mục `Downloads`. Agent có quyền truy cập máy cần **tự phát hiện đường dẫn đầy đủ**. ChatGPT trong session mới **không mặc nhiên đọc được ổ đĩa trên máy Windows**; muốn phân tích file thực tế, người dùng phải upload hoặc dùng công cụ có quyền kết nối.
+
+## 32. PROMPT TỔNG CHỈ HUY ĐÃ SOẠN CHO AGENT DỰNG VIDEO FINAL
+
+- Trong hội thoại, trợ lý đã giao **một prompt rất chi tiết** có tiêu đề **“NHIỆM VỤ: SẢN XUẤT VIDEO AUDIO TRUYỆN TU TIÊN — TẬP 1 FINAL”** (writing block trong chat, **không có xác nhận đã lưu thành file**). Nếu session mới cần chỉnh prompt, hãy yêu cầu người dùng đưa lại prompt hoặc dựa vào tóm tắt này, **không tuyên bố đã trực tiếp chạy agent**.
+- **Mục tiêu:** Từ 7 chương FINAL + storyboard + thumbnail → giọng kể nữ tiếng Việt → ảnh minh họa → image-to-video/chuyển động → ghép dựng khớp voice → xuất MP4 upload YouTube.
+- **YÊU CẦU GIỌNG KỂ BẮT BUỘC:** Agent **tự tạo TTS giọng NỮ tiếng Việt**, trẻ trung trưởng thành, **trong trẻo, sáng, ấm, dễ nghe, phát âm rõ chữ**, không rít/chói/giọng trẻ con; tốc độ vừa phải, ngắt nghỉ dấu câu tự nhiên, có cảm xúc theo cảnh hài/chiến đấu/bí ẩn/đồng môn. **Một giọng và một cấu hình xuyên suốt 7 chương**, không đổi giọng từng chunk, không nhầm tên nhân vật; giữ lời thoại nguyên văn, chỉ điều chỉnh biểu cảm/nhịp đọc.
+- **Thứ tự dựng nên giữ:** Đọc 7 file FINAL → lọc metadata Markdown ra khỏi TTS → tạo audio theo chương → kiểm tra đối chiếu văn bản/phát âm → ghép audio liền mạch, ngắt chương tự nhiên khoảng 1,5–3 giây → dựa trên audio thực tế để gắn cảnh → tạo ảnh và clip chuyển động → đồng bộ bằng mốc lời đọc → dựng MP4 → kiểm tra bản xuất. **TTS trước để hình bám theo truyện**, không ép nhanh/chậm voice để vừa clip.
+- **Các điều cấm:** Không sửa cốt truyện, không cắt/lược/đọc thiếu câu, không chèn intro quảng cáo/CTA mới; không đọc metadata DRAFT/FINAL và cú pháp Markdown; không mất/lặp chữ ở ranh giới chunk/chương; không tự chế cảnh trái truyện; không dùng 217 ảnh chỉ để đủ số; không slideshow đứng hình rung/zoom máy móc; không lặp hoặc tua ngược clip ngắn; không dùng nhạc bản quyền thiếu phép, không để nhạc át voice; không báo hoàn thành nếu chưa có file MP4 thật.
+- **Phong cách ảnh:** Tiên hiệp cổ phong điện ảnh, 16:9, nhân vật đẹp nhất quán khuôn mặt/trang phục/vũ khí; Tạ Hành Chu **đao tu**, chưa có tu vi/vũ khí/công pháp vượt nội dung FINAL; Kỷ Thanh La và đồng môn giữ thương tích/trang phục theo từng sự kiện.
+- **Đồng bộ:** Storyboard có câu dẫn/mốc truyện; agent nên dùng **forced alignment** hoặc so khớp đoạn đọc, kiểm tra thủ công các điểm không chắc; mỗi ảnh/clip phải xuất hiện đúng thời điểm lời kể, **không chia đều 217 mục cho 120 phút**. Tạo thêm góc máy nếu voice dài; chuyển động phù hợp cảnh (gió, sương, tay áo, bước đi, giao đấu, đường đao...).
+- **Định dạng video yêu cầu:** 1920×1080, 16:9, 30 FPS, H.264 trong MP4, AAC 48 kHz, không watermark; giữ đúng thời lượng giọng đọc thực tế, **không ép đúng 120 phút**.
+- **Thư mục do agent tạo:** `BUILD FINAL CLIP/WORK` (audio từng chương, ảnh, clip, project, timeline) và `BUILD FINAL CLIP/OUTPUT` (xuất thành phẩm); không sửa `approved`.
+- **Đầu ra được yêu cầu (tên đề xuất trong prompt):**
+  - `BUILD FINAL CLIP/OUTPUT/TONG-MON-BI-TRUY-SAT-TAP-01-FINAL.mp4`
+  - `BUILD FINAL CLIP/OUTPUT/TAP-01-VOICE-FULL.wav`
+  - `BUILD FINAL CLIP/OUTPUT/TAP-01-TTS-SCRIPT.txt`
+  - `BUILD FINAL CLIP/OUTPUT/TAP-01-TIMELINE.csv`
+  - `BUILD FINAL CLIP/OUTPUT/TAP-01-QA-REPORT.md`
+- **QA cần có:** đủ 7 chương, không lặp/thiếu câu giữa các chương, phát âm đúng Tạ Hành Chu/Kỷ Thanh La/Vãn Ninh/A Thạch/Tam trưởng lão/Trác Cửu, giọng ổn định, sạch lỗi ghép, ảnh bám đúng truyện, không lặp cảnh vô lý, không black frames/lỗi codec, kiểm tra phát được MP4 từ đầu tới cuối. Có lỗi phải sửa rồi mới coi FINAL.
+- **Không xác nhận đã tạo voice, ảnh hay video:** đến thời điểm ghi context, chỉ có **prompt và tài liệu đầu vào**, chưa có báo cáo agent/video xuất thực tế từ người dùng.
+
+## 33. GIT VÀ EVIDENCE — CÁCH LÀM ĐÃ ĐƯỢC NGƯỜI DÙNG YÊU CẦU SỬA
+
+- Người dùng phản hồi trực tiếp: **“hạn chế commit nhiều lần, chốt 1 chương rồi commit luôn cứ commit theo từng hành động vậy không hợp lý”**.
+- **QUY TẮC MỚI CÓ ƯU TIÊN CAO:** Không commit riêng mỗi DRAFT V1/V2, mỗi lời góp ý, mỗi chỉnh sửa hay mỗi file lặt vặt. Sau khi user review/chốt **một chương FINAL**, có thể commit một lần gồm FINAL và bằng chứng liên quan. Khi user **chốt đồng thời Chương 3–7**, trợ lý đã hướng dẫn **một commit cho cả 5 chương**; tránh spam commit.
+- Giữ các bản nháp và nhận xét để làm bằng chứng nguyên tác; có thể lưu locally trong lúc review rồi gom vào commit khi FINAL; không bỏ mất lịch sử, không chỉnh nội dung đã FINAL nếu không được giao.
+- Trong hội thoại, trợ lý đã cung cấp lệnh `git add`, `git commit`, `git push` cho Chương 1, Chương 2, Chương 3–7. **Không có xác nhận cụ thể về việc các lệnh ấy đã được người dùng chạy/push thành công**. **Ảnh chụp cho thấy file đã nằm trong thư mục dự án trên máy**, không chứng minh Git remote có commit tương ứng.
+- Các log bằng chứng trước đây như `DECISIONS.md`, `EVIDENCE-LOG.md`, `04-CREATIVE-EVIDENCE` đã được lập từ đầu; có thể cập nhật khi có bản FINAL và báo cáo QA sản xuất. Không invent hash Git, mã EV, cam kết YPP, ngày giờ render hoặc URL YouTube.
+- **Context file này có thể lưu một lần** vào repo theo đường dẫn context đang dùng. Khi cập nhật theo lô, hướng dẫn **commit một lần có chủ đích**, không bắt user commit liên tục chỉ để hoàn tất cuộc trò chuyện.
+
+## 34. NHỮNG VIỆC CHƯA HOÀN THÀNH VÀ HƯỚNG TIẾP TỤC
+
+**Đã hoàn thành về mặt nội dung/đầu vào:** 7 chương đã được tác giả duyệt FINAL; thumbnail Tập 1; tài liệu storyboard 217 cảnh, CSV/README/prompt tạo ảnh; prompt tổng giao agent sản xuất giọng nữ và MP4.
+
+**Chưa có bằng chứng hoàn thành trong chat:** File TTS/WAV, các clip image-to-video, file MP4 FINAL, QA report thực, kết quả thời lượng, xác nhận agent đã dựng, xác nhận đăng video lên YouTube, URL tập 1. Không giả định kênh đã đủ điều kiện kiếm tiền.
+
+**Có hai nhánh công việc hợp lệ tùy câu hỏi user tiếp theo:**
+1. **Production Tập 1:** Nếu user cho biết agent đã chạy hoặc gửi video/log, hãy kiểm tra sản phẩm thực tế, phát âm giọng nữ, đồng bộ ảnh, trùng lặp voice, bản quyền nhạc/TTS, thời lượng và chất lượng cảnh. Nếu user muốn cải tiến prompt, chỉ sửa đúng phần gây lỗi. Trước khi nói “video sẵn sàng đăng”, phải có file MP4 được kiểm tra thực tế và quyền dùng tài nguyên được làm rõ.
+2. **Sáng tác tiếp:** Khi user yêu cầu **Chương 8** hoặc arc tiếp theo, yêu cầu mở nguyên văn Chương 7 FINAL và các chương có liên quan; viết từng chương có cảnh và mạch nối; **giữ Tạ Hành Chu**, không làm mạnh quá sớm; review rồi chốt; commit theo FINAL. Nếu user yêu cầu mở rộng Story Bible (hệ thống cảnh giới, Vạn Chiến Tàng Phong Thể, tuyến đạo lữ), có thể làm song song nhưng không được sửa hồi tố 7 chương FINAL.
+
+**Chưa chốt ở tầng quy hoạch dài kỳ:** Hệ thống cảnh giới tổng quát, bản hồ sơ thiết kế hoàn chỉnh Vạn Chiến Tàng Phong Thể, xung đột toàn thế giới, nguồn gốc quá khứ các sư tỷ/tông chủ và số lượng đạo lữ. Không suy diễn từ ý tưởng lịch sử ở mục 18–25 thành cơ chế chính thức đã công khai trong 7 chương đầu. Tuy vậy, **những gì được viết trong 7 chương FINAL là CANON**, ngay cả khi trước đó từng nằm trong phần DRAFT thiết kế.
+
+## 35. PROMPT NGẮN ĐỂ DÁN VÀO SESSION CHATGPT MỚI (CẬP NHẬT V4.0)
+
+> Tôi gửi file **CONTEXT_KENH_AUDIO_TRUYEN_TU_TIEN v4.0 ngày 25/11/2026**. Hãy **đọc mục 26–35 trước**, sau đó tham khảo mục 1–25 như lịch sử. **Dự án hiện đã có 7 chương FINAL** của truyện *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát*: các file `03-MANUSCRIPTS/approved/CHUONG-0001-FINAL.md` đến `CHUONG-0007-FINAL.md`. Nam chính **Tạ Hành Chu**, Thanh Vân Tông, Kỷ Thanh La, Vãn Ninh, A Thạch, Tam trưởng lão, Trác Cửu… Khi viết tiếp, hãy mở **nguyên văn FINAL** chứ đừng dựa vào bản tóm tắt context. Lời kể ưu tiên **Tạ Hành Chu/Hành Chu**, không dùng “người tán tu” để chỉ main, tránh lặp câu ở ranh giới chương và không tự sửa chương FINAL. **Chỉ commit Git sau khi chương được tôi chốt FINAL**, không commit theo từng sửa nháp. Tập audio số 1 đã có **thumbnail `thumbnail-part-1.png`**, storyboard/CSV **217 ảnh** và prompt tổng cho agent dựng video, yêu cầu **tự tạo giọng kể NỮ tiếng Việt trong trẻo, rõ ràng, nhất quán** rồi đồng bộ hình ảnh và xuất MP4. Các tư liệu đầu vào đã được tôi đặt ở `SangTacTruyenTuTien/BUILD FINAL CLIP`, chương FINAL ở `03-MANUSCRIPTS/approved`; **chưa xác nhận agent đã làm xong voice hay MP4**. Bạn hãy dựa đúng trạng thái này để tiếp tục công việc tôi giao, không tự viết chương hoặc tuyên bố video hoàn thành.
+
+**Quy tắc duy trì context:** Khi kết thúc một đợt sáng tác/sản xuất có quyết định mới, hãy **append một mục cập nhật có ngày + trạng thái DRAFT/FINAL + file nguồn**, đặt mức ưu tiên mới lên đầu file; không xóa lịch sử đã duyệt, không suy đoán trạng thái Git/agent và tuyệt đối không giả mạo QA. Nên giữ thêm một `NEXT-SESSION-HANDOFF` ngắn khi dự án kéo dài hàng trăm chương, nhưng không bắt người dùng tạo/commit tài liệu mới trừ khi họ yêu cầu.
+
+---
+
+# CẬP NHẬT V5.0 — GITHUB ĐÃ KẾT NỐI, QUY TẮC BÀN GIAO VÀ CONTINUITY DÀI KỲ (25/11/2026)
+
+> **ƯU TIÊN CAO NHẤT KHI MỞ SESSION MỚI: ĐỌC MỤC 36–42.** Phần 1–35 được bảo lưu làm lịch sử và tài liệu tham khảo; nếu có khác biệt về tiến độ, trạng thái kết nối hoặc quy trình, thông tin **đã kiểm chứng mới hơn** trong các mục này được ưu tiên. Bản thảo chương FINAL nguyên văn là nguồn truyện chuẩn; mọi khẳng định chưa có nguồn hoặc chỉ do nhân vật suy đoán không được nâng thành sự thật CANON.
+
+## 36. HƯỚNG DẪN TỰ KHỞI ĐỘNG CHO MỌI SESSION MỚI — KHÔNG ĐƯỢC LÀM TẮT
+
+**Người dùng chỉ cần upload đúng file context v5.0 này và nói muốn tiếp tục dự án; không phải dán thêm prompt dài hay tải lên hàng trăm chương.** Assistant session mới phải chủ động thực hiện những việc dưới đây, sau đó chờ nhiệm vụ cụ thể:
+
+1. **Đọc context:** Ưu tiên mục 36–42, sau đó 26–35 và các lịch sử quyết định trong 18–25 khi cần. Đừng dùng các mục lịch sử lỗi thời để kết luận 'chưa viết chương' hoặc 'chưa đặt tên nam chính'.
+2. **Kiểm tra kết nối GitHub trong session HIỆN TẠI:** Dùng công cụ GitHub đang có để truy cập chính xác `dinhngocquanghuy/SangTacTruyenTuTien`. **Không giả định** lần kết nối thành công trong session trước bảo đảm tất cả session sau có quyền giống nhau. Nếu không truy cập được, nêu rõ lỗi/quyền thiếu, yêu cầu người dùng kết nối lại hoặc cấp quyền trước khi sáng tác; không bịa từ ký ức.
+3. **Xác minh repo và nội dung:** Kiểm tra nhánh chính (lần xác minh gần nhất là `main`), duyệt file liên quan trong `README.md`, `DECISIONS.md`, `EVIDENCE-LOG.md`, `01-STORY-BIBLE/` nếu tồn tại, và **đọc đủ nguyên văn** `03-MANUSCRIPTS/approved/CHUONG-0001-FINAL.md` đến `CHUONG-0007-FINAL.md` trước đợt tiếp nối ban đầu. Các file có trong GitHub đã được thử đọc thành công một phần đầu từng file ở session 25/11/2026, nhưng session mới vẫn phải tự kiểm tra.
+4. **Lập sơ bộ bản đồ nhất quán từ nguồn:** Ai ở đâu, đang biết gì, quan hệ và thương tích ra sao; tu vi, vũ khí/vật phẩm, sự kiện theo thời gian, dấu hiệu thể chất; các manh mối/âm mưu mới chỉ **nghi ngờ**, chưa tiết lộ. Tham chiếu **chương và đoạn có thật**, đừng tự đặt chứng cứ hay tình tiết.
+5. **Phân loại trạng thái mọi thông tin:** `CANON` (đã xuất hiện trong chương FINAL hoặc được user chốt rõ), `DRAFT` (phương án chưa duyệt), `MYSTERY` (bí mật hoặc giả thuyết chưa xác nhận), `PLANNED` (định hướng tương lai, chưa xảy ra), `UNKNOWN` (thiếu nguồn). Giữ ranh giới giữa chúng; không tự đưa DRAFT thành sự thật chỉ vì hấp dẫn.
+6. **Kiểm tra điểm nối hiện tại:** Đọc cuối Chương 7 nguyên văn, đồng thời các phục bút từ chương trước; không nhắc lại nguyên văn cliffhanger ở đầu Chương 8, không làm mất thương tích, vật phẩm và hậu quả.
+7. **Báo cáo ngắn:** Nêu các file đã thật sự đọc, trạng thái FINAL mới nhất, tình tiết/điểm treo quan trọng, mục chưa rõ và **một bước hợp lý tiếp theo**. **Chưa tự viết Chương 8, dựng video hay chỉnh Git** nếu người dùng chưa giao.
+
+**Đặc biệt:** File context không phải một 'câu lệnh cho phép tự thao tác mọi thứ'. Các hoạt động ghi/sửa repository, thay đổi bí mật thế giới, sửa chương FINAL và tạo file mới cần đúng phạm vi người dùng giao. Nếu một nguồn trong GitHub mâu thuẫn với lời kể trong context, chỉ ra nguồn và sự khác nhau để người dùng quyết định khi cần.
+
+## 37. KẾT NỐI GITHUB — TRẠNG THÁI ĐÃ XÁC MINH 25/11/2026
+
+| Trường | Kết quả đã xác minh trong session 25/11/2026 |
+|---|---|
+| Dịch vụ | GitHub connector dành cho ChatGPT |
+| Repository duy nhất của installation được liệt kê | `dinhngocquanghuy/SangTacTruyenTuTien` |
+| Nhánh mặc định | `main` |
+| Kiểu chọn repository của GitHub App | `selected` (chỉ chọn một số repository) |
+| Danh sách repo trả về theo installation | Chỉ `SangTacTruyenTuTien` |
+| Khả năng truy cập | Đọc được `README.md` và đã gọi đọc thành công cả bảy path `CHUONG-0001-FINAL.md` ... `CHUONG-0007-FINAL.md` |
+| Quyền được trả về | `pull: true`, `push: true` (có khả năng đọc/ghi, nhưng **không được tự ghi**) |
+| Visibility khi kiểm tra | `public` — đây là trạng thái ở thời điểm kiểm tra, có thể thay đổi sau này |
+
+- **Lưu ý bảo mật:** Repo Public có thể bị người khác xem. Người dùng từng thử chuyển Private nhưng SourceTree không push được; sau đó **chủ động chọn giữ Public tạm thời**, sẽ xử lý Private sau. **Không tự đổi visibility, remote hay xác thực SourceTree** nếu người dùng không yêu cầu.
+- Kết nối GitHub là **cơ chế truy xuất file**, không phải 'trí nhớ 1.000 chương' tự động. Session mới phải sử dụng công cụ đọc/tra cứu thực tế, nêu rõ những file đã đọc, và không tuyên bố quyền truy cập chắc chắn nếu không kiểm tra lại.
+- Không cần yêu cầu người dùng upload lại toàn bộ 7 chương nếu repo đã truy cập được. Nếu repo không truy cập, giải quyết kết nối trước; tránh bắt user chép lại hàng trăm chương bằng tay.
+- **Git lịch sử:** Đã có 7 chương FINAL trong GitHub, nhưng không suy diễn các bản DRAFT, evidence, sản phẩm video hay context mới đã được push nếu chưa kiểm chứng. Người dùng yêu cầu **chỉ một commit sau mỗi chương/đợt chương đã duyệt FINAL**, không spam commit cho thao tác nhỏ.
+
+## 38. NGUYÊN TẮC CANON — KHÔNG CHO SESSION MỚI TỰ VIẾT LỆCH CỐT TRUYỆN
+
+**Ưu tiên theo loại thông tin, tránh 'ghi đè lịch sử':**
+
+1. **Nội dung truyện đã chốt:** Nguyên văn file `03-MANUSCRIPTS/approved/CHUONG-XXXX-FINAL.md` là chuẩn về những gì đã xảy ra, được nói và được mô tả trong truyện. Không sửa hồi tố 7 chương nếu người dùng không giao.
+2. **Quyết định thiết kế được user xác nhận:** Trích dẫn/ghi nhận trong `DECISIONS.md`, hồ sơ Story Bible đã duyệt và context lịch sử. Đây là giới hạn cho việc viết **tương lai**, nhưng các phương án còn DRAFT chưa tự trở thành luật thế giới bất biến.
+3. **Sự thật trong thế giới truyện khác với lời nhân vật:** Câu nói, suy đoán, lời đe dọa, tin đồn và phán đoán của nhân vật là **thông tin được kể**, không mặc nhiên là sự thật khách quan. Chẳng hạn, dấu đóng chìm trong Chương 7 là **manh mối**, không đủ để tự kết luận Thanh Vân Tông chắc chắn là thủ phạm.
+4. **Outline/nhật ký phục bút:** Kế hoạch tương lai là `PLANNED`, có thể điều chỉnh bằng review. Chi tiết chưa tiết lộ phải có kiểm soát truy cập về mặt cốt truyện (ai biết gì, ở chương nào), tránh spoil sớm.
+5. **Bản nháp AI hoặc suy luận không có nguồn:** Không được tự nâng lên CANON, không dùng để thay thế bản FINAL khi hai bên không khớp.
+
+**Quy ước viết:** Tên nam chính **Tạ Hành Chu / Hành Chu**; tránh 'người tán tu' như đại từ và tránh lạm dụng 'hắn'. Nam chính ở giai đoạn đầu không phải cao thủ giả vờ, sử dụng đao và rèn luyện thể chất; thể chất đặc biệt chưa thức tỉnh hoàn chỉnh. Giữ hài hước, lòng nhân hậu, trí thông minh thể hiện qua hành động; có hậu quả thương tích/tu luyện. Không tiết lộ ngay bí mật đồng môn/tông chủ hoặc tự gán đạo lữ chỉ vì các tuyến romance nằm trong định hướng.
+
+**Lỗi phải kiểm tra mỗi chương:** Lặp câu giữa ranh giới các chương; chuyển địa điểm/giờ giấc vô lý; nhân vật biết điều chưa được tiết lộ; thương tích biến mất; phục hồi/cảnh giới tăng không có nguyên nhân; thay loại vũ khí; tuổi/tên/quan hệ mâu thuẫn; tiết lộ bí mật chưa đến lúc; tên gọi chính bị đổi; tình tiết đã giải quyết bị kể như chưa xảy ra.
+
+Nếu phát hiện mâu thuẫn trong nguồn FINAL, **báo người dùng cùng đoạn trích dẫn có thật** để xử lý, không tự chỉnh một chương đã chốt.
+
+## 39. THIẾT KẾ CONTINUITY SYSTEM — HỆ THỐNG QUẢN LÝ 1.000+ CHƯƠNG
+
+**Chưa có xác nhận hệ thống sau đây đã được tạo trong GitHub. Đây là kiến trúc ĐỀ XUẤT cần thiết lập từ nguyên văn 7 chương FINAL rồi cập nhật theo mỗi chương mới.** Tên thư mục/path bên dưới là gợi ý, không khẳng định đang tồn tại. Có thể tận dụng cấu trúc đang có để khỏi tạo trùng.
+
+| Lớp dữ liệu | Chức năng | File gợi ý (chưa tạo) |
+|---|---|---|
+| CANON REGISTER | Các quy tắc và quyết định user chốt, phân biệt DRAFT và PLANNED | `01-STORY-BIBLE/CANON-REGISTER.md` |
+| CHARACTER STATE | Hồ sơ người, trạng thái gần nhất, quan hệ, thương tích, ai biết gì | `05-CONTINUITY/CHARACTER-STATE.md` |
+| CHAPTER INDEX | Mỗi chương FINAL một bản ghi ngắn, sự kiện và tham chiếu chương/đoạn | `05-CONTINUITY/CHAPTER-INDEX.md` |
+| TIMELINE & POWER | Thời gian/địa điểm, cảnh giới, kỹ năng, công pháp, vật phẩm, giới hạn | `05-CONTINUITY/TIMELINE-POWER-ITEMS.md` |
+| PLOT THREADS | Phục bút, bí mật, câu hỏi mở, lần gieo, lần cập nhật, lần giải đáp | `05-CONTINUITY/OPEN-PLOT-THREADS.md` |
+| CURRENT STATE / HANDOFF | Điểm kết mới nhất, danh sách nguồn cần đọc và đúng bước đang chờ | `05-CONTINUITY/NEXT-CHAPTER-HANDOFF.md` |
+
+**Các quy tắc vận hành để quy mô truyện lớn không làm sai lệch:**
+
+- Không nén cả nghìn chương thành một đoạn tóm tắt rồi coi là đủ. **Giữ nguyên bản thảo FINAL trong GitHub**; tài liệu liên tục chỉ là chỉ mục dẫn tới nguồn, không phải bản thay thế.
+- Khi có 1.000 chương, session mới đọc **CANON + CURRENT STATE + PLOT THREADS + mục lục/đoạn liên quan và 1–3 chương gần nhất** (tùy dung lượng và công việc), sau đó tìm đọc **nguyên văn các chương cũ có manh mối liên quan**. Không cần nạp tất cả 1.000 chương vào một cuộc trò chuyện.
+- Với **bước khởi tạo hiện tại chỉ có 7 chương**, session mới nên đọc đủ cả 7 và dựng continuity v1 dựa trên nguồn gốc; đánh dấu `UNKNOWN` nếu một mục không có chứng cứ, không suy ra tuổi/cảnh giới chỉ từ hình ảnh bìa.
+- Mỗi bản ghi phục bút nên có mã ổn định, `status: OPEN/RESOLVED`, `introduced_in`, `last_seen`, nhân vật biết gì, mô tả nội dung, và **đường dẫn/chương/câu dẫn có thật**. Chỉ có trạng thái `RESOLVED` sau khi có chương FINAL xác nhận.
+- Mỗi bản ghi chương nên có `chapter_id`, tiêu đề, thời gian/địa điểm tương đối, nhân vật xuất hiện, hành động quan trọng, thay đổi cảnh giới/trạng thái/vật phẩm, thoại/ý nghĩa quan trọng, phục bút mở/đóng và `source_path`.
+- Không tự đổi tên file, nhận định/chuyển tình tiết thành sự kiện mới khi lập bảng; phân biệt **thông tin người kể xác nhận** với **tin đồn/giả thuyết do nhân vật nói**.
+- Theo dõi mạch nhân vật và mục tiêu **dài hạn**, nhưng kế hoạch tình tiết không được 'ép' người viết lặp mô típ hoặc làm mất nhịp truyện; mỗi lần tạo mới phải sáng tạo trên nền CANON.
+- Sau mỗi chương FINAL, cập nhật dữ liệu liên tục và review kiểm tra mâu thuẫn **trước khi commit chung**. Sau 10–20 chương hoặc hết một arc, thực hiện một vòng continuity audit sâu, đối chiếu với những chương nguồn thực tế.
+
+## 40. QUY TRÌNH SÁNG TÁC VÀ GIT TỪ CHƯƠNG 8 TRỞ ĐI
+
+1. **Nhận yêu cầu:** User chỉ định viết Chương 8 hoặc nhóm chương; không tự viết chỉ vì đã nhận file context.
+2. **Đọc trước khi viết:** Mở Chương FINAL gần nhất, continuity/canon liên quan, và truy xuất chính xác các chương cũ có nhân vật/bí mật đang tiếp diễn.
+3. **Lập kiểm tra ngắn:** Xác nhận sự kiện đang treo, nhân vật biết gì, điểm bắt đầu chương tiếp và những điều cấm mâu thuẫn. Nếu người dùng muốn, có thể trình bày outline để duyệt trước khi viết.
+4. **Viết DRAFT:** Văn xuôi tiểu thuyết với cảnh/đối thoại thực, theo tên nhân vật và nhịp audio, không chép lại câu cuối chương trước.
+5. **Review/hiệu chỉnh:** User nhận xét; assistant cập nhật DRAFT V2/V3...; không commit theo từng lần thay đổi.
+6. **Chỉ khi user nói CHỐT FINAL:** Xuất bản FINAL nguyên văn đã duyệt. Ghi nhận kết quả review, cập nhật Continuity, Chapter Index, Open Plots, Character State; kiểm tra sự mâu thuẫn và ranh giới chương.
+7. **Một commit có chủ đích:** Gộp FINAL + tài liệu liên quan trong cùng commit/đợt user chốt; không push nếu chưa được user yêu cầu hoặc cho phép. Nếu connector có quyền ghi, vẫn phải hỏi/làm đúng phạm vi nhiệm vụ; không dùng quyền push để tự sửa tác phẩm.
+8. **Handoff:** Ghi trạng thái hiện tại và các mục cần đọc, giúp session sau tiếp tục đúng việc, không bắt user giải thích lại.
+
+## 41. PHÂN BIỆT TẬP AUDIO 1 VÀ TẬP 2 — KHÔNG TỰ ĐÁNH ĐỒNG
+
+- **Tập 1** đã có **Chương 1–7 FINAL**, thumbnail nhãn `TẬP 1`, storyboard 217 cảnh, prompt agent tự sản xuất voice NỮ rõ, trong trẻo, dễ nghe và dựng video; **không có xác nhận** đã dựng WAV/MP4 hay upload YouTube thành công.
+- **Tập 2** dự kiến tiếp từ **Chương 8**, số chương thực tế căn theo thời lượng TTS và mạch truyện; không mặc định 7 chương/tập là luật bắt buộc, không ép đoạn cuối cắt dở. **Chưa có Chương 8 FINAL** tại thời điểm cập nhật.
+- Nếu nhận yêu cầu về **production Tập 1**, kiểm tra file thực tế do user/agent cung cấp, không lẫn với yêu cầu viết Chương 8.
+- Nếu nhận yêu cầu **sáng tác Tập 2**, phải dựa trên bản thảo FINAL và continuity, không xây lại premise/nhân vật/hệ thống từ đầu hoặc đề xuất một câu chuyện khác.
+- Nếu user hỏi **bước tiếp theo**, ưu tiên thiết lập **Continuity System V1 từ 7 chương FINAL** rồi mới triển khai Chương 8, trừ khi người dùng muốn đi thẳng vào sản xuất hoặc viết truyện.
+
+## 42. CHECKLIST BÀN GIAO VÀ CÂU LỆNH MỞ SESSION MỚI (ĐÃ TÍCH HỢP)
+
+**Bộ điều kiện cần xác nhận trong session mới:**
+
+- [ ] Đã đọc mục 36–42 + mục 26–35 của file context này.
+- [ ] Đã thử và xác nhận GitHub connector thực sự truy cập được **đúng** `dinhngocquanghuy/SangTacTruyenTuTien`.
+- [ ] Đã đọc đủ 7 chương FINAL (hoặc báo rõ chương không truy cập được), thay vì đoán từ mô tả.
+- [ ] Đã phân biệt các quy tắc được user chốt, đề xuất DRAFT, manh mối MYSTERY và kế hoạch PLANNED.
+- [ ] Đã xác nhận Chương 7 là điểm kết hiện tại và có các phục bút cần nối sang Chương 8.
+- [ ] Đã kiểm tra tài liệu Continuity có thật trên GitHub chưa; **không coi kiến trúc đề xuất trong mục 39 là file đã tạo**.
+- [ ] Đã báo cáo ngắn tình trạng, rủi ro mâu thuẫn và **chỉ một bước tiếp theo**.
+- [ ] **Chưa tự viết, chưa tự tạo/commit/sửa repository** khi chưa được user giao.
+
+**Người dùng mở session mới chỉ cần gửi file context này và nhắn một câu bình thường như 'Đọc file context và tiếp tục dự án'.** Assistant phải tự hiểu và thực hiện quy trình trên, không bắt người dùng copy lại một prompt riêng. Nếu có nhiệm vụ cụ thể kèm theo (ví dụ 'thiết kế Continuity V1', 'viết Chương 8', 'kiểm tra MP4 Tập 1'), làm đúng phạm vi yêu cầu và dùng GitHub làm nguồn đối chiếu.
+
+**Không hứa có trí nhớ hoàn hảo.** Hệ thống an toàn hơn là kết hợp bản thảo gốc + danh mục chứng cứ/canon + truy xuất các chương liên quan + QA trước FINAL. Mục tiêu là chương thứ 1.000 có thể tra đúng các sự kiện thật của những chương đầu, không để session tự bịa lại lịch sử.
+
