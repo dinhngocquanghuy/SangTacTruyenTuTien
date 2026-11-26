@@ -1,11 +1,13 @@
 # CONTEXT CHUYỂN SESSION — DỰ ÁN KÊNH YOUTUBE AUDIO TRUYỆN TU TIÊN NGUYÊN TÁC
 
-**Phiên bản:** 5.0 (kế thừa đầy đủ v4.0 và lịch sử v1.0–v3.0)  
-**Ngày cập nhật:** 25/11/2026 — sau khi kiểm tra thành công kết nối GitHub và thống nhất quy trình sáng tác nhất quán dài kỳ  
-**TRẠNG THÁI MỚI NHẤT:** 7 chương FINAL của truyện *Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát* đã được người dùng duyệt. **Ngày 25/11/2026, ChatGPT đã trực tiếp xác minh có thể truy cập GitHub repository `dinhngocquanghuy/SangTacTruyenTuTien` và đọc được cả 7 file FINAL tại `03-MANUSCRIPTS/approved/`.** GitHub App đang chọn quyền truy cập theo **selected repositories**, và kiểm tra danh sách installation cho thấy **chỉ repository này**. Tại lần kiểm tra gần nhất repository hiển thị **Public**; người dùng chọn để Public tạm thời do gặp vấn đề push trong SourceTree khi thử chuyển Private. **Không tự sửa repository, commit, push hoặc đổi quyền khi chưa được người dùng yêu cầu.** Đã có thumbnail Tập 1 và storyboard 217 cảnh; chưa có xác nhận WAV/MP4 đã dựng xong hoặc video đã đăng YouTube.  
-**ĐỌC TRƯỚC KHI LÀM BẤT KỲ ĐIỀU GÌ:** **MỤC 36–42 (CẬP NHẬT V5.0)** là quy trình bắt buộc cho session mới; kế đến mục 26–35 là tình trạng truyện, tài liệu sản xuất, rồi mới tham khảo lịch sử 1–25. **Các mốc “chưa có chương”, “bước 8.15”, “chưa kết nối GitHub” trong lịch sử đã lỗi thời.** File này không thay thế nguyên văn bản thảo FINAL trên GitHub.
+**Phiên bản:** 6.0 (kế thừa đầy đủ v5.0 và lịch sử v1.0–v4.0)  
+**Ngày cập nhật:** 26/11/2026 — sau khi hoàn thành 100% video và master audio FINAL Tập 1, chốt tiêu chuẩn voice đọc cho kênh  
+**TRẠNG THÁI MỚI NHẤT:** 
+- **Tập 1 FINAL ĐÃ HOÀN THÀNH 100% VÀ NGHIỆM THU ĐẦY ĐỦ:** Toàn bộ thành phẩm Tập 1 lưu trữ tại `SangTacTruyenTuTien/BUILD FINAL CLIP/OUTPUT/`, gồm: file video MP4 1080p ảnh tĩnh (`TONG-MON-BI-TRUY-SAT-TAP-01-FINAL.mp4`, 728.54 MB, thời lượng 01:38:39), file master audio WAV 48kHz stereo (`TAP-01-VOICE-FULL.wav`, 1.08 GB, thời lượng 01:38:47), file phụ đề YouTube SRT & VTT (`TONG-MON-BI-TRUY-SAT-TAP-01-FINAL.srt/vtt`, 1,737 phân đoạn câu), timeline đồng bộ CSV (`TAP-01-TIMELINE.csv`, 217 scenes), kịch bản đọc TXT (`TAP-01-TTS-SCRIPT.txt`, 19,790 từ) và báo cáo QA (`TAP-01-QA-REPORT.md`).
+- **TIÊU CHUẨN VOICE KÊNH ĐÃ ĐƯỢC CHỐT CHÍNH THỨC:** Giọng nữ đọc tiếng Việt chuẩn Google TTS (`gTTS`, `lang='vi'`, `tld='com'`), áp dụng bộ lọc tăng tốc độ **1.25x bằng FFmpeg `atempo=1.25` giữ nguyên cao độ (pitch-preserved)**, âm thanh chuẩn 48,000 Hz, 2 kênh Stereo. Đây là chuẩn bắt buộc cho Tập 2 và toàn bộ các tập tiếp theo của kênh.
+**ĐỌC TRƯỚC KHI LÀM BẤT KỲ ĐIỀU GÌ:** **MỤC 43–46 (CẬP NHẬT V6.0)** là quy chuẩn kỹ thuật sản xuất voice và video bắt buộc; kế đến mục 36–42 (quy tắc continuity, GitHub và sáng tác từ Chương 8); rồi mới tham khảo lịch sử phía trước.
 
-**TỰ ĐỘNG HANDOFF CHO SESSION MỚI — KHÔNG CẦN NGƯỜI DÙNG DÁN THÊM PROMPT:** Khi nhận file context này, hãy (1) đọc ngay mục 36–42 và 26–35; (2) dùng GitHub connector kiểm tra quyền truy cập **chỉ** `dinhngocquanghuy/SangTacTruyenTuTien`; (3) đọc những tài liệu quyết định/cốt truyện và **cả 7 chương FINAL từ GitHub**, không chỉ dựa vào tóm tắt; (4) xác định CANON/DRAFT/MYSTERY/PLANNED và điểm nối Chương 7 → 8; (5) báo cáo ngắn gọn những gì đã xác minh, những gì chưa xác minh và đề xuất **đúng một bước tiếp theo**; (6) chờ yêu cầu của người dùng, **không tự viết Chương 8, không tự commit**. Nếu connector không sẵn có trong session mới, phải nói thật và hướng dẫn khôi phục kết nối, không tưởng tượng là đã đọc GitHub.
+**TỰ ĐỘNG HANDOFF CHO SESSION MỚI — KHÔNG CẦN NGƯỜI DÙNG DÁN THÊM PROMPT:** Khi nhận file context này, hãy (1) đọc ngay mục 43–46, mục 36–42 và 26–35; (2) dùng GitHub connector kiểm tra quyền truy cập **chỉ** `dinhngocquanghuy/SangTacTruyenTuTien`; (3) đọc những tài liệu quyết định/cốt truyện và **cả 7 chương FINAL từ GitHub**, không chỉ dựa vào tóm tắt; (4) xác định CANON/DRAFT/MYSTERY/PLANNED và điểm nối Chương 7 → 8; (5) nắm chắc quy chuẩn voice 1.25x chuẩn gTTS để sản xuất các tập tiếp theo; (6) báo cáo ngắn gọn những gì đã xác minh, những gì chưa xác minh và đề xuất **đúng một bước tiếp theo**; (7) chờ yêu cầu của người dùng, **không tự viết Chương 8, không tự commit**. Nếu connector không sẵn có trong session mới, phải nói thật và hướng dẫn khôi phục kết nối, không tưởng tượng là đã đọc GitHub.
 
 ---
 
@@ -979,4 +981,122 @@ Nếu phát hiện mâu thuẫn trong nguồn FINAL, **báo người dùng cùng
 **Người dùng mở session mới chỉ cần gửi file context này và nhắn một câu bình thường như 'Đọc file context và tiếp tục dự án'.** Assistant phải tự hiểu và thực hiện quy trình trên, không bắt người dùng copy lại một prompt riêng. Nếu có nhiệm vụ cụ thể kèm theo (ví dụ 'thiết kế Continuity V1', 'viết Chương 8', 'kiểm tra MP4 Tập 1'), làm đúng phạm vi yêu cầu và dùng GitHub làm nguồn đối chiếu.
 
 **Không hứa có trí nhớ hoàn hảo.** Hệ thống an toàn hơn là kết hợp bản thảo gốc + danh mục chứng cứ/canon + truy xuất các chương liên quan + QA trước FINAL. Mục tiêu là chương thứ 1.000 có thể tra đúng các sự kiện thật của những chương đầu, không để session tự bịa lại lịch sử.
+
+---
+
+# CẬP NHẬT V6.0 — TIÊU CHUẨN KỸ THUẬT VÀ QUY TRÌNH TẠO VOICE AUDIO ĐỒNG BỘ CHO KÊNH (26/11/2026)
+
+> **QUY CHUẨN BẮT BUỘC CHO TOÀN BỘ CÁC TẬP TỪ TẬP 2 TRỞ ĐI:** Toàn bộ video audio truyện của kênh phải dùng chung một loại voice, cùng âm sắc, cùng tốc độ đọc 1.25x (giữ nguyên cao độ), cùng chuẩn định dạng 48kHz Stereo và cùng khoảng ngắt 2.0s giữa các chương để đảm bảo người nghe trải nghiệm như một người kể chuyện duy nhất xuyên suốt hàng trăm tập.
+
+## 43. TIÊU CHUẨN CẤU HÌNH VOICE TTS CHÍNH THỨC
+
+| Thông số | Giá trị chuẩn của kênh | Giải thích kỹ thuật & Lý do lựa chọn |
+| :--- | :--- | :--- |
+| **Engine TTS** | **Google Text-to-Speech (`gTTS`)** | Độ ổn định 100%, không bị giới hạn token / lỗi 403 WebSocket như Edge-TTS khi tạo hàng trăm file liên tục. |
+| **Ngôn ngữ (`lang`)** | `vi` (Tiếng Việt) | Phát âm chuẩn tiếng Việt phổ thông, tròn vành rõ chữ, chuẩn dấu câu. |
+| **Top-Level Domain (`tld`)** | `com` | Âm sắc nữ miền Bắc/Việt Nam chuẩn, trẻ trung, trong trẻo, tự nhiên, truyền cảm. |
+| **Tốc độ đọc chuẩn (Playback Speed)** | **1.25x** | Tốc độ gốc 1.0x (~145 từ/phút) hơi chậm đối với truyện tiên hiệp; tốc độ 1.25x (~180–190 từ/phút) giúp nhịp kể nhanh, dứt khoát, cuốn hút và giảm cảm giác lê thê. |
+| **Thuật toán tăng tốc** | **FFmpeg `atempo=1.25`** | **BẮT BUỘC DÙNG `atempo` ĐỂ GIỮ NGUYÊN CAO ĐỘ (PRESERVE PITCH)**. Tuyệt đối không đổi sample rate hay tăng pitch vì sẽ làm giọng the thé hoặc bị hiệu ứng sóc chuột (chipmunk). |
+| **Định dạng âm thanh phân cảnh** | **WAV (PCM 16-bit, 48,000 Hz, Stereo)** | Lệnh chuẩn: `ffmpeg -i in.mp3 -ar 48000 -ac 2 -c:a pcm_s16le out.wav`. |
+| **Định dạng Master Audio** | **WAV (PCM 16-bit, 48,000 Hz, Stereo)** | Ghép liên tục các phân cảnh và các chương theo đúng thứ tự. |
+| **Độ dài khoảng ngắt giữa các chương** | **2.0 giây im lặng tuyệt đối** | Lệnh tạo: `ffmpeg -f lavfi -i anullsrc=r=48000:cl=stereo -t 2.0 -c:a pcm_s16le silence_2s.wav`. Tránh ngắt quá lâu (>3s) hoặc dính câu (<1s). |
+| **Chuẩn Audio mux vào Video MP4** | **AAC, Bitrate 192 kbps, 48,000 Hz Stereo** | Lệnh mux: `-c:a aac -b:a 192k -ar 48000`. Âm thanh trong trẻo, không bị nén vỡ dải tần. |
+
+---
+
+## 44. QUY TRÌNH TIỀN XỬ LÝ VĂN BẢN (TEXT PREPROCESSING) TRƯỚC KHI ĐỌC
+
+Để giọng đọc mượt mà, không đọc nhầm các ký tự rác và không gây khó chịu cho người nghe:
+
+1. **Trích xuất từ nguồn chuẩn:** Chỉ lấy văn bản từ thư mục bản thảo đã duyệt `03-MANUSCRIPTS/approved/CHUONG-XXXX-FINAL.md`.
+2. **Loại bỏ siêu dữ liệu (Metadata stripping):**
+   - Xóa bỏ các dòng tiêu đề kỹ thuật: `# CHƯƠNG...`, `DRAFT`, `FINAL`, `version:`, `Trạng thái:`, ghi chú tác giả, đường dẫn file.
+   - Xóa bỏ toàn bộ ký hiệu định dạng Markdown: dấu sao `*`, dấu gạch dưới `_`, dấu thăng `#`, dấu ngoặc vuông `[]`, v.v. để AI không phát âm thành chữ "sao" hay "gạch".
+3. **Quy tắc đọc tiêu đề chương:**
+   - **Chỉ đọc tiêu đề chương đúng một lần** ở ngay đầu phân cảnh đầu tiên của chương tương ứng (Ví dụ: `Chương 8: ... Lời mở đầu...`).
+   - Tuyệt đối không lặp lại tiêu đề chương ở các phân cảnh tiếp theo trong cùng chương đó.
+4. **Không tự chèn tạp âm:**
+   - Tuyệt đối không tự chèn lời quảng cáo, câu kêu gọi like/subscribe/CTA, intro/outro kênh vào giữa nội dung truyện.
+   - Nội dung truyện phải thuần khiết, giữ nguyên vẹn 100% lời văn và hội thoại của tác giả.
+5. **Chia đoạn phân cảnh theo Storyboard (Scene Slicing):**
+   - Chia văn bản theo từng phân cảnh storyboard (thường từ 1 đến 3 câu văn, khoảng 15–40 từ/cảnh).
+   - Đặt tên file audio phân cảnh thống nhất theo mã ảnh: `CXX-IYYY.wav` (ví dụ `C08-I001.wav`).
+
+---
+
+## 45. QUY TRÌNH KỸ THUẬT CODE SẢN XUẤT VOICE (PYTHON + FFMPEG)
+
+Quy trình sản xuất tự động 5 bước đã được kiểm chứng chuẩn xác ở Tập 1:
+
+### Bước 1: Tạo audio từng cảnh bằng gTTS
+```python
+from gtts import gTTS
+import os, subprocess, time
+
+# text_content là đoạn văn bản sạch của phân cảnh
+tts = gTTS(text=text_content, lang="vi", tld="com")
+tts.save(f"scenes/{image_id}.mp3")
+
+# Chuyển đổi sang WAV chuẩn 48kHz Stereo
+subprocess.run([
+    "ffmpeg", "-y", "-i", f"scenes/{image_id}.mp3",
+    "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le",
+    f"scenes/{image_id}.wav"
+], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+```
+
+### Bước 2: Tăng tốc độ đọc lên 1.25x bằng FFmpeg `atempo=1.25`
+```python
+# Tăng tốc độ 1.25x giữ nguyên cao độ giọng (chạy song song ThreadPoolExecutor)
+subprocess.run([
+    "ffmpeg", "-y", "-i", f"scenes/{image_id}.wav",
+    "-filter:a", "atempo=1.25",
+    "-ar", "48000", "-ac", "2", "-c:a", "pcm_s16le",
+    f"scenes_125/{image_id}.wav"
+], check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+```
+
+### Bước 3: Ghép audio theo từng chương
+```python
+# Tạo file concat_ch_X.txt liệt kê tất cả scenes_125 của chương
+# Sau đó ghép nhanh bằng copy stream:
+subprocess.run([
+    "ffmpeg", "-y", "-f", "concat", "-safe", "0",
+    "-i", f"concat_ch_{ch_num}.txt", "-c", "copy",
+    f"chapter_{ch_num:02d}.wav"
+], check=True)
+```
+
+### Bước 4: Ghép toàn bộ các chương thành Master Voice
+```python
+# Nối các file chapter_XX.wav với silence_2s.wav ở giữa
+# silence_2s.wav: ffmpeg -y -f lavfi -i anullsrc=r=48000:cl=stereo -t 2.0 -c:a pcm_s16le silence_2s.wav
+subprocess.run([
+    "ffmpeg", "-y", "-f", "concat", "-safe", "0",
+    "-i", "concat_full.txt", "-c", "copy",
+    "OUTPUT/TAP-0X-VOICE-FULL.wav"
+], check=True)
+```
+
+### Bước 5: Tự động trích xuất phụ đề YouTube (SRT & VTT)
+- Phân tách từng phân cảnh thành các câu ngắn (2 đến 5 giây, tối đa 2 dòng, khoảng 10–18 từ).
+- Phân bổ thời gian theo tỷ lệ số từ của từng câu dựa trên thời lượng thực tế của phân cảnh.
+- Xuất song song file `.srt` và `.vtt` chuẩn UTF-8 để tải trực tiếp lên YouTube Studio.
+
+---
+
+## 46. DỮ LIỆU ĐỐI CHỨNG CHUẨN TỪ TẬP 1 (BENCHMARK DATA)
+
+Dùng các thông số sau để kiểm tra chéo (sanity check) khi sản xuất Tập 2 trở đi:
+
+- **Số chương Tập 1:** 7 chương (Chương 1 đến 7).
+- **Tổng số từ tiếng Việt:** 19,790 từ (1,540 đoạn văn).
+- **Số phân cảnh minh họa:** 217 scenes.
+- **Thời lượng đọc ở tốc độ 1.0x:** 02:03:26 (7,406 giây) — tương đương tốc độ trung bình 160 từ/phút.
+- **Thời lượng đọc ở tốc độ 1.25x:** **01:38:47** (5,927 giây) — tương đương tốc độ trung bình ~200 từ/phút (bao gồm cả ngắt nghỉ tự nhiên giữa các câu).
+- **Kích thước file Master Voice WAV:** 1,085.27 MB (1.08 GB).
+- **Kích thước file Video MP4 1080p (ảnh tĩnh + voice 1.25x):** 728.54 MB.
+- **Độ lệch giọng:** 0% (cùng một chất giọng nữ xuyên suốt từ giây đầu tiên đến giây cuối cùng).
+- **Quy chuẩn video:** 100% ảnh tĩnh đứng yên tuyệt đối (`tune: stillimage`), phong cách tiên hiệp thanh lệ, không dùng hiệu ứng lia/rung lắc.
+
 
