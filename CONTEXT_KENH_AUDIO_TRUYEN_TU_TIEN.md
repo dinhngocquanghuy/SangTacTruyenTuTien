@@ -1,14 +1,14 @@
 # CONTEXT CHUYỂN SESSION — DỰ ÁN KÊNH YOUTUBE AUDIO TRUYỆN TU TIÊN NGUYÊN TÁC
 
-**Phiên bản:** 7.0 (kế thừa toàn bộ v6.0 và lịch sử v1–v5)  
-**Ngày cập nhật:** 26/11/2026, 20:05 giờ Việt Nam.  
+**Phiên bản:** 8.0 (bảo lưu toàn bộ lịch sử v1–v7)  
+**Ngày cập nhật:** 29/11/2026, giờ Việt Nam.  
 **Tên kênh:** Tiên Vực Ký. **Truyện:** Tông Môn Của Những Kẻ Bị Thiên Hạ Truy Sát.
 
-**TRẠNG THÁI MỚI NHẤT:** Chương 1–14 đã được tác giả chốt FINAL; Tập 1 hoàn thành theo báo cáo lưu tại mục 43–46; Tập 2 đã bàn giao 7 bản thảo FINAL, thumbnail sửa đúng tên, storyboard 80 ảnh, tài liệu agent và SEO. Chưa xác nhận MP4/WAV/80 ảnh thực tế, upload YouTube hoặc push Chương 8–14. **Tập 3 dự kiến Chương 15–21, chưa viết.**
+**TRẠNG THÁI MỚI NHẤT:** Chương 1–21 đã chốt FINAL. Tập 3 (Ch15–21) đã bàn giao ZIP, người dùng đã giải nén 7 file FINAL vào approved (ảnh Explorer xác nhận), đã tạo 10 ảnh độc lập, người dùng đổi tên 1.png–10.png và đặt tại BUILD FINAL CLIP/Part3; đã giao prompt dựng video sửa đúng yêu cầu mỗi ảnh xuất hiện duy nhất một lần và thumbnail Tập 3. Chưa xác nhận push Ch15–21, render MP4/WAV, QA thực tế, SEO hoặc đăng Tập 3. **Tập 4 dự kiến Chương 22–28, chưa sáng tác.**
 
-**ĐỌC TRƯỚC:** Mục 47–56 (v7.0) là trạng thái hiện tại và quy chuẩn mới nhất; tiếp theo mục 43–46 (voice), mục 36–42 (continuity), mục 26–35 (lịch sử Tập 1). Các mục cũ có thể chứa trạng thái lịch sử đã hết hiệu lực, đặc biệt 217/300 ảnh và điểm nối Chương 7 → 8.
+**ĐỌC TRƯỚC:** Mục 57–65 (v8.0) ghi tiến độ và quy chuẩn mới nhất; mục 47–56 là lịch sử Tập 2, mục 43–46 voice, mục 36–42 continuity. Quy tắc 10 ảnh mỗi ảnh một lần của Tập 3 ghi đè quy tắc 80/217/300 ảnh khi sản xuất Tập 3; không tự mặc định số ảnh Tập 4 nếu chưa giao.
 
-**HANDOFF TỰ ĐỘNG:** Khi nhận file, kiểm tra connector GitHub đúng repo `dinhngocquanghuy/SangTacTruyenTuTien`, branch `main`, đọc nguyên văn Chương 14 FINAL và Chương 8–13 liên quan (ưu tiên đọc đủ 14 chương khi khả thi, tra các chương 1–7 theo phục bút). Kiểm tra tài liệu continuity thực tế và trạng thái push, không giả định. Báo ngắn kết quả, không bắt người dùng nhắc lại quy chuẩn. Nếu user yêu cầu viết Tập 3, viết liền mạch Chương 15–21 DRAFT để duyệt; chỉ khi user chốt mới xuất FINAL, cập nhật continuity và hướng dẫn một commit cho cả lô. Nếu chỉ yêu cầu đọc context, không tự viết. Không tự commit/push/upload. Nếu GitHub thiếu bản FINAL 8–14, dùng ZIP đã duyệt nếu có, không dùng tóm tắt làm bản thảo thay thế.
+**HANDOFF:** Kiểm tra repo `dinhngocquanghuy/SangTacTruyenTuTien`, branch `main`; đọc nguyên văn Ch21 FINAL và các chương liên quan Ch15–20, tra Ch1–14 theo phục bút. Nếu thiếu trên GitHub, dùng ZIP FINAL hoặc bản nguyên văn dự phòng tại mục 65. Khi user giao viết Tập 4, viết Ch22–28 DRAFT liền mạch, không ngoặc kép, không lặp câu nối chương, chỉ xuất FINAL khi được duyệt. Nếu chỉ đọc context thì báo kết quả và chờ yêu cầu. Không tự commit/push/upload. Không suy diễn trạng thái sản xuất.
 
 ---
 
@@ -1268,3 +1268,2584 @@ git push origin main
 5. Khi user yêu cầu SEO: 3 title, mô tả copy-post, tag giới hạn phù hợp, đúng Ch15–21, tên truyện/kênh; không bịa thời lượng/URL/trạng thái đăng.
 
 **Câu mở session mới không cần dài:** “Đọc context này, tiếp tục Tập 3 từ Chương 15 đến 21.” Assistant phải hiểu đã chốt Ch1–14, không viết lại Tập 2, không hỏi lại voice/ảnh tĩnh/quy chuẩn mỹ thuật, và phân biệt nhiệm vụ đọc context với yêu cầu sáng tác cụ thể. Nếu user chỉ muốn nắm context, báo xác minh và chờ giao việc. Nếu yêu cầu viết, làm ngay bản thảo dựa trên nguồn thực tế. Không hứa làm nền hoặc bảo user chờ kết quả tương lai.
+
+
+---
+
+# CẬP NHẬT V8.0 — TẬP 3 FINAL, HANDOFF TẬP 4 (29/11/2026)
+
+## 57. Tiến độ và nguồn chuẩn
+
+- Trong session này đã sáng tác đủ Ch15–21 DRAFT V1. User yêu cầu bỏ hết dấu ngoặc kép vì agent đọc thành tiếng; sau đó xác nhận “ok chốt kịch bản 15-21, bạn đưa tôi file lưu vào folder và commit”. Đã bàn giao `TAP-03-CHUONG-15-21-FINAL.zip`, cấu trúc `03-MANUSCRIPTS/approved/CHUONG-0015-FINAL.md` … `CHUONG-0021-FINAL.md`.
+- Đã kiểm tra lại ZIP thực tế khi lập context: 7 file UTF-8, ZIP không lỗi CRC, không có dấu ngoặc kép thẳng/cong, tổng 11.128 đơn vị đếm theo khoảng trắng không tính tiêu đề. Đây là tập ngắn hơn Tập 1 (19.790) và Tập 2 (~17.037). Không sửa/kéo dài hồi tố vì user đã chốt.
+- Ảnh Explorer xác nhận đủ 7 tên file ở `Downloads/Youtube 2/SangTacTruyenTuTien/03-MANUSCRIPTS/approved`. Không chứng minh nội dung local trùng byte ZIP hoặc remote đã push. Đã đọc Ch14 từ GitHub trong session, chưa xác minh Ch15–21 remote. Không tuyên bố đã commit. Lệnh đã giao (Git Bash tại root repo):
+
+```bash
+git add 03-MANUSCRIPTS/approved/CHUONG-001[5-9]-FINAL.md 03-MANUSCRIPTS/approved/CHUONG-002[01]-FINAL.md
+git status
+git commit -m "Approve chapters 15-21 FINAL for audiobook episode 3"
+git push origin main
+```
+
+- User đã yêu cầu 10 ảnh minh họa trực tiếp (thay vì storyboard 80 ảnh cho tập này), đã tạo đủ 10 ảnh độc lập, đổi tên và xác nhận chúng có trên máy qua ảnh Explorer. Đã tạo thumbnail. Đã giao prompt production, chưa nhận báo cáo Agent hay file thành phẩm. Chưa soạn SEO Tập 3 trong session này.
+- Quy tắc bằng chứng: chỉ commit khi FINAL được duyệt, gom cả 7 chương một lần nếu duyệt cùng lúc. Ưu tiên lưu text nguyên tác và lịch sử sáng tạo, không bắt buộc commit WAV/MP4. Không tự sửa bản FINAL, không tự ghi hash/ngày push/QA giả.
+
+## 58. Continuity từng chương Tập 3 (đối chiếu với nguyên văn ở mục 65)
+
+| Chương | Tên | Diễn biến chuẩn |
+|---|---|---|
+| 15 | Người trở về từ quá khứ | Khách áo xám tên Lục Văn Sơn. Người giấu mặt gặp ông ba tháng trước, biết nhà cũ phía bắc Trường Phong Thành và món nợ 30 linh thạch, nhưng không trả lời câu hỏi nơi uống rượu trước khi rời tông. Mang hộp đồng quấn 3 dây đen, mảnh ngọc trắng nứt khắc chữ Minh, thư hẹn sau bảy ngày nước Bạch Khê đổi dòng. Vãn Ninh kiểm tra hộp; Tam trưởng lão nhận ra ngọc của người từng sống ở tông, không nói tên. Lục ở dưới chân núi, từng bị theo dõi. Trưởng lão hẹn dạy đao giờ Mão. |
+| 16 | Một đao cũng chưa đủ | Tam trưởng lão dùng cành cây chỉ ra lỗi chân, hông, vai, chuyển trọng tâm, thu đao; Hành Chu luyện cơ bản, giảm tiêu hao, tự ghi nhận khác biệt giữa khí huyết khi luyện và khi thực chiến. Vãn Ninh chữa cổ tay Hành Chu, vệt đỏ của nàng đậm hơn. Lục gửi tin có người lạ ở Bạch Khê và thu mua bản đồ. |
+| 17 | Bạch Khê cốc | Kỷ Thanh La đưa bản đồ, ở lại cùng A Thạch vì độc thương chưa khỏi, cho Hành Chu túi bột nhiễu mùi. Bốn người đi: Hành Chu, Vãn Ninh, Tam trưởng lão, Lục Văn Sơn. Có hai đường chính và đường nhỏ phía nam. Theo dõi ba kẻ tìm cửa đá, trú mái đá, phát hiện dấu đao; đêm mưa thấy ánh sáng và tiếng kim loại. |
+| 18 | Những vết đao trên vách đá | Nước đổi dòng, nhóm năm người lộ cửa đá nhưng không mở được; ba người áo đen tới tranh chấp, cả nhóm rút. Hành Chu thấy ba nét chỉ đường dưới dấu đao, tìm hang sau dây leo; tự suy luận tổ hợp ba nhát, thử động tác, không có linh quang. Tìm cuốn ghi chép luyện thể bị ẩm, thiếu trang, không được luyện bừa. Có kẻ phát hiện cửa hang. |
+| 19 | Lấy đao mở đường | Lục dùng gậy trúc tước kiếm, Hành Chu gạt đòn và áp dụng tổ hợp ba nhát với nam nhân mặt dài. Vãn Ninh dùng bột cay giúp rút lui. Hành Chu giữ lối hẹp, bị kiếm sượt vai, khí huyết nóng lên, vận đao thuận hơn nhưng sau đó đau ngực/suy kiệt, chủ động rút, Lục hỗ trợ. Vãn Ninh băng vai. Nhận ra cửa đá có thể không phải mục tiêu thực; bản đồ có nét mực chỉ đường cũ phía nam. |
+| 20 | Bí mật dưới cây cầu cũ | Cầu đá rêu phủ, ký hiệu ba ngọn núi là dấu chỉ đường cũ của Thanh Vân Tông. Vãn Ninh tìm viên đá có dấu mòn, Lục đẩy, Tam trưởng lão lấy ống trúc bịt sáp và thư mới. Thư: Ngọc chỉ là tín vật. Đừng tới cửa đá. Có người đang dùng danh nghĩa Thanh Vân Tông thu gom tu sĩ. Hãy tìm người giữ sổ tại bến Bạch Lộ. Bến phía đông Trường Phong Thành. Vãn Ninh phát tác vệt đỏ, tay lạnh, chưa muốn nói; Hành Chu tôn trọng, yêu cầu báo khi đau. Trưởng lão biết một phần. Hành Chu nghiên cứu ghi chép, không luyện bừa, hứa sau này mua thuốc cho nàng. Cả nhóm quay về, Lục xuống núi dò tin. |
+| 21 | Ngày đầu tiên của con đường cường giả | Cả nhóm trở về, đại sư tỷ được kể lại chuyện; Hành Chu quyết định rèn luyện trước khi xuống núi. Tập nâng đá, chân/lưng, đứng tấn, chạy bậc thềm, luyện ba động tác với gậy gỗ dưới hướng dẫn trưởng lão. Thấy hồi phục hơi nhanh hơn, chưa biết nguyên nhân. Hành Chu mang canh nóng cho Vãn Ninh; nàng yêu cầu đừng đứng lại một mình khi nguy hiểm, chàng đồng ý. Sáng ngày thứ bảy sau khi về Bạch Khê, Lục gửi một thiếu phụ tới tông bằng tín vật. Phu quân mất tích gần hai tháng, nhận việc vận chuyển tại Bạch Lộ hẹn 10 ngày công hậu; giấy nhận việc có tên thương đội, tiền ứng và dấu chim dang cánh; mảnh giấy nhận ba ngày trước bảo tìm Thanh Vân Tông, đừng tới quan phủ. Nàng hỏi phu quân ở đâu; Hành Chu kéo ghế, mời kể từ đầu, A Thạch đi lấy nước. |
+
+## 59. Trạng thái nhân vật/vật phẩm tại cuối Ch21
+
+- Tạ Hành Chu: đệ tử Thanh Vân Tông, đao tu + thể tu giai đoạn đầu, dùng đao bản dày nặng hơi ngắn, dây gai cũ quấn chuôi; không có tên đao, cấp pháp khí hoặc đột phá cảnh giới mới. Vai bị kiếm sượt ở Ch19 đã băng; sau bảy ngày có luyện tập, không khẳng định lành hoàn toàn. Biết phối hợp ba nhát (mở đường, ép đổi vị trí, tập trung lực), chưa đặt tên đao pháp; chưa hoàn thiện. Tự ghi chép khí huyết, chủ động dừng khi quá tải; không biết tên thể chất. Không biến dấu hiệu thành thức tỉnh hoàn toàn, không tự ban công pháp/đao ý hay nhảy cảnh giới.
+- Vãn Ninh: nhị sư tỷ luyện đan/chữa thương; vệt đỏ cổ tay lan dài, phát tác ở cầu đá, tay lạnh, dùng thuốc mang theo và đỡ hơn. Chưa nói nguyên nhân, nói hiện tại không phải vấn đề dược liệu. Tam trưởng lão biết một phần. Quan tâm Hành Chu rõ hơn, gọi Hành Chu, dặn đừng một mình cản địch; chưa là đạo lữ, chưa tỏ tình. Không biến nàng chỉ thành người chữa thương/đối tượng tình cảm.
+- Kỷ Thanh La: đại sư tỷ, độc thương giảm nhưng chưa hoàn toàn hồi phục, có thể đi lại; ở lại tông cùng A Thạch khi nhóm đi Bạch Khê; giữ giấy dầu có dấu đóng chìm. Không tự cho nàng vận dụng toàn lực hay khỏi hẳn.
+- Tam trưởng lão: từng có tu vi cao, hiện hạn chế vận dụng linh lực, có kinh nghiệm dạy đao và thân pháp cơ bản; biết dấu chỉ đường ba ngọn núi, nhận ra mảnh ngọc chữ Minh, không tiết lộ danh tính chủ cũ. Không biết toàn bộ sự thật, không trực tiếp giảng cơ chế thể chất của Hành Chu.
+- Lục Văn Sơn: khách áo xám, tóc điểm bạc, gậy trúc, tay nải lớn; quen trưởng lão từ trước, từng được người liên quan cứu mạng (không kết luận danh tính); hỗ trợ nhóm rút khỏi Bạch Khê. Cuối tập đã xuống núi thu thập tin, gửi thiếu phụ tới, không có mặt trong cảnh cuối theo nguyên văn. Mức độ đáng tin chưa xác định; Kỷ Thanh La từng dặn không quá tin ông.
+- A Thạch: ở tông với đại sư tỷ, vẫn hồn nhiên, chim sẻ và chuyện ăn bánh; cuối Ch21 đi lấy nước cho thiếu phụ.
+- Tông chủ: chưa trở về; Trác Cửu chưa xuất hiện trong tập này, mảnh đồng hình cánh chim vẫn là phục bút cũ chưa giải. Thẻ sắt rỉ Hành Chu giữ từ Ch14 chưa có phản ứng, chưa được giải thích ở Tập 3.
+- Vật chứng mới: hộp đồng, ngọc trắng nứt chữ Minh, thẻ gỗ cháy từ Ch14, phong thư, bản đồ có đường phía nam, cuốn sách luyện thể ẩm hỏng (nhóm mang về, Hành Chu nghiên cứu hình vẽ), thư dưới cầu trong ống trúc, hai giấy của thiếu phụ. Không tự gán ngọc là pháp bảo phát sáng/chìa khóa mở cửa đá; thư nói chỉ là tín vật. Số lượng bột/thuốc còn lại không xác định.
+
+## 60. Phục bút và hướng Tập 4 — CHƯA CHỐT TÌNH TIẾT MỚI
+
+Điểm nối chính xác: Ch21 kết thúc khi thiếu phụ vừa ngồi xuống chuẩn bị kể, A Thạch đi lấy nước, mọi người nhận ra có kẻ cố tình lôi Thanh Vân Tông vào vụ việc. Ch22 nên mở bằng hành động hoặc lời kể tiếp theo của thiếu phụ, không chép lại câu cuối Ch21, không recap dài. Đọc nguyên văn phần cuối tại mục 65 trước khi viết.
+
+Các câu hỏi còn mở:
+- Thiếu phụ và phu quân chưa có tên; chưa xác định người chồng còn sống, chết hay bị giam, nghề nghiệp/tu vi, tên thương đội cụ thể, ai tuyển và ai gửi giấy. Giấy có dấu chim là đầu mối, chưa chứng minh cùng tổ chức với Trạm Thanh Giản/Trác Cửu.
+- Người giữ sổ ở bến Bạch Lộ là ai, sổ ghi gì, vì sao có thể tiếp cận, người gửi thư dưới cầu là ai. Bến Bạch Lộ phía đông Trường Phong Thành là hướng điều tra, chưa tới trong truyện.
+- Ai dùng danh nghĩa Thanh Vân Tông thu gom tu sĩ; con dấu cũ thật/giả, người mang thẻ cháy và mảnh ngọc chữ Minh là ai; cửa đá Bạch Khê chứa gì; nhóm áo đen và nhóm tìm cửa đá thuộc thế lực nào. Không biến suy đoán của nhân vật thành sự thật đã xác nhận.
+- Mảnh đồng của Trác Cửu, dấu chim, giấy dầu, Hàn Lộ Tử bị mua sạch, thùng gỗ niêm phong, Trạm Thanh Giản/Thanh Giản Trạm, Hà Thuận, thẻ sắt rỉ, quá khứ Vãn Ninh/Kỷ Thanh La/tông chủ vẫn cần phát triển có kiểm soát.
+- Đề xuất DRAFT cho arc 22–28: nghe thiếu phụ kể và xác minh giấy tờ; chuẩn bị xuống bến Bạch Lộ với lý do cấp bách nhưng không lao vào tự sát; khai thác môi trường bến hàng, thương đội, người giữ sổ bằng quan sát, trí tuệ và giao tiếp; thêm thử thách tu luyện/chiến đấu có hậu quả và tiến triển tình cảm. Không bắt buộc theo đề xuất này, chưa phải outline được duyệt. Không giải hết bí mật trong một tập, không lặp công thức tìm hang/giải cứu người hái thuốc.
+- Hành Chu phải có tiến bộ thực sự qua tu luyện và thực chiến, giữ hài hước, nhân hậu, sắc bén; sử dụng Tạ Hành Chu/Hành Chu, không gọi thay bằng “người tán tu”. Thiết kế thể chất dựa mục 19–20 của context: thức tỉnh dần, tự nghiên cứu, tiêu hao khí huyết, đao/thể ban đầu độc lập rồi cộng hưởng; thuật ngữ chưa xuất hiện trong FINAL không được tiết lộ tùy tiện. Không áp dụng các cơ chế khác trái lựa chọn đã ghi ở file.
+- Khi được yêu cầu viết, tạo đủ 7 chương Ch22–28 DRAFT văn xuôi tiểu thuyết, không synopsis. Tham chiếu độ dài Tập 1–2, tránh ngắn quá như Tập 3 nếu nội dung có thể phát triển tự nhiên; không kéo dài bằng đối thoại lặp, không ép thời lượng. Chỉ chốt sau review.
+
+## 61. CRITICAL — Định dạng truyện sạch cho TTS, áp dụng từ Tập 3 trở đi
+
+User nói: “bỏ hết giấu " đi, đưa vô agent nó tạo voice nó đọc luôn cả ngoặc kép, cay thì thôi”. Quy tắc mới: KHÔNG dùng dấu ngoặc kép thẳng hoặc cong bao quanh lời thoại, kể cả bản DRAFT. Viết lời thoại xuống dòng riêng, làm rõ người nói qua lời kể; không thay bằng gạch đầu dòng/ký hiệu đặc biệt. Giữ dấu câu tiếng Việt để ngắt nghỉ tự nhiên. Bản FINAL chỉ có tiêu đề chương dạng `Chương 22: ...` và văn bản truyện sạch, không Markdown, metadata, dấu sao, dòng hết chương kỹ thuật, ghi chú review hoặc CTA trong nội dung voice. Không sửa từ ngữ/cốt truyện khi làm sạch. Các chương FINAL cũ không tự chỉnh hồi tố; agent có thể làm sạch bản sao input TTS. Kiểm tra nối chương không lặp/thiếu câu. Ghi chú DRAFT/review đặt ngoài bản text đọc.
+
+## 62. Tài nguyên hình Tập 3 và timeline đúng yêu cầu user
+
+Thư mục local được xác nhận bằng ảnh Explorer: `Downloads/Youtube 2/SangTacTruyenTuTien/BUILD FINAL CLIP/Part3`. Chưa biết đường dẫn tuyệt đối/ổ đĩa; agent tự tìm. User đổi tên 10 ảnh theo thứ tự đã thống nhất:
+
+| File mới | Tên ảnh gốc | Nội dung / mốc bắt đầu đề xuất |
+|---|---|---|
+| 1.png | twilight_heroes_of_the_ruined_sect.png | Mở Ch15, toàn cảnh tông môn |
+| 2.png | ancient_secrets_beneath_the_cloud_emblem.png | Ch15, Lục lấy hộp đồng |
+| 3.png | dawn_saber_training_in_ruined_courtyard.png | Mở Ch16, luyện đao |
+| 4.png | journey_to_the_misty_citadel.png | Ch17, nhóm lên đường |
+| 5.png | rainy_ambush_at_bạch_khê_valley.png | Cuối Ch17, phát hiện người lạ làm việc trong đêm, sang Ch18 |
+| 6.png | echoes_of_the_ancient_saber_sequence.png | Ch18, tìm hang đá |
+| 7.png | twilight_saber_clash_in_the_mountain_pass.png | Mở Ch19, giao chiến |
+| 8.png | discovery_at_bạch_khê_bridge.png | Mở Ch20, cầu đá và Vãn Ninh phát tác |
+| 9.png | a_warm_bowl_at_dusk.png | Ch21, mang canh nóng tới phòng Vãn Ninh |
+| 10.png | wuxia_conspiracy_over_ancient_maps.png | Cuối Ch21, thiếu phụ xuất hiện, giữ đến hết voice |
+
+- User đã sửa rõ: “không phải 10s một ảnh, mà phải là hiển thị ảnh cho tới khi voice nói không còn liên quan nữa thì chuyển tiếp qua ảnh kế, nghĩa là suốt tập 3 mỗi ảnh trong 10 ảnh sẽ chỉ hiển thị 1 lần hiểu chưa”. Đây là quy tắc có ưu tiên cao nhất về timeline. Prompt đầu hiểu sai thành slideshow 10s lặp vòng đã bị thay thế hoàn toàn.
+- Đúng 10 đoạn ảnh, 9 hard cut, thứ tự số tự nhiên 1→10, mỗi ảnh xuất hiện một lần duy nhất, không quay lại, không chia đều, không giới hạn 10s. Giữ ảnh hiện tại qua đoạn trung gian không có hình riêng và 2 giây nghỉ chương; chuyển khi nội dung voice tới mốc phù hợp ảnh kế. Mốc phải đo từ audio thật sau atempo, không tự bịa timestamp. Các ảnh có chi tiết minh họa thừa (ví dụ A Thạch/Kỷ Thanh La trên cầu, Lục ở cảnh cuối, nhiều bóng Hành Chu trong hang, kiến trúc xa/đao quang); ảnh không phải CANON, không sửa truyện cho khớp hình.
+- Thumbnail đã tạo: `bí_mật_bạch_khê_tập_3.png`, tỷ lệ gần 16:9, chữ BÍ MẬT BẠCH KHÊ / TÔNG MÔN BỊ TRUY SÁT / TẬP 3; Hành Chu, Vãn Ninh, trưởng lão, ngọc, cửa đá. Không dùng thumbnail vào timeline, không coi ngọc phát sáng trong thumbnail là tình tiết truyện. Chưa xác nhận người dùng lưu thumbnail ở đường dẫn nào. Tập 4 làm thumbnail mới khi được giao, số TẬP 4 rõ, chữ đẹp dễ đọc trên mobile.
+- Với Tập 4, có thể đề xuất tiếp phương án 10 ảnh độc lập nếu user muốn giữ workflow mới; số lượng cụ thể chưa được xác nhận cho Tập 4. Không tự quay về 80/300 ảnh hay tạo ảnh nếu chưa giao. Duy trì nhất quán thiết kế nhân vật và phong cách điện ảnh tiên hiệp, ảnh riêng không collage, không chữ/watermark trong ảnh timeline.
+
+## 63. Prompt production mới nhất — Tập 3, tham chiếu cho Tập 4
+
+Prompt hoàn chỉnh đã giao trong writing block 83521 bản sửa cuối. Các quy tắc bắt buộc:
+- Nguồn đọc: đúng 7 file FINAL Ch15–21 ở approved, không đọc DRAFT hay tập cũ; làm sạch như mục 61. Google gTTS lang=vi, tld=com, slow=False, giọng nữ tiếng Việt trong trẻo rõ chữ nhất quán (gTTS không có tham số chọn giới tính cố định, cần nghe đối chiếu giọng trước; không tự thay engine). Tạo voice trước, cache đoạn, retry giới hạn, kiểm tra phát âm. FFmpeg `atempo=1.25` đúng một lần, giữ pitch; PCM s16le 48000 Hz stereo; nghỉ 2 giây giữa chương. Không tự tăng tốc lần hai. Tên riêng cần nghe: Tạ Hành Chu, Vãn Ninh, Kỷ Thanh La, A Thạch, Tam trưởng lão, Lục Văn Sơn, Bạch Khê, Bạch Lộ, Thanh Vân Tông.
+- Timeline theo mục 62, timestamp đo theo PCM/ffprobe/forced alignment sau tăng tốc. Ảnh tĩnh tuyệt đối như mở PNG: cấm rung, giật, zoom, pan, tilt, Ken Burns, jitter, parallax, 2.5D, xoay, nhấp nháy sáng, tóc/áo/mây chuyển động, keyframe, zoompan, AI image-to-video. Resize/padding cố định giữ tỷ lệ, không crop nhân vật. Chỉ hard cut, không fade/crossfade/dissolve/slide/flash/black frame. Voice liên tục. Không nhạc/SFX/intro/outro/CTA/logo/watermark/chữ/phụ đề burn-in/ảnh bổ sung.
+- MP4 H.264 1920×1080 16:9, 30fps, yuv420p, CRF18–20, tune stillimage, AAC 192kbps 48kHz stereo, faststart; video kết thúc cùng voice trong sai số làm tròn frame. Không ép thời lượng.
+- File FINAL phải lưu TRỰC TIẾP tại `BUILD FINAL CLIP/Part3`, cùng cấp 1.png–10.png, không đặt trong OUTPUT. Tên `TONG-MON-BI-TRUY-SAT-TAP-03-FINAL.mp4`. Các file cùng thư mục: `TAP-03-VOICE-FULL.wav`, `TAP-03-TTS-SCRIPT.txt`, `TAP-03-TIMELINE.csv`, `TAP-03-QA-REPORT.md`, `TONG-MON-BI-TRUY-SAT-TAP-03-FINAL.srt` và `.vtt`. WORK có thể dùng cho file tạm. Không ghi đè PNG, không sửa approved, không tự commit/push.
+- QA: kiểm tra đủ 7 chương, không đọc dấu ngoặc kép/Markdown, không mất/lặp câu, đúng tốc độ, giọng nhất quán, kiểm tra tên riêng; render test trước, so sánh frame đầu/giữa/cuối từng đoạn để xác minh tĩnh, kiểm tra 9 ranh giới, không black frame, timeline không gap/overlap, video/audio kết thúc cùng lúc, phụ đề riêng khớp voice. Báo cáo đường dẫn tuyệt đối, dung lượng, thời lượng thực, mốc start/end từng ảnh, số chuyển cảnh, lỗi và cách sửa. Chưa có bằng chứng QA thực tế nên không báo đã dựng.
+- Tập 4 chỉ thay input thành Ch22–28 FINAL sau duyệt, thư mục ảnh/output theo user cung cấp thực tế (không tự khẳng định Part4 tồn tại), tên file TAP-04 tương ứng. Không hỏi lại tốc độ/giọng/quy tắc tĩnh; không dựng trước khi chốt bản truyện.
+
+## 64. Handoff session mới và việc còn thiếu
+
+Câu user có thể dùng: “Đọc context này, nắm tiến độ rồi sáng tác Tập 4 từ Chương 22 đến 28 cho tôi review.” Khi chỉ yêu cầu nắm context, không tự sáng tác. Khi yêu cầu sáng tác, kiểm tra repo và đọc nguyên văn FINAL gần nhất. Nếu remote chưa có Ch15–21, mục 65 là bản nguyên văn trích trực tiếp từ ZIP đã bàn giao, không cần bắt user tải lại nếu đủ. Ưu tiên remote đã xác minh nếu có khác biệt; báo mâu thuẫn, không âm thầm sửa. Kiểm tra các phục bút Ch1–14 bằng repo khi cần. Chưa có outline Tập 4 được duyệt; mọi tình tiết mới là DRAFT. Sau khi user chốt, xuất ZIP 7 file đúng approved, sạch ngoặc kép, hướng dẫn một commit; không tự push. Tạo ảnh/thumbnail/production/SEO chỉ khi yêu cầu. Tập 3 chưa xác nhận đăng YouTube, chưa có URL/thời lượng thực/SEO, chưa xác nhận push. Context v8.0 chưa push.
+
+## 65. BẢN NGUYÊN VĂN DỰ PHÒNG CHƯƠNG 15–21 FINAL
+
+Nguồn: trích nguyên văn 7 file trong `TAP-03-CHUONG-15-21-FINAL.zip` đã bàn giao, kiểm tra ZIP và UTF-8 ngày 29/11/2026. Đây là nội dung được duyệt, không phải bản tóm tắt. Các heading bên ngoài khối code chỉ phục vụ context, không đưa vào TTS. Nếu GitHub chưa có chương mới, có thể dùng nguyên văn này để bảo đảm nối truyện. Không đọc toàn bộ context vào voice.
+
+### CHUONG-0015-FINAL.md
+
+```text
+Chương 15: Người trở về từ quá khứ
+
+Trong nhà bếp, A Thạch đang kiễng chân tìm thứ gì đó trên giá gỗ.
+
+Tạ Hành Chu bước vào, kéo một chiếc ghế đặt cạnh cửa rồi ngồi xuống.
+
+Đệ tìm gì vậy?
+
+Trà.
+
+Đệ biết pha trà từ bao giờ?
+
+Tam trưởng lão nói có khách tới thì phải pha trà.
+
+Hành Chu nhìn chiếc hũ nhỏ phủ đầy bụi trên giá.
+
+Vậy đệ có biết lần cuối cùng bổn môn mua trà là khi nào không?
+
+A Thạch lắc đầu.
+
+Ta cũng không biết. Nhưng nhìn lớp bụi kia, có lẽ vị khách ngoài cửa còn trẻ hơn số trà trong hũ.
+
+A Thạch vội rụt tay lại.
+
+Tạ Hành Chu bật cười, đứng dậy lấy hũ trà xuống. Bên trong chỉ còn một ít lá khô đã vụn nát.
+
+Chàng ngửi thử, sau đó quyết định lấy nước nóng thay trà.
+
+Dù sao cũng không thể để vị khách vừa tới uống xong rồi phải nhờ Vãn Ninh cứu chữa.
+
+Ngoài sân, Tam trưởng lão đã dẫn người đàn ông áo xám vào căn phòng phía đông. Đó vốn là nơi dùng để tiếp khách, nhưng bởi mái nhà bị dột nên đã lâu không có người sử dụng.
+
+Tạ Hành Chu bưng hai bát nước nóng tới.
+
+Cửa phòng vẫn mở.
+
+Tam trưởng lão ngồi bên bàn, trước mặt đặt phong thư và tấm thẻ gỗ cháy xém.
+
+Người đàn ông áo xám đang tháo chiếc tay nải trên vai.
+
+Đa tạ tiểu huynh đệ.
+
+Ông nhận bát nước từ tay Hành Chu, uống một ngụm rồi nhìn xuống đáy bát.
+
+Trà của quý tông khá đặc biệt.
+
+Tạ Hành Chu nghiêm túc đáp:
+
+Đây là phương pháp pha trà cao thâm của bổn môn. Bỏ đi hình thức, chỉ giữ lại bản chất.
+
+Bản chất?
+
+Nước.
+
+Người đàn ông ngẩn ra, sau đó bật cười.
+
+Tam trưởng lão trừng mắt.
+
+Tiểu tử, ngươi không có việc gì làm sao?
+
+Có chứ. Vãn bối còn phải đi luyện đao. Chỉ là vị tiền bối này từ xa tới, ta nghĩ ít nhất cũng nên hỏi quý danh.
+
+Người đàn ông đặt bát xuống.
+
+Ta họ Lục, tên Văn Sơn. Trước kia từng qua lại với Thanh Vân Tông.
+
+Vãn bối Tạ Hành Chu.
+
+Lục Văn Sơn nhìn chàng thêm một lát.
+
+Tạ tiểu huynh đệ, ngươi nhập môn được bao lâu rồi?
+
+Chưa lâu.
+
+Có biết trước đây Thanh Vân Tông là nơi thế nào không?
+
+Hành Chu nhìn lên mái nhà.
+
+Nghe nói trước đây mái ngói còn nguyên vẹn.
+
+Lục Văn Sơn lại cười.
+
+Lần này, ngay cả Tam trưởng lão cũng phải quay mặt đi.
+
+Nhưng nụ cười nhanh chóng biến mất khi ánh mắt Lục Văn Sơn rơi xuống tấm thẻ gỗ.
+
+Lão bằng hữu, chuyện năm đó đã qua nhiều năm. Ta vốn không muốn nhắc lại. Chỉ là lần này, người tìm ta biết một số chuyện mà người ngoài không thể biết.
+
+Tam trưởng lão hỏi:
+
+Chuyện gì?
+
+Vị trí căn nhà cũ của ta ở phía bắc Trường Phong Thành. Cả việc năm đó ta từng thiếu ngươi ba mươi linh thạch.
+
+Lão nhân nhíu mày.
+
+Biết những chuyện ấy không có nghĩa hắn là chủ nhân tấm thẻ.
+
+Ta hiểu.
+
+Lục Văn Sơn lấy từ tay nải ra một mảnh giấy khác.
+
+Người đó còn nhờ ta chuyển một món đồ tới chỗ cũ.
+
+Tam trưởng lão nhìn mảnh giấy.
+
+Trên đó chỉ có vài nét mực đơn giản, vẽ một dãy núi và một dòng suối.
+
+Phía dưới là hai chữ.
+
+Bạch Khê.
+
+Sắc mặt lão nhân càng trở nên khó coi.
+
+Tạ Hành Chu nhận thấy bàn tay đang cầm bát nước của ông hơi siết lại.
+
+Ngươi đã mang đồ tới đó?
+
+Chưa.
+
+Vì sao?
+
+Bởi vì ta không tin hắn.
+
+Lục Văn Sơn thở dài.
+
+Người từng cứu mạng ta năm đó, cho dù có hóa thành tro, ta cũng muốn nhận lại. Nhưng kẻ xuất hiện ba tháng trước không chịu để lộ khuôn mặt. Hắn biết rất nhiều chuyện cũ, lại không trả lời được một câu hỏi mà ta đặt ra.
+
+Câu hỏi gì?
+
+Ta hỏi hắn, trước khi rời Thanh Vân Tông, chúng ta đã uống rượu ở đâu.
+
+Tam trưởng lão im lặng.
+
+Lục Văn Sơn tiếp tục:
+
+Hắn không trả lời. Chỉ bảo ta đừng hỏi những chuyện không cần thiết.
+
+Tạ Hành Chu nhìn hai người.
+
+Vậy món đồ hắn giao cho tiền bối đâu?
+
+Lục Văn Sơn chỉ vào chiếc tay nải.
+
+Ở đây.
+
+Ông lấy ra một chiếc hộp đồng dài hơn một gang tay. Hộp không có khóa, nhưng giữa nắp và thân hộp được quấn bằng ba sợi dây màu đen.
+
+Ta chưa mở.
+
+Tam trưởng lão đưa tay định cầm lấy.
+
+Tạ Hành Chu bất chợt lên tiếng:
+
+Trưởng lão, khoan đã.
+
+Lão nhân quay sang.
+
+Lại chuyện gì?
+
+Người ta có thể đưa một tấm thẻ gỗ cũ tới để khiến người mất bình tĩnh. Một chiếc hộp không rõ bên trong chứa gì, tốt nhất vẫn nên để nhị sư tỷ kiểm tra trước.
+
+Tam trưởng lão nhìn chiếc hộp.
+
+Sau một lúc, ông chậm rãi thu tay về.
+
+Đi gọi Vãn Ninh.
+
+Vãn Ninh đến không lâu sau đó.
+
+Nàng mang theo một đôi đũa trúc, vài mảnh vải sạch và một bình sứ nhỏ.
+
+Tạ Hành Chu nhìn những món đồ trên bàn.
+
+Nhị sư tỷ, chúng ta định mở hộp hay chuẩn bị ăn cơm?
+
+Ngươi muốn thử trước không?
+
+Ta cảm thấy nên để người có chuyên môn thực hiện.
+
+Vãn Ninh không để ý tới chàng nữa.
+
+Nàng dùng đũa trúc gạt từng sợi dây đen sang một bên, quan sát lớp bụi bám trên mặt hộp, sau đó nghiêng đầu ngửi nhẹ.
+
+Có mùi dầu bảo quản kim loại. Chưa thấy dấu hiệu của độc dược thông thường.
+
+Nàng mở nắp.
+
+Bên trong không có linh quang, không có ám khí.
+
+Chỉ có một mảnh ngọc trắng đã nứt và một cuộn giấy nhỏ.
+
+Tam trưởng lão vừa nhìn thấy mảnh ngọc đã đứng bật dậy.
+
+Chiếc ghế phía sau đổ xuống đất.
+
+Vãn Ninh ngẩng đầu.
+
+Trưởng lão?
+
+Lão nhân không trả lời.
+
+Ông cẩn thận cầm mảnh ngọc lên, dùng ngón tay vuốt dọc theo vết nứt.
+
+Trên bề mặt mảnh ngọc có khắc một chữ nhỏ.
+
+Minh.
+
+Tạ Hành Chu chưa từng thấy Tam trưởng lão có vẻ mặt như vậy.
+
+Ngày thường, ngay cả khi sơn môn bị người ta tấn công, lão nhân vẫn có thể buông vài câu đùa cợt. Nhưng lúc này, đôi mắt đục ngầu của ông dường như chứa đựng điều gì đó rất nặng nề.
+
+Trưởng lão biết chủ nhân của nó? Hành Chu hỏi.
+
+Biết.
+
+Là ai?
+
+Tam trưởng lão đặt mảnh ngọc xuống.
+
+Một người từng sống ở đây.
+
+Ông không nói thêm.
+
+Vãn Ninh mở cuộn giấy.
+
+Trên đó viết một hàng chữ.
+
+Sau bảy ngày, nước Bạch Khê đổi dòng. Người muốn tìm lại chuyện cũ, hãy mang ngọc tới.
+
+Lục Văn Sơn nói:
+
+Ta vốn định tự mình tới Bạch Khê. Nhưng trên đường đến đây, ta phát hiện có người theo dõi.
+
+Có biết là ai không? Tam trưởng lão hỏi.
+
+Không. Ta đã đổi đường hai lần mới cắt được chúng.
+
+Tạ Hành Chu chống cằm.
+
+Biết chuyện cũ của tông môn, có con dấu, có thẻ đệ tử, lại cố ý đưa tin cho trưởng lão. Người này hoặc thật sự muốn giúp chúng ta, hoặc đang chuẩn bị một cái bẫy rất công phu.
+
+Vãn Ninh nhìn chàng.
+
+Ngươi nghĩ khả năng nào lớn hơn?
+
+Với vận khí của bổn môn gần đây, ta cảm thấy khả năng thứ hai đáng được tôn trọng hơn.
+
+Tam trưởng lão không phản bác.
+
+Ông cất mảnh ngọc và cuộn giấy vào hộp.
+
+Chuyện này tạm thời không được truyền ra ngoài.
+
+Lục Văn Sơn gật đầu.
+
+Ta sẽ ở lại dưới chân núi vài ngày. Nếu có tin gì mới, ta sẽ tìm cách báo cho ngươi.
+
+Tạ Hành Chu lập tức nói:
+
+Tiền bối không ở lại đây sao? Bổn môn có nhiều phòng trống lắm.
+
+Lục Văn Sơn nhìn mái nhà.
+
+Có phòng nào không dột không?
+
+Hành Chu suy nghĩ hồi lâu.
+
+Tiền bối thích ngủ gần bếp không?
+
+Lục Văn Sơn quyết định xuống núi.
+
+Chiều hôm ấy, sau khi khách rời đi, Tam trưởng lão một mình đứng trước chính điện.
+
+Tạ Hành Chu mang chiếc ghế vừa sửa tới đặt bên cạnh ông.
+
+Ngồi một chút đi.
+
+Lão nhân nhìn chàng.
+
+Ngươi muốn hỏi chuyện gì?
+
+Không muốn hỏi nữa.
+
+Hiếm thấy.
+
+Hành Chu ngồi xuống bậc thềm.
+
+Trưởng lão không muốn nói, ta hỏi nhiều cũng chẳng có ích gì. Chỉ là nếu người định tới Bạch Khê một mình, tốt nhất nên nói với chúng ta trước.
+
+Tam trưởng lão khẽ hừ.
+
+Ngươi cho rằng lão phu già đến mức không tự lo được cho mình?
+
+Không.
+
+Tạ Hành Chu nhìn khoảng sân cũ.
+
+Ta chỉ cảm thấy người trong một tông môn, nếu có chuyện thì nên cùng nhau nghĩ cách. Nếu trưởng lão xảy ra chuyện, ai sẽ sửa mái nhà?
+
+Lão nhân bật cười.
+
+Tiểu tử vô lương tâm.
+
+Hành Chu cũng cười.
+
+Một lúc lâu sau, Tam trưởng lão mới nói:
+
+Bạch Khê từng là nơi đệ tử Thanh Vân Tông xuống núi lịch luyện.
+
+Hiện tại thì sao?
+
+Đã bỏ hoang nhiều năm.
+
+Có nguy hiểm không?
+
+Có.
+
+Tạ Hành Chu gật đầu.
+
+Vậy trước khi đi, chúng ta phải chuẩn bị thật kỹ.
+
+Tam trưởng lão nhìn chàng.
+
+Lão phu đã nói sẽ cho ngươi đi sao?
+
+Chưa.
+
+Vậy ngươi chuẩn bị làm gì?
+
+Hành Chu vỗ nhẹ lên chuôi đao.
+
+Chuẩn bị để đến lúc người không còn lựa chọn nào tốt hơn, sẽ nhớ tới vãn bối.
+
+Lão nhân nhìn thanh đao bên hông chàng.
+
+Cuối cùng, ông đứng dậy.
+
+Ngày mai, giờ Mão, tới sân phía tây.
+
+Làm gì?
+
+Luyện đao.
+
+Tạ Hành Chu chớp mắt.
+
+Có thể đổi thành giờ Thìn không?
+
+Không.
+
+Vậy giờ Mão có bao cơm sáng không?
+
+Tam trưởng lão xách hồ lô rượu bỏ đi.
+
+Tạ Hành Chu nhìn bóng lưng ông, khóe miệng hơi cong lên.
+
+Chàng biết lão nhân vẫn còn rất nhiều điều chưa muốn nói.
+
+Nhưng ít nhất, từ ngày mai, Hành Chu có thể bắt đầu làm một việc thiết thực hơn là ngồi chờ bí mật tự tìm tới cửa.
+
+Chàng cần trở nên mạnh hơn.
+```
+
+### CHUONG-0016-FINAL.md
+
+```text
+Chương 16: Một đao cũng chưa đủ
+
+Trời còn chưa sáng hẳn, một tiếng gõ cửa đã vang lên trong căn phòng phía tây.
+
+Tạ Hành Chu kéo chăn trùm kín đầu.
+
+Tiếng gõ lại vang lên.
+
+Tiểu tử, dậy.
+
+Trưởng lão, người tu đạo phải thuận theo tự nhiên.
+
+Ra ngoài.
+
+Hiện tại tự nhiên đang bảo ta ngủ.
+
+Cánh cửa gỗ bị đẩy ra.
+
+Tam trưởng lão đứng bên ngoài, trên tay cầm một gáo nước lạnh.
+
+Tạ Hành Chu lập tức bật dậy.
+
+Vãn bối đã tỉnh!
+
+Lão nhân hài lòng gật đầu.
+
+Nửa khắc sau, Hành Chu đứng giữa sân phía tây, hai tay cầm thanh đao mới.
+
+Sương sớm phủ trên mặt đất. Những ngọn cỏ dưới chân còn đọng nước.
+
+Tam trưởng lão đặt ba khúc gỗ trước mặt chàng.
+
+Chém đi.
+
+Tạ Hành Chu bước lên, nâng đao bổ xuống.
+
+Khúc gỗ đầu tiên tách làm hai.
+
+Chàng quay đầu nhìn lão nhân.
+
+Thế nào?
+
+Khó coi.
+
+Nụ cười trên mặt Hành Chu cứng lại.
+
+Tam trưởng lão chỉ xuống đất.
+
+Chân trái đặt quá xa. Khi đao rơi xuống, vai ngươi dùng sức trước hông. Nếu khúc gỗ kia là người sống, chỉ cần tránh sang bên một bước, ngươi sẽ tự để lộ sườn.
+
+Tạ Hành Chu nhìn lại vị trí chân mình.
+
+Làm lại.
+
+Khúc gỗ thứ hai bị chém đôi.
+
+Vẫn khó coi.
+
+Khúc thứ ba cũng không thoát khỏi số phận tương tự.
+
+Tam trưởng lão lắc đầu.
+
+Ngươi đang dùng sức để bổ gỗ, không phải dùng đao.
+
+Vậy đao dùng để làm gì?
+
+Để đưa sức lực của ngươi tới nơi cần đến.
+
+Lão nhân nhặt một cành cây dưới đất.
+
+Xuất đao về phía ta.
+
+Hành Chu nhìn cành cây khô trong tay ông.
+
+Trưởng lão, thanh đao này khá nặng.
+
+Ta biết.
+
+Vãn bối không chịu trách nhiệm nếu người bị thương đâu.
+
+Bớt nói nhảm.
+
+Tạ Hành Chu không dám thật sự dùng toàn lực. Chàng tiến lên một bước, xoay cổ tay đưa đao ngang qua.
+
+Cành cây trong tay Tam trưởng lão chạm nhẹ vào mặt đao.
+
+Lưỡi đao lệch hướng.
+
+Ngay sau đó, đầu cành cây đã chạm vào cổ Hành Chu.
+
+Chàng đứng sững.
+
+Tam trưởng lão thu tay.
+
+Lại.
+
+Lần thứ hai, Hành Chu đổi hướng giữa chừng.
+
+Cành cây vẫn dễ dàng gạt thanh đao ra ngoài.
+
+Lần thứ ba, chàng cố thu hẹp động tác, không để lộ khoảng trống quá lớn.
+
+Lần này, Tam trưởng lão phải lùi nửa bước.
+
+Nhưng đầu cành cây vẫn chạm được vào vai chàng.
+
+Sau hơn hai mươi lần, Tạ Hành Chu ngồi bệt xuống đất.
+
+Không đánh nữa.
+
+Vì sao?
+
+Vãn bối cảm thấy mình đang bị một cành củi sỉ nhục.
+
+Tam trưởng lão cười khà khà.
+
+Ngươi có sức, phản ứng cũng không chậm. Nhưng trước kia phải tự mưu sinh, gặp chuyện gì thì dùng cách đó. Những động tác thừa tích lũy lâu ngày đã thành thói quen.
+
+Hành Chu thở ra.
+
+Vậy sửa thế nào?
+
+Trước tiên, học cách đứng cho vững.
+
+Lão nhân dùng cành cây vạch hai đường trên đất.
+
+Đặt chân vào đây. Hạ trọng tâm xuống. Không cần gồng vai.
+
+Tạ Hành Chu làm theo.
+
+Giữ nguyên.
+
+Một lát sau, hai đùi chàng bắt đầu đau nhức.
+
+Trưởng lão.
+
+Gì?
+
+Bổn môn có thù với hai chân ta sao?
+
+Giữ nguyên.
+
+Khi mặt trời vượt khỏi dãy núi, Tạ Hành Chu cuối cùng cũng được phép đứng thẳng.
+
+Hai chân chàng run lên.
+
+Tam trưởng lão ném cành cây vào đống củi.
+
+Ngày mai tiếp tục.
+
+Hành Chu nhìn theo lão nhân.
+
+Bỗng nhiên, chàng nhớ ra một việc.
+
+Trưởng lão! Cơm sáng!
+
+Ở trong bếp!
+
+Tạ Hành Chu lập tức cảm thấy hai chân mình đã hồi phục được ba phần.
+
+Vãn Ninh đang giã thuốc khi Hành Chu bước vào.
+
+Nàng ngẩng đầu nhìn dáng đi của chàng.
+
+Bị thương ở đâu?
+
+Lòng tự trọng.
+
+Vậy không cần chữa.
+
+Hành Chu ngồi xuống chiếc ghế cạnh bếp.
+
+Nhị sư tỷ, tỷ thật sự không định an ủi ta một chút sao?
+
+Vãn Ninh đặt trước mặt chàng một bát cháo.
+
+Ăn đi. Sau đó ta kiểm tra vết thương ở cổ tay.
+
+Tạ Hành Chu lập tức cầm thìa.
+
+Bát cháo hôm nay đặc hơn thường ngày.
+
+Bên trong còn có một ít thịt thái nhỏ.
+
+Chàng nhìn Vãn Ninh với vẻ kinh ngạc.
+
+Bổn môn phát tài rồi?
+
+Lão Đỗ gửi một ít thịt khô lên.
+
+Vậy phải cảm tạ lão Đỗ.
+
+Ngươi đừng ăn nhanh quá.
+
+Hành Chu vừa ăn vừa kể lại chuyện bị Tam trưởng lão đánh bại bằng cành cây.
+
+Vãn Ninh nghe xong, khóe môi khẽ nhếch.
+
+Trưởng lão từng có tu vi rất cao. Dù hiện tại không thể vận dụng linh lực như trước, kinh nghiệm của người vẫn còn.
+
+Tạ Hành Chu gật đầu.
+
+Ta cũng nghĩ vậy. Chỉ không biết trước đây người mạnh đến mức nào.
+
+Vãn Ninh im lặng.
+
+Nàng tiếp tục nghiền thuốc.
+
+Hành Chu không hỏi thêm.
+
+Ăn xong, chàng đưa cổ tay cho nàng kiểm tra.
+
+Vãn Ninh tháo lớp băng, ấn nhẹ vào vùng gân cốt.
+
+Còn đau không?
+
+Một chút.
+
+Vậy không được luyện đao quá lâu.
+
+Tạ Hành Chu nhìn cổ tay nàng.
+
+Khi cúi người lấy thuốc, tay áo Vãn Ninh hơi trượt xuống. Vết đỏ dưới da vẫn còn đó, dường như đậm hơn vài ngày trước.
+
+Còn tỷ?
+
+Vãn Ninh lập tức kéo tay áo xuống.
+
+Ta không sao.
+
+Nhị sư tỷ, câu này nghe quen lắm.
+
+Nàng nhìn chàng.
+
+Quen thế nào?
+
+Ta thường nói mỗi lần bị thương. Sau đó tỷ đều mắng ta.
+
+Vãn Ninh không đáp.
+
+Tạ Hành Chu thu lại nụ cười.
+
+Nếu cần giúp đỡ, tỷ cứ nói. Ta không biết luyện đan, nhưng chạy chân, hái thuốc, bổ củi hay thử thuốc đều có thể.
+
+Thử thuốc?
+
+Cái cuối cùng phải xem giá cả.
+
+Vãn Ninh bật cười.
+
+Nàng băng lại cổ tay cho chàng.
+
+Đợi khi nào ngươi không cần ta chữa thương nữa rồi hãy nói chuyện giúp ta.
+
+Hành Chu nhìn nút thắt trên lớp băng.
+
+Vậy ta sẽ cố gắng.
+
+Ba ngày tiếp theo, sân phía tây thường xuyên vang lên tiếng đao chém gió.
+
+Tam trưởng lão không truyền cho Tạ Hành Chu công pháp cao thâm nào.
+
+Ông chỉ yêu cầu chàng sửa từng động tác nhỏ.
+
+Cách đặt chân.
+
+Cách chuyển trọng tâm.
+
+Cách dùng lực từ hông và lưng.
+
+Cách thu đao mà không để thân thể mất cân bằng.
+
+Ban đầu, Hành Chu cảm thấy những yêu cầu ấy quá đơn giản.
+
+Nhưng đến ngày thứ ba, khi chàng chém xuống một khúc gỗ có kích thước tương tự trước kia, lưỡi đao xuyên qua thớ gỗ nhẹ nhàng hơn rõ rệt.
+
+Không cần dùng hết sức.
+
+Cổ tay cũng không đau như trước.
+
+Tạ Hành Chu đứng nhìn vết cắt.
+
+Chàng thử lại.
+
+Kết quả tương tự.
+
+Một cảm giác vui sướng khó tả dâng lên trong lòng.
+
+Trước kia, Hành Chu từng nghĩ muốn một đao mạnh hơn thì phải dùng nhiều sức hơn.
+
+Bây giờ chàng mới nhận ra, sức lực bị lãng phí trong từng động tác có lẽ còn nhiều hơn mình tưởng.
+
+Buổi tối, sau khi mọi người đã nghỉ ngơi, Tạ Hành Chu lại lấy tờ giấy ghi chép ra.
+
+Chàng bổ sung thêm một dòng.
+
+Thay đổi cách vận lực có thể giảm tiêu hao khí huyết.
+
+Hành Chu suy nghĩ rồi viết tiếp.
+
+Khí huyết nóng lên khi thực chiến và khi luyện tập không hoàn toàn giống nhau. Cần tìm nguyên nhân.
+
+Chàng đặt bút xuống.
+
+Nếu sự biến đổi trong cơ thể thật sự có liên quan tới những lần xuất đao và giao chiến, vậy việc cải thiện kỹ thuật dùng đao có thể giúp chàng duy trì trạng thái ấy lâu hơn.
+
+Nhưng đây vẫn chỉ là suy đoán.
+
+Tạ Hành Chu không định dùng thân thể chưa hồi phục hoàn toàn để kiểm chứng.
+
+Chàng cất giấy, chuẩn bị đi ngủ.
+
+Bỗng nhiên, bên ngoài vang lên tiếng bước chân.
+
+A Thạch chạy tới cửa.
+
+Tiểu sư huynh! Có người gửi thư!
+
+Tạ Hành Chu nhìn đứa trẻ.
+
+Lại thư?
+
+Chàng cảm thấy từ ngày nhập môn, hai chữ này chưa từng mang tới chuyện tốt.
+
+A Thạch đưa ra một mảnh giấy được gấp nhỏ.
+
+Có một người bán củi đưa cho đệ ở chân núi. Người đó bảo Lục tiền bối nhờ chuyển.
+
+Hành Chu mở giấy.
+
+Bên trong chỉ có ba dòng.
+
+Bạch Khê xuất hiện người lạ.
+
+Có kẻ đang thu mua bản đồ đường núi.
+
+Ta sẽ tới Thanh Vân Tông vào ngày mai.
+
+Tạ Hành Chu nhìn về phía chính điện.
+
+Thời gian bảy ngày ghi trong cuộn giấy sắp hết.
+
+Chàng đứng dậy, cài thanh đao bên hông.
+
+A Thạch, đi gọi trưởng lão.
+
+Có chuyện gì sao?
+
+Hành Chu xoa đầu đứa trẻ.
+
+Có lẽ bổn môn sắp phải đi tìm một ít đồ thất lạc.
+```
+
+### CHUONG-0017-FINAL.md
+
+```text
+Chương 17: Bạch Khê cốc
+
+Trên bàn ăn sáng hôm sau, Kỷ Thanh La đặt một tấm bản đồ cũ xuống.
+
+Nàng đã có thể đi lại bình thường, nhưng sắc mặt vẫn chưa hoàn toàn hồi phục.
+
+Đây là đường núi phía đông. Bạch Khê nằm sau hai ngọn núi này.
+
+Tạ Hành Chu cúi xuống quan sát.
+
+Có bao nhiêu đường vào?
+
+Trước kia có hai. Một đường dọc theo suối, một đường đi qua sườn núi.
+
+Tam trưởng lão lấy ngón tay chỉ vào khoảng trống trên bản đồ.
+
+Còn một đường nhỏ phía nam. Đã nhiều năm không có người sử dụng, không biết hiện tại còn đi được hay không.
+
+Lục Văn Sơn ngồi đối diện ông.
+
+Ta đã tới gần Bạch Khê hôm qua. Có ít nhất hai nhóm người xuất hiện quanh thung lũng.
+
+Trang phục thế nào?
+
+Một nhóm mang kiếm, không có dấu hiệu môn phái. Nhóm còn lại giả làm thương nhân, mang theo khá nhiều dụng cụ dò tìm.
+
+Tạ Hành Chu hỏi:
+
+Có ai xuống đáy cốc chưa?
+
+Chưa thấy.
+
+Vậy có thể họ cũng đang đợi một thời điểm nào đó.
+
+Kỷ Thanh La nhìn cuộn giấy đặt trên bàn.
+
+Ngày nước Bạch Khê đổi dòng.
+
+Tam trưởng lão gật đầu.
+
+Ở đầu nguồn có một hồ nước tự nhiên. Mỗi khi mưa lớn, nước tràn qua vách đá phía đông, dòng chảy bên dưới sẽ thay đổi. Một số khu vực vốn chìm dưới nước có thể lộ ra.
+
+Vậy người gửi thư biết rất rõ địa hình nơi đó, Hành Chu nói.
+
+Đúng.
+
+Mọi người im lặng.
+
+Cuối cùng, Tam trưởng lão quyết định chỉ tới thăm dò ngoại vi.
+
+Kỷ Thanh La muốn đi cùng, nhưng Vãn Ninh lập tức phản đối.
+
+Độc thương của tỷ chưa khỏi. Nếu gặp địch, tỷ có thể không vận dụng được bao nhiêu linh lực.
+
+Ta biết đường.
+
+Trưởng lão cũng biết.
+
+Kỷ Thanh La nhìn nàng.
+
+Vãn Ninh không nhượng bộ.
+
+Tạ Hành Chu đặt một chiếc bánh xuống trước mặt đại sư tỷ.
+
+Tỷ ở lại bảo vệ sơn môn. Trách nhiệm này quan trọng không kém.
+
+Kỷ Thanh La liếc chàng.
+
+Ngươi đang dỗ trẻ con?
+
+Không. A Thạch chỉ cần nửa cái bánh là đủ.
+
+A Thạch lập tức ngẩng đầu.
+
+Đệ muốn cả cái!
+
+Bầu không khí quanh bàn dịu đi đôi chút.
+
+Sau cùng, nhóm tới Bạch Khê gồm Tam trưởng lão, Lục Văn Sơn, Tạ Hành Chu và Vãn Ninh.
+
+Kỷ Thanh La ở lại cùng A Thạch.
+
+Trước khi rời sơn môn, nàng gọi Hành Chu tới.
+
+Đừng quá tin Lục Văn Sơn.
+
+Tạ Hành Chu khẽ gật đầu.
+
+Ta hiểu.
+
+Còn nữa, nếu gặp người có tu vi vượt xa mình, lập tức rút lui. Không được cậy vào chút bản lĩnh mới học.
+
+Hành Chu nghiêm túc chắp tay.
+
+Đệ xin ghi nhớ lời đại sư tỷ.
+
+Kỷ Thanh La nhìn chàng một lúc.
+
+Sau đó nàng lấy từ bên cạnh giường ra một túi vải nhỏ.
+
+Bên trong có một ít bột làm nhiễu mùi. Nếu gặp Dẫn Hương Trùng hoặc thứ tương tự, có thể dùng tạm thời.
+
+Tạ Hành Chu nhận lấy.
+
+Đa tạ đại sư tỷ.
+
+Kỷ Thanh La quay mặt đi.
+
+Trở về nguyên vẹn là được.
+
+Đường tới Bạch Khê khó đi hơn Hành Chu tưởng.
+
+Sau khi vượt qua ngọn núi đầu tiên, cả nhóm phải men theo một vách đá dài phủ đầy dây leo.
+
+Tam trưởng lão đi chậm nhưng bước chân rất chắc.
+
+Lục Văn Sơn dẫn đường phía trước.
+
+Vãn Ninh mang theo một giỏ thuốc nhỏ, còn Tạ Hành Chu phụ trách phần hành lý nặng nhất.
+
+Đi được nửa ngày, chàng bắt đầu nghi ngờ mục đích thực sự của chuyến đi.
+
+Trưởng lão.
+
+Hử?
+
+Có phải bổn môn thiếu phu khuân vác nên mới cho ta theo không?
+
+Ngươi nghĩ nhiều rồi.
+
+Tạ Hành Chu vừa định cảm động thì lão nhân nói tiếp:
+
+Phu khuân vác còn phải trả tiền.
+
+Hành Chu quay sang Vãn Ninh.
+
+Nhị sư tỷ, tỷ nghe thấy chưa?
+
+Nàng đưa cho chàng một túi nước.
+
+Uống đi rồi tiếp tục.
+
+Hành Chu nhận lấy.
+
+Vẫn là nhị sư tỷ thương ta nhất.
+
+Vãn Ninh bước nhanh về phía trước, không trả lời.
+
+Đến giữa buổi chiều, tiếng nước chảy bắt đầu vọng lên từ dưới thung lũng.
+
+Bạch Khê hiện ra giữa hai vách núi cao.
+
+Dòng nước trong đến mức có thể nhìn thấy những viên đá trắng dưới đáy.
+
+Phía xa, sương mỏng bao phủ những tán cây mọc sát vách núi.
+
+Tam trưởng lão đứng lại.
+
+Ông nhìn cảnh vật trước mắt hồi lâu.
+
+Nơi này thay đổi nhiều quá.
+
+Lục Văn Sơn chỉ về phía một bãi đất trống.
+
+Trước kia ở đó có một căn nhà gỗ.
+
+Đã sập rồi.
+
+Tạ Hành Chu nhìn những tảng đá lớn nằm rải rác.
+
+Chàng không biết Thanh Vân Tông từng có bao nhiêu người, cũng không biết nơi đây đã chứng kiến chuyện gì.
+
+Nhưng vẻ mặt của Tam trưởng lão khiến chàng hiểu rằng Bạch Khê không chỉ là một địa điểm cũ.
+
+Cả nhóm tiếp tục đi dọc theo suối.
+
+Chưa được bao xa, Tạ Hành Chu bỗng giơ tay.
+
+Dừng lại.
+
+Lục Văn Sơn quay đầu.
+
+Phát hiện gì?
+
+Hành Chu chỉ vào một bụi cây cạnh đường.
+
+Một nhánh cây mới gãy, vết gãy còn xanh.
+
+Trên bùn có dấu chân chồng lên nhau.
+
+Có người đi qua đây không lâu.
+
+Tam trưởng lão nhìn quanh.
+
+Vào rừng.
+
+Bốn người rời khỏi đường mòn, ẩn sau một cụm đá lớn.
+
+Không lâu sau, tiếng nói chuyện từ phía trước truyền tới.
+
+Ba người đàn ông mặc áo vải màu nâu đang men theo suối.
+
+Một người cầm bản đồ, hai người còn lại mang kiếm.
+
+Chỗ này cũng không có.
+
+Cứ đánh dấu lại. Đêm nay nước sẽ lên, ngày mai quay lại xem.
+
+Đại ca nói chỉ cần tìm được cửa đá, những việc còn lại không cần chúng ta lo.
+
+Tạ Hành Chu nghiêng đầu nhìn Tam trưởng lão.
+
+Lão nhân khẽ nhíu mày.
+
+Ba người kia nhanh chóng đi xa.
+
+Lục Văn Sơn thì thầm:
+
+Chính là nhóm ta nhìn thấy hôm qua.
+
+Vãn Ninh hỏi:
+
+Cửa đá là gì?
+
+Tam trưởng lão nhìn về phía sâu trong thung lũng.
+
+Ở Bạch Khê từng có một số nơi dùng để cất dụng cụ và vật tư lịch luyện. Có thể chúng đang tìm một trong những nơi ấy.
+
+Hành Chu nhìn dòng suối.
+
+Nếu biết chúng tìm cửa đá, chúng ta không cần vội tìm trước.
+
+Lục Văn Sơn quay sang.
+
+Ý ngươi là?
+
+Chúng ta có thể xem chúng tìm được gì.
+
+Tam trưởng lão suy nghĩ một lúc rồi gật đầu.
+
+Cả nhóm quyết định tìm chỗ nghỉ kín đáo, đợi tới đêm.
+
+Khi mặt trời khuất sau vách núi, nhiệt độ trong Bạch Khê giảm xuống rất nhanh.
+
+Bốn người trú dưới một mái đá tự nhiên.
+
+Vãn Ninh lấy ra một ít lương khô, chia cho mọi người.
+
+Tạ Hành Chu nhận phần của mình, nhai chậm rãi.
+
+Trong lúc ấy, chàng nhìn thấy trên vách đá đối diện có một số đường khắc rất nông.
+
+Ban đầu Hành Chu tưởng đó chỉ là vết nứt.
+
+Nhưng càng nhìn, chàng càng cảm thấy chúng giống dấu vết do binh khí để lại.
+
+Có đường dài, có đường ngắn.
+
+Một vài vết chém sâu hơn những vết còn lại.
+
+Tạ Hành Chu bước tới, đưa tay chạm vào bề mặt đá.
+
+Trưởng lão, trước đây có người luyện đao ở đây sao?
+
+Tam trưởng lão nhìn những dấu vết.
+
+Có lẽ vậy. Nơi này từng có nhiều đệ tử qua lại.
+
+Hành Chu đứng trước vách đá, thử tưởng tượng hướng lưỡi đao đã chém xuống.
+
+Một vết chém kéo dài từ trên xuống dưới, nhưng phần sâu nhất lại nằm gần cuối đường đao.
+
+Chàng nhớ tới lời Tam trưởng lão về cách đưa sức lực tới đúng vị trí.
+
+Bàn tay Hành Chu vô thức đặt lên chuôi đao.
+
+Vãn Ninh lên tiếng phía sau:
+
+Ngươi không được luyện đao ở đây.
+
+Ta chỉ nhìn thôi.
+
+Lần trước ngươi cũng nói chỉ thử một chút.
+
+Hành Chu đành thu tay.
+
+Chàng ghi nhớ vài vết chém đặc biệt trong đầu.
+
+Nếu có cơ hội, Hành Chu muốn tìm hiểu kỹ hơn.
+
+Đêm xuống.
+
+Mưa bắt đầu rơi trên những tán cây phía xa.
+
+Tiếng nước trong khe suối ngày càng lớn.
+
+Tạ Hành Chu đang ngồi tựa lưng vào vách đá thì nghe thấy một âm thanh khác thường.
+
+Không phải tiếng nước.
+
+Cũng không phải tiếng gió.
+
+Đó là tiếng kim loại va vào đá.
+
+Chàng lập tức đứng dậy.
+
+Ở phía bên kia dòng suối, giữa màn mưa, một đốm sáng nhỏ xuất hiện.
+
+Rồi thêm một đốm nữa.
+
+Tam trưởng lão bước tới bên cạnh Hành Chu.
+
+Hai người cùng nhìn về phía ấy.
+
+Có người đang làm việc giữa đêm.
+
+Và vị trí của chúng chính là nơi dòng nước Bạch Khê sắp rút xuống.
+```
+
+### CHUONG-0018-FINAL.md
+
+```text
+Chương 18: Những vết đao trên vách đá
+
+Mưa kéo dài đến gần sáng.
+
+Dòng suối trước mặt bỗng trở nên đục ngầu.
+
+Nước từ đầu nguồn đổ xuống, va vào những tảng đá lớn rồi tách sang một khe sâu phía đông.
+
+Phần lòng suối sát vách núi dần lộ ra.
+
+Tạ Hành Chu cùng mọi người đứng sau cụm cây rậm, quan sát nhóm người phía đối diện.
+
+Có năm người.
+
+Hai kẻ đang dùng dụng cụ cạy những viên đá mắc giữa các khe nứt.
+
+Một người khác cầm đuốc, soi vào mặt vách.
+
+Khi lớp bùn đất bị gạt đi, một đường viền hình chữ nhật xuất hiện.
+
+Tam trưởng lão khẽ hít vào.
+
+Đúng là cửa đá.
+
+Lục Văn Sơn hỏi nhỏ:
+
+Ngươi biết bên trong có gì không?
+
+Không. Ta chưa từng tới vị trí này.
+
+Một trong năm người lấy ra một vật hình tròn, đặt lên phần lõm giữa cửa.
+
+Không có chuyện gì xảy ra.
+
+Kẻ đó thử xoay vài lần rồi tức giận ném vật trong tay xuống đất.
+
+Không phải cái này!
+
+Những người còn lại tiếp tục tìm kiếm quanh cửa.
+
+Tạ Hành Chu quan sát một lúc.
+
+Chúng biết vị trí, nhưng không biết cách mở.
+
+Vãn Ninh gật đầu.
+
+Có lẽ thiếu chìa khóa.
+
+Tam trưởng lão vô thức chạm vào chiếc hộp đồng giấu trong áo.
+
+Hành Chu nhìn thấy động tác ấy.
+
+Trưởng lão, chưa nên lấy đồ ra.
+
+Lão nhân thu tay lại.
+
+Cả nhóm tiếp tục chờ.
+
+Khoảng nửa canh giờ sau, từ phía thượng nguồn xuất hiện thêm ba bóng người.
+
+Những kẻ mới tới mặc áo đen, đứng đầu là một nam nhân cao lớn mang trường kiếm.
+
+Hắn không nói chuyện với nhóm đang tìm cửa.
+
+Chỉ nhìn quanh rồi lạnh lùng hỏi:
+
+Ai cho các ngươi tới đây?
+
+Người cầm đuốc lập tức rút kiếm.
+
+Bạch Khê không thuộc về các ngươi.
+
+Nam nhân áo đen không đáp.
+
+Hắn phất tay.
+
+Hai người phía sau lập tức tiến lên.
+
+Tiếng binh khí va chạm vang vọng giữa thung lũng.
+
+Tạ Hành Chu kéo Vãn Ninh lùi sâu hơn vào bụi cây.
+
+Chúng ta đi thôi.
+
+Lục Văn Sơn ngạc nhiên.
+
+Không đợi nữa?
+
+Chờ thêm có thể xem được một trận đánh hay. Nhưng nếu chúng phát hiện chúng ta, người nằm dưới đất có khi lại là mình.
+
+Tam trưởng lão đồng ý.
+
+Cả nhóm men theo đường cũ, rút khỏi khu vực cửa đá.
+
+Khi đi ngang qua mái đá đã nghỉ đêm trước, Tạ Hành Chu bất ngờ dừng bước.
+
+Chàng nhìn những vết đao trên vách.
+
+Một dòng nước mưa chảy qua mặt đá, cuốn đi lớp đất mỏng bám bên dưới.
+
+Ở giữa các dấu chém xuất hiện ba đường khắc nhỏ.
+
+Hành Chu tiến lại gần.
+
+Ba đường ấy không giống vết đao.
+
+Chúng có độ sâu gần như bằng nhau, tạo thành hình mũi tên hướng sang bên trái.
+
+Trưởng lão.
+
+Tam trưởng lão quay đầu.
+
+Chỗ này có dấu chỉ đường.
+
+Lão nhân nhìn một lúc, sau đó đi theo hướng mũi tên.
+
+Phía sau bụi dây leo mọc sát vách là một khe đá hẹp.
+
+Tạ Hành Chu dùng vỏ đao gạt cây sang bên.
+
+Một luồng khí mát từ trong khe thoát ra.
+
+Lục Văn Sơn lấy đuốc.
+
+Vào xem?
+
+Tam trưởng lão gật đầu.
+
+Lối đi chỉ đủ cho một người nghiêng thân bước qua.
+
+Sau hơn mười bước, bên trong đột nhiên mở rộng.
+
+Đó là một hang đá nhỏ, nền đất khá khô ráo.
+
+Giữa hang đặt một bệ đá thấp.
+
+Bên cạnh có vài mảnh gốm vỡ, một chiếc giá gỗ đã mục và những thanh sắt bị rỉ sét.
+
+Tạ Hành Chu đi tới vách trong.
+
+Trên đó có rất nhiều dấu chém.
+
+Khác với bên ngoài, những vết chém này được sắp xếp thành từng cụm.
+
+Một số cụm gồm ba vết.
+
+Một số cụm gồm năm vết.
+
+Khoảng cách giữa chúng có quy luật rõ ràng.
+
+Tam trưởng lão đưa đuốc tới gần.
+
+Nơi này từng có người luyện đao.
+
+Hành Chu hỏi:
+
+Là người của Thanh Vân Tông sao?
+
+Không thể xác định.
+
+Tạ Hành Chu không thất vọng.
+
+Chàng đứng trước cụm ba vết chém, quan sát từ nhiều góc độ.
+
+Vết đầu tiên ngắn và nông.
+
+Vết thứ hai nghiêng xuống.
+
+Vết cuối cùng dài hơn, phần cuối ăn sâu vào đá.
+
+Hành Chu nhớ tới những lần bản thân bị Tam trưởng lão dùng cành cây đánh lệch hướng.
+
+Nếu nhát đao đầu tiên chỉ để mở đường, nhát thứ hai ép đối phương thay đổi vị trí, vậy nhát thứ ba mới là nơi toàn bộ sức lực được đưa tới.
+
+Chàng không chắc người để lại những vết chém có suy nghĩ như vậy hay không.
+
+Nhưng cách giải thích ấy khiến Hành Chu nảy ra một ý tưởng.
+
+Chàng rút đao.
+
+Vãn Ninh lập tức nhìn sang.
+
+Tạ Hành Chu vội nói:
+
+Không chém đá. Ta chỉ thử động tác.
+
+Chàng đứng cách vách một khoảng, chậm rãi đưa đao ra trước.
+
+Thu.
+
+Chuyển bước.
+
+Chém xuống.
+
+Ngay lần đầu tiên, động tác đã không thuận lợi.
+
+Lưỡi đao quá nặng, khi chuyển hướng giữa nhát thứ hai và thứ ba, cổ tay Hành Chu phải chịu lực lớn.
+
+Chàng dừng lại.
+
+Thay đổi vị trí bàn chân.
+
+Làm lại.
+
+Lần này, Hành Chu không cố xoay đao bằng cổ tay. Chàng dùng chuyển động của hông để dẫn lưỡi đao đi theo một đường cong nhỏ.
+
+Động tác trở nên liền mạch hơn.
+
+Tam trưởng lão đứng nhìn.
+
+Đừng vội.
+
+Hành Chu gật đầu.
+
+Chàng thực hiện lần thứ ba.
+
+Sau đó là lần thứ tư.
+
+Không có hào quang bất thường.
+
+Không có linh lực bùng phát.
+
+Nhưng Hành Chu cảm nhận được thanh đao trong tay không còn nặng nề như trước.
+
+Chàng bật cười.
+
+Thú vị.
+
+Vãn Ninh đi tới.
+
+Thấy thứ gì tốt sao?
+
+Có lẽ chỉ là một cách dùng đao khác.
+
+Ngươi vui đến vậy?
+
+Tạ Hành Chu cất đao.
+
+Trước đây muốn học đao pháp của người khác phải trả tiền. Hôm nay không mất một đồng nào.
+
+Vãn Ninh lắc đầu.
+
+Lục Văn Sơn tìm thấy một chiếc hòm gỗ nhỏ dưới bệ đá.
+
+Chiếc hòm đã mục gần hết.
+
+Bên trong chỉ còn vài mảnh vải và một cuốn sách bị ẩm.
+
+Tam trưởng lão cẩn thận mở sách.
+
+Phần lớn trang giấy đã dính chặt vào nhau. Những chữ còn nhìn rõ cũng không hoàn chỉnh.
+
+Tạ Hành Chu cúi xuống.
+
+Trên một trang có hình người đang đứng tấn, bên cạnh là những đường chỉ hướng vận lực.
+
+Công pháp?
+
+Tam trưởng lão lắc đầu.
+
+Giống ghi chép luyện thể hơn.
+
+Ông lật sang một trang khác.
+
+Không đầy đủ. Không được tùy tiện luyện theo.
+
+Hành Chu gật đầu.
+
+Chàng biết những thứ thất truyền nhiều năm chưa chắc đã là bảo vật. Một phương pháp luyện thể thiếu mất phần quan trọng có thể khiến người tu luyện tổn thương kinh mạch.
+
+Nhưng chàng vẫn muốn giữ lại để nghiên cứu.
+
+Vãn Ninh lấy một mảnh vải sạch, giúp Tam trưởng lão bọc cuốn sách.
+
+Đúng lúc ấy, Lục Văn Sơn đang đứng gần cửa hang bất ngờ tắt đuốc.
+
+Có người.
+
+Mọi người lập tức im lặng.
+
+Tiếng bước chân vang lên bên ngoài khe đá.
+
+Vết chân mới.
+
+Một giọng nói trầm thấp truyền tới.
+
+Có người vừa vào đây.
+
+Tạ Hành Chu nhẹ nhàng rút đao.
+
+Tam trưởng lão ra hiệu cho Vãn Ninh đứng lui về phía trong.
+
+Lục Văn Sơn cầm gậy trúc, nấp cạnh cửa.
+
+Bên ngoài, người nọ tiếp tục nói:
+
+Kiểm tra.
+
+Một lưỡi kiếm chậm rãi xuyên qua bụi dây leo.
+
+Tạ Hành Chu siết chặt chuôi đao.
+
+Những động tác vừa luyện trước vách đá hiện lên trong đầu.
+
+Chàng chưa từng sử dụng chúng để giao chiến thật sự.
+
+Nhưng có vẻ cơ hội thử nghiệm đã tới sớm hơn dự kiến.
+```
+
+### CHUONG-0019-FINAL.md
+
+```text
+Chương 19: Lấy đao mở đường
+
+Người đầu tiên vừa bước vào khe đá đã nhìn thấy Lục Văn Sơn.
+
+Hắn giật mình, lập tức nâng kiếm.
+
+Gậy trúc trong tay Lục Văn Sơn đập vào cổ tay hắn.
+
+Thanh kiếm rơi xuống đất.
+
+Tạ Hành Chu tiến lên, dùng sống đao ép người nọ vào vách.
+
+Đừng động.
+
+Kẻ đó còn chưa kịp kêu thì phía ngoài đã vang lên tiếng quát.
+
+Có địch!
+
+Hai người khác lập tức lao tới.
+
+Lục Văn Sơn kéo tên vừa bị tước kiếm sang bên, tránh để hắn chắn lối đi.
+
+Tam trưởng lão nói:
+
+Không thể ở lại đây. Ra ngoài!
+
+Tạ Hành Chu đi trước.
+
+Khe đá quá hẹp, thanh đao bản dày khó xoay ngang.
+
+Chàng phải giữ lưỡi đao nghiêng trước thân, vừa tiến vừa quan sát.
+
+Một mũi kiếm đột nhiên đâm tới từ bên ngoài.
+
+Hành Chu nghiêng người.
+
+Mũi kiếm sượt qua tay áo.
+
+Thay vì vung đao thật mạnh để phản kích, chàng dùng một động tác ngắn gạt thanh kiếm sang bên, sau đó bước lên chiếm khoảng trống.
+
+Kẻ tấn công không ngờ chàng tiến nhanh như vậy.
+
+Hắn vội lùi khỏi cửa hang.
+
+Tạ Hành Chu nhân cơ hội lao ra ngoài.
+
+Mưa đã tạnh, nhưng mặt đất vẫn trơn trượt.
+
+Trước cửa có bốn người.
+
+Hai trong số đó là những kẻ chàng từng thấy bên cửa đá.
+
+Một nam nhân mặt dài nhìn Hành Chu.
+
+Các ngươi tìm được gì trong hang?
+
+Tạ Hành Chu đáp:
+
+Củi mục, đá vụn. Nếu các vị thích, cứ vào lấy.
+
+Nam nhân không tin.
+
+Giao tay nải ra!
+
+Trong đó có lương khô. Các vị định cướp cả cơm của người khác?
+
+Bớt nói nhảm!
+
+Nam nhân rút kiếm.
+
+Tạ Hành Chu thở dài.
+
+Vì mấy cái bánh mà động thủ, thật không có tiền đồ.
+
+Thanh kiếm lao tới.
+
+Hành Chu lập tức thu lại vẻ cười cợt.
+
+Chàng xoay hông, dùng mặt đao đỡ kiếm.
+
+Lực va chạm truyền vào cánh tay.
+
+Đối phương không yếu.
+
+Chỉ qua một lần giao phong, Hành Chu đã biết sức mạnh của hắn không kém mình.
+
+Nếu đấu trực diện lâu dài, chàng chưa chắc chiếm được lợi thế.
+
+Nam nhân mặt dài đổi hướng kiếm, đâm liên tiếp về phía ngực và bụng.
+
+Tạ Hành Chu lùi hai bước.
+
+Chàng nhớ tới những dấu đao trong hang.
+
+Nhát thứ nhất mở đường.
+
+Hành Chu gạt kiếm sang phải.
+
+Nhát thứ hai ép đối thủ thay đổi vị trí.
+
+Chàng chém nghiêng, buộc nam nhân phải lùi chân trái.
+
+Nhát thứ ba tập trung sức lực.
+
+Tạ Hành Chu chuyển bước, xoay hông, đưa lưỡi đao từ dưới lên.
+
+Nam nhân mặt dài biến sắc.
+
+Hắn vội dùng kiếm đỡ.
+
+Một tiếng kim loại chói tai vang lên.
+
+Đối phương lùi liền ba bước, cổ tay run rẩy.
+
+Tạ Hành Chu cũng cảm thấy cánh tay mình tê dại.
+
+Nhưng chàng không khỏi vui mừng.
+
+Ba động tác vẫn còn thô vụng.
+
+Nhịp chuyển tiếp chưa đủ nhanh.
+
+Tuy nhiên, hiệu quả tốt hơn cách chém dồn dập trước kia.
+
+Ở bên cạnh, Lục Văn Sơn đã đưa Tam trưởng lão và Vãn Ninh ra khỏi khe đá.
+
+Hai kẻ còn lại muốn xông tới chặn đường.
+
+Lục Văn Sơn vung gậy, buộc một tên phải lùi lại.
+
+Vãn Ninh ném một gói bột xuống đất.
+
+Mùi cay nồng lập tức lan ra.
+
+Người cầm kiếm gần nhất ho sặc sụa.
+
+Đi về phía suối! Tam trưởng lão quát.
+
+Tạ Hành Chu không ham chiến.
+
+Chàng chém thêm một đao ép nam nhân mặt dài lùi lại rồi quay người chạy theo mọi người.
+
+Nhưng đối phương không chịu bỏ qua.
+
+Đuổi theo!
+
+Cả nhóm chạy dọc bờ suối.
+
+Phía trước là một khoảng đất hẹp nằm giữa vách núi và dòng nước.
+
+Tam trưởng lão đi tới đó thì bất ngờ trượt chân.
+
+Lục Văn Sơn vội đỡ ông.
+
+Tạ Hành Chu quay đầu.
+
+Những kẻ truy đuổi đã tới gần.
+
+Chàng nhìn khoảng đất hẹp, lập tức nói:
+
+Mọi người đi trước!
+
+Vãn Ninh quay lại.
+
+Ngươi định làm gì?
+
+Giữ đường.
+
+Không được cố quá sức!
+
+Tạ Hành Chu gật đầu.
+
+Chàng đứng chắn giữa hai tảng đá lớn.
+
+Ở vị trí này, đối phương chỉ có thể tiến lên từng người.
+
+Nam nhân mặt dài lao tới đầu tiên.
+
+Kiếm và đao lại va vào nhau.
+
+Lần này, Hành Chu không còn đủ khoảng trống để liên tục né tránh.
+
+Chàng phải đỡ nhiều hơn.
+
+Một đường kiếm sượt qua vai.
+
+Máu lập tức thấm ra áo.
+
+Tạ Hành Chu cắn răng, dùng chân đạp mạnh vào mặt đất, xoay đao ép đối phương lùi lại.
+
+Khí huyết trong cơ thể dần nóng lên.
+
+Cảm giác quen thuộc ấy lại xuất hiện.
+
+Mỗi lần giao phong, Hành Chu dường như hiểu rõ hơn trọng lượng của thanh đao.
+
+Những động tác ban đầu còn gượng gạo bắt đầu trở nên thuận tay.
+
+Chàng thử giảm bớt sức lực trong hai lần giao phong đầu, chỉ tập trung lực vào nhát phản kích cuối cùng.
+
+Nam nhân mặt dài càng đánh càng kinh ngạc.
+
+Hắn rõ ràng đã khiến đối thủ bị thương.
+
+Vậy mà thanh đao trước mặt ngày càng khó gạt ra.
+
+Ngươi dùng tà thuật gì?
+
+Tạ Hành Chu thở mạnh.
+
+Nếu ta biết tà thuật, việc đầu tiên sẽ là khiến ngươi im miệng.
+
+Đối phương nổi giận, vận lực đâm thẳng tới.
+
+Hành Chu gạt kiếm.
+
+Xoay bước.
+
+Chém.
+
+Nam nhân mặt dài mất thăng bằng, ngã vào một tảng đá cạnh đường.
+
+Tạ Hành Chu không đuổi theo.
+
+Chàng lập tức quay người.
+
+Cảm giác nóng trong ngực đã bắt đầu chuyển thành đau nhức.
+
+Nếu tiếp tục giao chiến, tình trạng suy kiệt có thể lặp lại.
+
+Hành Chu chạy được một đoạn thì nghe tiếng động phía sau.
+
+Một kẻ khác đã vượt qua nam nhân mặt dài, cầm kiếm đuổi tới.
+
+Chàng vừa định xoay người thì một cây gậy trúc từ bên cạnh xuất hiện.
+
+Gậy đập mạnh vào thanh kiếm.
+
+Lục Văn Sơn đứng chắn trước mặt kẻ truy đuổi.
+
+Đi đi!
+
+Tạ Hành Chu không chần chừ.
+
+Lục Văn Sơn vừa đánh vừa lùi, nhanh chóng theo chàng rời khỏi lối hẹp.
+
+Đến khi cả nhóm thoát khỏi thung lũng, trời đã gần trưa.
+
+Tạ Hành Chu ngồi xuống bên một gốc cây, lồng ngực phập phồng.
+
+Vãn Ninh lập tức kéo áo trên vai chàng ra.
+
+Vết thương không sâu, nhưng vẫn cần xử lý.
+
+Ngươi lại bị thương.
+
+Hành Chu nhìn nàng.
+
+Lần này chỉ một vết.
+
+Ngươi còn thấy tự hào?
+
+Có tiến bộ.
+
+Vãn Ninh dùng thuốc rắc lên vết thương.
+
+Tạ Hành Chu lập tức hít mạnh.
+
+Nhị sư tỷ, nhẹ tay!
+
+Đừng nhúc nhích.
+
+Chàng đành ngồi yên.
+
+Lục Văn Sơn uống một ngụm nước, nhìn Hành Chu với vẻ khác lạ.
+
+Đao pháp của ngươi học từ ai?
+
+Vừa học được một chút từ trưởng lão.
+
+Còn ba nhát liên tiếp vừa rồi?
+
+Tạ Hành Chu thành thật đáp:
+
+Nhìn mấy vết đao trong hang rồi tự nghĩ ra.
+
+Lục Văn Sơn im lặng hồi lâu.
+
+Ngươi có ngộ tính khá tốt.
+
+Hành Chu mỉm cười.
+
+Tiền bối quá khen. Nếu có thể đổi ngộ tính lấy linh thạch, vãn bối sẽ vui hơn nhiều.
+
+Tam trưởng lão lắc đầu.
+
+Ông lấy chiếc hộp đồng ra kiểm tra.
+
+Mảnh ngọc vẫn còn nguyên.
+
+Những người vừa rồi có lẽ không biết mục đích thực sự của kẻ gửi thư. Chúng chỉ đang tìm kiếm thứ gì đó ở Bạch Khê.
+
+Lục Văn Sơn nói:
+
+Vậy chúng ta đã mất cơ hội kiểm tra cửa đá.
+
+Tạ Hành Chu nhìn về hướng thung lũng.
+
+Chưa chắc.
+
+Ý ngươi là?
+
+Người gửi thư biết trưởng lão sẽ tới. Nếu mục đích chỉ là dẫn chúng ta đến cửa đá kia, vậy tại sao lại để nhiều nhóm người khác biết vị trí trước?
+
+Không ai trả lời ngay.
+
+Hành Chu tiếp tục:
+
+Có thể thứ chúng ta cần tìm không nằm sau cánh cửa mà những kẻ kia đang tranh giành.
+
+Tam trưởng lão nhìn chàng.
+
+Sau đó, ông lấy mảnh giấy vẽ bản đồ ra.
+
+Cả nhóm đã đi theo dòng suối chính.
+
+Nhưng trên tờ giấy, bên cạnh dòng nước còn có một nét mực rất nhỏ kéo về phía sườn núi phía nam.
+
+Nét mực ấy trước đó gần như bị bỏ qua.
+
+Lục Văn Sơn nhìn kỹ.
+
+Đường cũ?
+
+Tam trưởng lão chậm rãi gật đầu.
+
+Có một cây cầu đá ở hướng đó. Nếu nó chưa sập, có thể đi vòng về phía sau Bạch Khê.
+
+Tạ Hành Chu thở dài.
+
+Xem ra hôm nay lại không được ăn cơm đúng giờ.
+
+Vãn Ninh buộc lớp băng cuối cùng trên vai chàng.
+
+Ngươi nghỉ thêm một lát rồi mới đi.
+
+Hành Chu nhìn nàng.
+
+Lần này, chàng ngoan ngoãn gật đầu.
+```
+
+### CHUONG-0020-FINAL.md
+
+```text
+Chương 20: Bí mật dưới cây cầu cũ
+
+Cây cầu đá nằm giữa hai sườn núi thấp, bị dây leo che phủ gần như hoàn toàn.
+
+Một phần lan can đã đổ xuống vực.
+
+Nhưng mặt cầu vẫn còn nguyên.
+
+Tam trưởng lão đứng ở đầu cầu, nhìn những viên đá xám đã phủ đầy rêu.
+
+Trước kia, mỗi khi tới Bạch Khê, đệ tử trong tông thường đi đường này.
+
+Tạ Hành Chu nhìn xuống khe sâu bên dưới.
+
+Các vị tiền bối thật sự rất thích chọn đường khó đi.
+
+Đường này ngắn hơn nửa ngày.
+
+Vậy cũng có lý.
+
+Hành Chu lập tức bước lên.
+
+Vãn Ninh nắm lấy tay áo chàng.
+
+Chậm thôi.
+
+Tạ Hành Chu nhìn bàn tay nàng.
+
+Nhị sư tỷ lo ta rơi xuống sao?
+
+Ta lo ngươi làm sập cầu.
+
+Hành Chu đặt tay lên ngực.
+
+Lời này khiến ta tổn thương hơn cả vết kiếm vừa rồi.
+
+Vãn Ninh buông tay, đi theo phía sau.
+
+Lục Văn Sơn và Tam trưởng lão bước tới giữa cầu.
+
+Ở đó có một khối đá lớn hơn những viên còn lại.
+
+Tam trưởng lão cúi xuống, gạt lớp rêu trên mặt đá.
+
+Một ký hiệu nhỏ dần hiện ra.
+
+Không phải hình chim.
+
+Mà là hình ba ngọn núi nối tiếp nhau.
+
+Lão nhân nhìn ký hiệu, vẻ mặt lập tức thay đổi.
+
+Vẫn còn.
+
+Lục Văn Sơn tiến lại.
+
+Ngươi nhận ra?
+
+Là dấu hiệu chỉ đường cũ của Thanh Vân Tông.
+
+Tam trưởng lão nhìn sang hai bên.
+
+Ngày trước, khi đệ tử xuống núi gặp nguy hiểm, có thể để lại tin tức ở những nơi mang dấu này.
+
+Tạ Hành Chu hỏi:
+
+Vậy có chỗ giấu đồ?
+
+Lão nhân gật đầu.
+
+Cả nhóm bắt đầu kiểm tra quanh chân cầu.
+
+Sau một lúc, Vãn Ninh phát hiện một viên đá nhỏ nằm sâu dưới lan can, bề mặt có dấu mài mòn khác với những viên xung quanh.
+
+Lục Văn Sơn dùng gậy trúc đẩy thử.
+
+Viên đá dịch chuyển.
+
+Bên trong là một hốc nhỏ.
+
+Tam trưởng lão đưa tay vào.
+
+Ông lấy ra một ống trúc đã được bịt kín bằng sáp.
+
+Không ai nói gì.
+
+Lão nhân mở ống.
+
+Bên trong có một mảnh giấy cuộn chặt.
+
+Giấy còn khá mới.
+
+Trên đó viết:
+
+Ngọc chỉ là tín vật. Đừng tới cửa đá.
+
+Có người đang dùng danh nghĩa Thanh Vân Tông thu gom tu sĩ.
+
+Hãy tìm người giữ sổ tại bến Bạch Lộ.
+
+Tam trưởng lão đọc đi đọc lại.
+
+Lục Văn Sơn nhíu mày.
+
+Bến Bạch Lộ nằm ở phía đông Trường Phong Thành.
+
+Tạ Hành Chu nhìn nét chữ.
+
+Người để lại lời nhắn biết chúng ta sẽ mang mảnh ngọc tới đây.
+
+Có thể hắn là người gửi thư.
+
+Cũng có thể là một kẻ khác.
+
+Hành Chu chỉ vào dòng cuối.
+
+Người giữ sổ là ai? Sổ gì? Nếu không nói rõ, đến bến Bạch Lộ chúng ta vẫn phải tự tìm.
+
+Tam trưởng lão cất tờ giấy.
+
+Ít nhất đã có một địa điểm.
+
+Đúng lúc ấy, Vãn Ninh đột nhiên đưa tay giữ lấy lan can.
+
+Sắc mặt nàng trở nên tái nhợt.
+
+Tạ Hành Chu lập tức đỡ lấy nàng.
+
+Nhị sư tỷ?
+
+Vãn Ninh khẽ lắc đầu.
+
+Không sao.
+
+Nhưng bàn tay đang nắm lấy tay áo chàng lạnh bất thường.
+
+Hành Chu không để nàng đứng tiếp.
+
+Chàng dìu Vãn Ninh tới đầu cầu, tìm một tảng đá sạch để nàng ngồi xuống.
+
+Cho ta xem cổ tay.
+
+Vãn Ninh im lặng.
+
+Nhị sư tỷ.
+
+Lần này, giọng Hành Chu không còn ý đùa cợt.
+
+Một lúc sau, nàng chậm rãi kéo tay áo lên.
+
+Vệt đỏ dưới da đã lan dài hơn trước.
+
+Tạ Hành Chu nhìn nó.
+
+Đau từ khi nào?
+
+Không lâu.
+
+Đã mấy ngày rồi?
+
+Vãn Ninh tránh ánh mắt chàng.
+
+Hành Chu thở dài.
+
+Vậy là không phải không lâu.
+
+Tam trưởng lão bước tới.
+
+Ông nhìn cổ tay nàng, vẻ mặt trầm xuống.
+
+Lại phát tác?
+
+Vãn Ninh gật đầu.
+
+Tạ Hành Chu nhìn hai người.
+
+Trưởng lão biết chuyện này?
+
+Biết một phần.
+
+Có thể chữa không?
+
+Tam trưởng lão im lặng.
+
+Vãn Ninh lên tiếng trước:
+
+Ta đang tìm cách.
+
+Hành Chu ngồi xuống trước mặt nàng.
+
+Cần dược liệu gì?
+
+Hiện tại không phải vấn đề dược liệu.
+
+Vậy là vấn đề gì?
+
+Vãn Ninh nhìn chàng.
+
+Trong mắt nàng có chút do dự.
+
+Có một số chuyện, ta chưa muốn nói.
+
+Tạ Hành Chu không hỏi tiếp.
+
+Chàng lấy túi nước đưa cho nàng.
+
+Được. Khi nào tỷ muốn nói, ta sẽ nghe.
+
+Vãn Ninh nhận lấy túi nước.
+
+Hành Chu tiếp tục:
+
+Nhưng từ bây giờ, nếu tỷ cảm thấy không khỏe thì phải nói. Chuyện giấu bệnh không được tính vào bí mật cá nhân.
+
+Nàng nhìn chàng.
+
+Ngươi đang ra lệnh cho ta?
+
+Không dám.
+
+Vậy là gì?
+
+Lời đề nghị chân thành của một người rất có kinh nghiệm bị thương.
+
+Vãn Ninh không nhịn được cười.
+
+Một lát sau, nàng khẽ nói:
+
+Ta biết rồi.
+
+Cả nhóm quyết định không tiếp tục điều tra trong ngày hôm ấy.
+
+Họ tìm một nơi kín gió nghỉ ngơi.
+
+Vãn Ninh uống thuốc mang theo, sắc mặt dần tốt hơn.
+
+Tạ Hành Chu ngồi cách nàng không xa, lặng lẽ lau thanh đao.
+
+Lục Văn Sơn và Tam trưởng lão đang nói chuyện ở phía đối diện.
+
+Hành Chu nhìn bề mặt lưỡi đao.
+
+Trong trận chiến vừa rồi, chàng đã tiến bộ.
+
+Không chỉ bởi sự biến đổi kỳ lạ của khí huyết, mà còn bởi cách dùng đao được sửa đổi trong mấy ngày qua.
+
+Chàng bắt đầu hiểu một điều.
+
+Muốn trở nên mạnh mẽ, không thể chỉ trông chờ vào sức lực tăng lên trong lúc giao chiến.
+
+Nếu thân thể không đủ khỏe, khí huyết sẽ cạn kiệt.
+
+Nếu kỹ thuật dùng đao không đủ tốt, sức mạnh có tăng cũng sẽ bị lãng phí.
+
+Tạ Hành Chu lấy tờ giấy ghi chép ra.
+
+Chàng viết lại những cảm nhận trong trận chiến, đánh dấu những thời điểm khí huyết nóng lên và những lúc cơ thể bắt đầu suy yếu.
+
+Sau đó Hành Chu mở cuốn sách luyện thể bị hư hỏng lấy được trong hang.
+
+Chàng chỉ quan sát những hình vẽ còn nguyên, không thử vận hành bất kỳ phương pháp nào.
+
+Một vài động tác trong sách có vẻ liên quan đến cách rèn luyện phần lưng và chân.
+
+Đó chính là những nơi Tam trưởng lão thường nhắc tới khi sửa đao pháp cho chàng.
+
+Hành Chu quyết định sau khi trở về sẽ cùng lão nhân xem xét kỹ.
+
+Chàng đang định cất sách thì Vãn Ninh ngồi xuống bên cạnh.
+
+Ngươi đang xem gì?
+
+Một thứ có thể giúp ta khỏe hơn.
+
+Đừng luyện bừa.
+
+Ta biết.
+
+Tạ Hành Chu nghiêng đầu nhìn nàng.
+
+Nhị sư tỷ, tỷ thấy nếu ta trở thành một cường giả, có thể kiếm được nhiều linh thạch không?
+
+Có lẽ.
+
+Vậy sau này tỷ cần thuốc gì, ta mua hết.
+
+Vãn Ninh hơi ngẩn người.
+
+Hành Chu cười.
+
+Nhưng tiền thuốc chữa thương cho ta trước đây thì có thể miễn được không?
+
+Nàng quay mặt đi.
+
+Không.
+
+Giảm một nửa?
+
+Không.
+
+Ba thành?
+
+Vãn Ninh đứng dậy.
+
+Tạ Hành Chu nhìn bóng lưng nàng.
+
+Nhị sư tỷ, chuyện gì cũng có thể thương lượng mà!
+
+Nàng không quay lại.
+
+Nhưng bước chân nhẹ hơn lúc trước rất nhiều.
+
+Trời gần tối, Tam trưởng lão quyết định trở về Thanh Vân Tông.
+
+Lục Văn Sơn sẽ xuống núi sau khi đưa mọi người tới nơi an toàn, tìm cách thu thập tin tức về bến Bạch Lộ.
+
+Trước lúc rời đi, Tạ Hành Chu quay lại nhìn cây cầu đá lần cuối.
+
+Chàng vẫn chưa biết ai để lại lời nhắn.
+
+Cũng chưa biết vì sao người đó phải dẫn Tam trưởng lão đi một vòng lớn như vậy.
+
+Nhưng những kẻ xuất hiện ở cửa đá, con dấu cũ, những người bị bắt và bến Bạch Lộ dường như đang dần nối lại với nhau.
+
+Hành Chu có cảm giác phía sau tất cả những chuyện ấy còn một bàn tay khác.
+
+Một bàn tay đã kiên nhẫn sắp xếp mọi thứ từ rất lâu.
+```
+
+### CHUONG-0021-FINAL.md
+
+```text
+Chương 21: Ngày đầu tiên của con đường cường giả
+
+Khi Thanh Vân Tông hiện ra phía cuối con đường núi, Tạ Hành Chu lập tức cảm thấy bụng mình đói hơn.
+
+A Thạch đang đứng trước cổng.
+
+Vừa thấy mọi người, đứa trẻ chạy tới.
+
+Tiểu sư huynh! Nhị sư tỷ!
+
+Tạ Hành Chu dang tay.
+
+Có nhớ ta không?
+
+A Thạch gật đầu thật mạnh.
+
+Có!
+
+Hành Chu còn chưa kịp cảm động thì đứa trẻ đã hỏi:
+
+Huynh có mua bánh về không?
+
+Chàng chậm rãi thu tay lại.
+
+Tình nghĩa đồng môn thật mong manh.
+
+A Thạch nhìn túi hành lý.
+
+Không có sao?
+
+Có hai cái lương khô.
+
+Cũng được!
+
+Tạ Hành Chu đưa túi cho đứa trẻ.
+
+Kỷ Thanh La từ trong sân bước ra.
+
+Nàng nhìn mọi người, ánh mắt dừng lại trên lớp băng mới ở vai Hành Chu.
+
+Lại đánh nhau?
+
+Tạ Hành Chu cười.
+
+Chỉ giao lưu đao kiếm với mấy vị bằng hữu mới quen.
+
+Bọn họ đâu?
+
+Có lẽ vẫn đang nhớ thương ta.
+
+Kỷ Thanh La không hỏi tiếp.
+
+Nàng nhìn Vãn Ninh.
+
+Muội không sao chứ?
+
+Vãn Ninh gật đầu.
+
+Về phòng rồi nói.
+
+Kỷ Thanh La lập tức hiểu rằng chuyến đi không đơn giản.
+
+Sau bữa tối, mọi người tập trung trong chính điện.
+
+Tam trưởng lão đặt mảnh ngọc, tờ giấy và tấm bản đồ lên bàn.
+
+Lục Văn Sơn đã xuống núi trước khi trời tối.
+
+Kỷ Thanh La nghe kể toàn bộ những gì xảy ra ở Bạch Khê, từ nhóm người tìm cửa đá đến lời nhắn dưới cây cầu.
+
+Khi nghe tới việc thu gom tu sĩ, nàng lập tức lấy tờ giấy dầu vẫn luôn giữ bên mình.
+
+Những người ở Trạm Thanh Giản có thể đã được chuyển tới nơi khác.
+
+Tam trưởng lão gật đầu.
+
+Bến Bạch Lộ là một địa điểm đáng nghi. Nhưng chưa thể chắc chắn.
+
+Tạ Hành Chu quan sát hai tờ giấy.
+
+Nếu thật sự có một danh sách ghi lại những người bị đưa đi, người giữ sổ có thể biết nhiều hơn chúng ta.
+
+Kỷ Thanh La hỏi:
+
+Ngươi định tới đó?
+
+Không phải ngay bây giờ.
+
+Hành Chu chỉ vào vai mình.
+
+Ta vừa trải qua một trận chiến không mấy dễ chịu. Nếu tới một nơi nguy hiểm hơn với bản lĩnh hiện tại, có khi còn chưa tìm thấy sổ đã bị người ta ghi tên vào đó.
+
+Tam trưởng lão bật cười.
+
+Cuối cùng cũng biết mình yếu.
+
+Vãn bối luôn biết. Chỉ là bình thường không thích nói ra.
+
+Kỷ Thanh La nhìn chàng.
+
+Vậy ngươi muốn làm gì?
+
+Tu luyện.
+
+Câu trả lời khiến mọi người hơi bất ngờ.
+
+Tạ Hành Chu bình tĩnh nói tiếp:
+
+Trong mấy ngày qua, chúng ta gặp phải quá nhiều người không rõ lai lịch. Mỗi lần muốn tìm hiểu một chuyện lại phải đánh nhau. Nếu cứ như vậy, sớm muộn cũng gặp phải kẻ mà chúng ta không thể chống đỡ.
+
+Chàng đặt tay lên chuôi đao.
+
+Trước khi tiếp tục xuống núi, ta muốn có thêm một chút khả năng tự bảo vệ mình.
+
+Tam trưởng lão nhìn Hành Chu hồi lâu.
+
+Sau đó ông gật đầu.
+
+Được.
+
+Sáng hôm sau, Tạ Hành Chu chủ động thức dậy trước khi Tam trưởng lão tới gọi.
+
+Chàng thay quần áo, mang đao ra sân phía tây.
+
+Khi lão nhân xuất hiện, Hành Chu đã đứng tấn dưới gốc cây.
+
+Tam trưởng lão nhìn mặt trời còn chưa mọc.
+
+Tiểu tử, ngươi uống nhầm thuốc sao?
+
+Tạ Hành Chu không nhúc nhích.
+
+Vãn bối quyết định từ hôm nay sẽ chăm chỉ tu luyện.
+
+Được bao lâu?
+
+Ít nhất tới bữa sáng.
+
+Lão nhân bật cười.
+
+Sau đó hai người bắt đầu buổi luyện tập.
+
+Lần này, Tam trưởng lão không yêu cầu Hành Chu chém gỗ.
+
+Ông đặt một viên đá lớn giữa sân.
+
+Nhấc lên.
+
+Tạ Hành Chu cúi xuống, dùng hai tay ôm viên đá.
+
+Nặng hơn chàng tưởng.
+
+Chàng cố nâng lên ngang bụng.
+
+Giữ nguyên.
+
+Không lâu sau, hai cánh tay bắt đầu run.
+
+Tam trưởng lão đứng bên cạnh điều chỉnh tư thế.
+
+Đừng dồn toàn bộ sức lên vai. Hạ thấp trọng tâm. Dùng chân và lưng.
+
+Tạ Hành Chu làm theo.
+
+Viên đá vẫn rất nặng, nhưng áp lực trên hai cánh tay giảm đi đôi chút.
+
+Sau khi đặt đá xuống, Hành Chu phải nghỉ một lúc mới lấy lại hơi thở.
+
+Tam trưởng lão đưa cho chàng một cây gậy gỗ.
+
+Luyện lại ba động tác ngươi tự nghĩ ra trong hang.
+
+Hành Chu nhận gậy.
+
+Chàng thực hiện từng động tác chậm rãi.
+
+Lão nhân quan sát, thỉnh thoảng chỉ ra một vài sai sót.
+
+Nhát thứ hai không cần đi xa như vậy.
+
+Chân phải thu lại một chút.
+
+Đúng rồi. Nếu đối phương lùi, ngươi không nhất thiết phải đuổi theo.
+
+Tạ Hành Chu kiên nhẫn sửa từng điểm.
+
+Chàng không đặt tên cho ba động tác ấy.
+
+Hiện tại chúng còn quá thô sơ để được gọi là một bộ đao pháp.
+
+Nhưng đây là lần đầu tiên Hành Chu tự tìm ra một cách phối hợp các đòn thế, rồi cải thiện nó bằng thực chiến và luyện tập.
+
+Cảm giác ấy khác hẳn việc học thuộc một chiêu thức có sẵn.
+
+Chàng muốn tiếp tục.
+
+Những ngày sau đó, sinh hoạt ở Thanh Vân Tông dần trở lại bình thường.
+
+Kỷ Thanh La tiếp tục dưỡng thương.
+
+Vãn Ninh nghiên cứu thuốc.
+
+A Thạch quét sân, chăm sóc chim sẻ và thỉnh thoảng tìm cách trốn việc.
+
+Tam trưởng lão sửa mái nhà, uống rượu và dạy Hành Chu luyện tập.
+
+Còn Tạ Hành Chu, ngoài những việc thường ngày, bắt đầu dành nhiều thời gian hơn cho việc rèn luyện thân thể.
+
+Ban đầu chàng chỉ nâng đá, chạy trên những bậc thềm và thực hiện các động tác đứng tấn.
+
+Sau đó mới chuyển sang luyện đao.
+
+Mỗi khi thân thể xuất hiện dấu hiệu quá tải, Hành Chu chủ động dừng lại.
+
+Chàng không muốn lặp lại sai lầm dùng cạn khí huyết trong những trận chiến trước.
+
+Một buổi chiều, Hành Chu đứng giữa sân, hoàn thành nhát đao cuối cùng.
+
+Mồ hôi đã thấm ướt áo.
+
+Chàng thu đao, ngồi xuống dưới bóng cây.
+
+Hơi thở dần ổn định.
+
+Trong cơ thể có một luồng ấm áp rất nhẹ lưu chuyển.
+
+Không mãnh liệt như khi giao chiến.
+
+Cũng không khiến Hành Chu đột nhiên có được sức mạnh kinh người.
+
+Nhưng sau khi nghỉ ngơi, chàng nhận ra sự mệt mỏi đã giảm nhanh hơn một chút so với những ngày đầu luyện tập.
+
+Hành Chu không biết đó là kết quả của việc rèn luyện thân thể hay liên quan đến sự biến đổi khí huyết kỳ lạ.
+
+Chàng chỉ biết một điều.
+
+Cơ thể mình đang thay đổi.
+
+Từng chút một.
+
+Tạ Hành Chu lấy giấy ghi chép, viết xuống những cảm nhận trong ngày.
+
+Sau đó, chàng ngẩng đầu nhìn khoảng sân đầy lá rụng.
+
+Một ý nghĩ bất chợt xuất hiện.
+
+Nếu một ngày nào đó, chàng có thể dùng thanh đao này mà không cần lo lắng bản thân sẽ cạn sức giữa trận chiến thì tốt biết bao.
+
+Nếu một ngày nào đó, Thanh Vân Tông không còn phải sợ những kẻ gửi thư đe dọa thì tốt biết bao.
+
+Nếu một ngày nào đó, Vãn Ninh không cần giấu cổ tay đang đau dưới lớp áo...
+
+Tạ Hành Chu khẽ thở ra.
+
+Chàng cất giấy.
+
+Đứng dậy.
+
+Cầm đao.
+
+Và bắt đầu thêm một lượt luyện tập nhẹ nhàng nữa.
+
+Đêm ấy, Vãn Ninh đang sắp xếp những lọ thuốc trong phòng thì nghe tiếng gõ cửa.
+
+Nàng mở cửa.
+
+Tạ Hành Chu đứng bên ngoài, tay cầm một chiếc bát.
+
+Nhị sư tỷ, ăn tối chưa?
+
+Rồi.
+
+Vậy ăn thêm một chút.
+
+Bên trong bát là một ít canh nóng.
+
+Vãn Ninh nhận ra mùi vị khá quen thuộc.
+
+Ngươi nấu?
+
+Đúng.
+
+Nàng nhìn chàng với vẻ nghi ngờ.
+
+Có thể uống được không?
+
+Tạ Hành Chu đau lòng đáp:
+
+Nhị sư tỷ, giữa chúng ta chẳng lẽ không có chút tin tưởng nào?
+
+Vãn Ninh nhận bát, nếm thử một ngụm.
+
+Vị canh nhạt, nhưng không khó uống.
+
+Cũng được.
+
+Hành Chu lập tức vui vẻ.
+
+Ta đã thử trước rồi. Nếu có độc thì hiện tại tỷ đang đứng trước một thi thể biết nói.
+
+Vãn Ninh bật cười.
+
+Nàng mang bát vào phòng.
+
+Tạ Hành Chu định quay về thì nghe nàng gọi.
+
+Hành Chu.
+
+Chàng quay lại.
+
+Vãn Ninh đứng bên cửa, dưới ánh đèn dầu.
+
+Sau này, nếu có chuyện nguy hiểm, đừng lúc nào cũng đứng lại một mình.
+
+Tạ Hành Chu nhìn nàng.
+
+Ta không thích nhìn người khác bị thương.
+
+Ta cũng vậy.
+
+Nàng nói rất khẽ.
+
+Hành Chu im lặng trong chốc lát.
+
+Sau đó, chàng mỉm cười.
+
+Được. Ta nhớ rồi.
+
+Vãn Ninh gật đầu, khép cửa.
+
+Tạ Hành Chu đứng ngoài hành lang thêm một lúc.
+
+Chàng bỗng cảm thấy đêm nay gió núi dường như không lạnh như mọi ngày.
+
+Sáng ngày thứ bảy sau khi trở về từ Bạch Khê, Lục Văn Sơn gửi tin tới Thanh Vân Tông.
+
+Lần này không phải một phong thư.
+
+Mà là một người.
+
+Đó là một thiếu phụ mặc áo vải, mang theo chiếc giỏ trúc cũ. Nàng đứng trước sơn môn, vẻ mặt mệt mỏi, hai bàn tay có nhiều vết chai.
+
+A Thạch dẫn nàng vào sân.
+
+Tam trưởng lão nhận ra tín vật do Lục Văn Sơn gửi kèm.
+
+Ngươi từ bến Bạch Lộ tới?
+
+Thiếu phụ gật đầu.
+
+Lục tiên sinh bảo ta có thể tìm người giúp đỡ ở đây.
+
+Kỷ Thanh La bước tới.
+
+Ngươi gặp chuyện gì?
+
+Thiếu phụ cúi đầu.
+
+Phu quân của ta mất tích gần hai tháng trước.
+
+Nàng lấy từ trong giỏ ra một tờ giấy nhỏ.
+
+Trước khi biến mất, chàng nhận việc vận chuyển hàng tại bến Bạch Lộ. Người thuê nói chỉ cần làm việc trong mười ngày sẽ được trả công hậu hĩnh.
+
+Tam trưởng lão nhận tờ giấy.
+
+Tạ Hành Chu đứng bên cạnh nhìn xuống.
+
+Đó là một giấy nhận việc thông thường, phía dưới ghi tên thương đội và số tiền ứng trước.
+
+Nhưng ở góc dưới cùng có một dấu mực rất nhỏ.
+
+Hình một con chim đang dang cánh.
+
+Kỷ Thanh La lập tức bước tới gần.
+
+Ngươi còn giữ giấy tờ nào khác không?
+
+Thiếu phụ gật đầu.
+
+Nàng run rẩy lấy ra một mảnh giấy đã nhàu nát.
+
+Cái này có người lén đưa cho ta ba ngày trước.
+
+Tạ Hành Chu nhận lấy.
+
+Trên giấy chỉ có một dòng chữ.
+
+Muốn gặp phu quân, đừng tới quan phủ. Hãy tìm người của Thanh Vân Tông.
+
+Mọi người đồng loạt im lặng.
+
+Tam trưởng lão nhìn tờ giấy, bàn tay dần siết chặt.
+
+Kỷ Thanh La lấy tờ giấy dầu của mình ra, đặt cạnh hai mảnh giấy mới.
+
+Vãn Ninh khẽ hỏi:
+
+Vì sao lại bảo nàng tới tìm chúng ta?
+
+Không ai có câu trả lời.
+
+Thiếu phụ nhìn từng người, giọng nghẹn lại.
+
+Các vị... có biết phu quân của ta đang ở đâu không?
+
+Tạ Hành Chu nhìn đôi mắt đỏ hoe của nàng.
+
+Chàng không thể hứa sẽ tìm được người.
+
+Cũng không thể nói rằng mọi chuyện nhất định sẽ tốt đẹp.
+
+Hành Chu kéo một chiếc ghế tới.
+
+Đại tẩu, ngồi xuống trước đi. Kể cho chúng ta nghe từ đầu, đừng bỏ sót bất kỳ chuyện gì.
+
+Thiếu phụ chậm rãi ngồi xuống.
+
+A Thạch chạy vào bếp lấy nước.
+
+Ngoài sân, gió thổi qua tấm biển Thanh Vân Tông cũ kỹ.
+
+Tạ Hành Chu đưa mắt nhìn thanh đao bên hông.
+
+Chàng vốn định dành thêm một khoảng thời gian để tu luyện.
+
+Nhưng có những người không thể chờ được lâu như vậy.
+
+Lần này, bí mật của Thanh Vân Tông không còn chỉ liên quan đến quá khứ của những người trong tông.
+
+Nó đã bắt đầu kéo những người vô tội vào vòng xoáy.
+
+Và ở một nơi nào đó, có kẻ đang cố tình khiến Thanh Vân Tông bước vào cuộc chơi.
+```
